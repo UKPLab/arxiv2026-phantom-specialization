@@ -1,7 +1,7 @@
 # Many Circuits, One Mechanism: Input Variation and Evaluation Granularity in Circuit Discovery
 
 [![arXiv](https://img.shields.io/badge/arXiv-TBA-b31b1b.svg)](#citation)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![License](https://img.shields.io/badge/license-Apache_2.0-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.10%2B-blue.svg)](#setup)
 
 Code and experiment artifacts accompanying the paper
@@ -36,7 +36,7 @@ This repository contains data preparation, circuit discovery, evaluation, and mu
     └── 05_Phase_Targeted/          Targeted experiments (cross-band transfer, ablations, etc.)
 ```
 
-Shared path configuration lives in [`src/config.py`](src/config.py).
+Shared path configuration lives in [`src/config.py`](src/config.py). The derived datasets shipped under `pythia_data/` and `LSC_data/` (token frequencies, band design, token pools, LSC sequences, positive-control variants) are documented in [`DATASETS.md`](DATASETS.md) with per-file schemas.
 
 ## Setup
 
@@ -127,4 +127,4 @@ For paper-related questions, the corresponding co-authors are listed in the cita
 
 ## License
 
-This repository is released under the [MIT License](LICENSE). External dependencies retain their own licenses; see the [`NOTICE`](NOTICE) file for details and check each upstream repository for full terms.
+The code in this repository is released under the [Apache License 2.0](LICENSE). The derived datasets shipped under [`pythia_data/`](pythia_data/) and [`LSC_data/`](LSC_data/) (described in [`DATASETS.md`](DATASETS.md)) are released under the same terms. External dependencies and upstream corpora retain their own licenses; see the [`NOTICE`](NOTICE) file for details and check each upstream repository for full terms.

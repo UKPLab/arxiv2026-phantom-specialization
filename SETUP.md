@@ -71,5 +71,5 @@ For an end-to-end test, pick a small notebook in
 
 ## 6. Licensing
 
-Code in this repository is released under the MIT License (see `LICENSE`).
+Code in this repository is released under the Apache License 2.0 (see `LICENSE`).
 External dependencies retain their own licenses; check each upstream repository.
