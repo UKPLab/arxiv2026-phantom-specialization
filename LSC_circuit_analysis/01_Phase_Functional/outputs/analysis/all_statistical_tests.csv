@@ -1,0 +1,161 @@
+domain,hypothesis,model,test,comparison,statistic,p_value,effect_size,effect_type,interpretation,significant_uncorrected,n1,n2,ci_lower,ci_upper,power_note,band_eta2,draw_eta2,model_eta2,n_inf_capped,p_value_bh,significant_bh
+D1_Base,B1,pythia-70m,Kruskal-Wallis,base_acc_by_band,13.5,0.009074317061131603,0.95,eta_squared,large,True,15.0,,,,,,,,,0.037278275494378475,True
+D1_Base,B2,pythia-70m,Jonckheere-Terpstra,base_acc_trend,0.7126268242184063,0.23803835420331082,0.7126268242184063,Z,N/A,False,,,,,,,,,,0.34458885560860236,False
+D1_Base,B3,pythia-70m,Kruskal-Wallis,base_top5_by_band,13.115086463923674,0.010726938721814886,0.9115086463923674,eta_squared,large,True,,,,,,,,,,0.04290775488725954,True
+D1_Base,B4,pythia-70m,Kruskal-Wallis,base_mcp_by_band,13.5,0.009074317061131603,0.95,eta_squared,large,True,,,,,,,,,,0.037278275494378475,True
+D1_Base,B1,pythia-160m,Kruskal-Wallis,base_acc_by_band,12.143459915611821,0.01631574285579373,0.8143459915611821,eta_squared,large,True,15.0,,,,,,,,,0.0587209677824883,False
+D1_Base,B2,pythia-160m,Jonckheere-Terpstra,base_acc_trend,0.5847419577914729,0.27936061854843375,0.5847419577914729,Z,N/A,False,,,,,,,,,,0.37913226803001726,False
+D1_Base,B3,pythia-160m,Kruskal-Wallis,base_top5_by_band,5.954706298655351,0.20255646554151746,0.1954706298655351,eta_squared,large,False,,,,,,,,,,0.3018488506108888,False
+D1_Base,B4,pythia-160m,Kruskal-Wallis,base_mcp_by_band,13.5,0.009074317061131603,0.95,eta_squared,large,True,,,,,,,,,,0.037278275494378475,True
+D1_Base,B1,pythia-410m,Kruskal-Wallis,base_acc_by_band,5.9819819819819875,0.20049791681127518,0.19819819819819876,eta_squared,large,False,15.0,,,,,,,,,0.30173943916152307,False
+D1_Base,B2,pythia-410m,Jonckheere-Terpstra,base_acc_trend,0.4098023690644087,0.3409754641118147,0.4098023690644087,Z,N/A,False,,,,,,,,,,0.45068061343474636,False
+D1_Base,B3,pythia-410m,Kruskal-Wallis,base_top5_by_band,3.230769230769231,0.5199755705457327,0.0,eta_squared,negligible,False,,,,,,,,,,0.6126843932011734,False
+D1_Base,B4,pythia-410m,Kruskal-Wallis,base_mcp_by_band,12.233333333333327,0.015697917548314087,0.8233333333333327,eta_squared,large,True,,,,,,,,,,0.05819715774009125,False
+D1_Base,B1,pythia-1b,Kruskal-Wallis,base_acc_by_band,6.3644278606965194,0.17353548506849417,0.23644278606965194,eta_squared,large,False,15.0,,,,,,,,,0.2719318941279496,False
+D1_Base,B2,pythia-1b,Jonckheere-Terpstra,base_acc_trend,0.36342115107466516,0.3581451520257981,0.36342115107466516,Z,N/A,False,,,,,,,,,,0.46929364748208025,False
+D1_Base,B3,pythia-1b,Kruskal-Wallis,base_top5_by_band,10.553846153846157,0.032063301047854834,0.6553846153846157,eta_squared,large,True,,,,,,,,,,0.08516053754712982,False
+D1_Base,B4,pythia-1b,Kruskal-Wallis,base_mcp_by_band,11.400000000000006,0.022417968565057476,0.7400000000000005,eta_squared,large,True,,,,,,,,,,0.06954145350793339,False
+D1_Base,B1,pythia-1.4b,Kruskal-Wallis,base_acc_by_band,11.598787878787878,0.020598017251551637,0.7598787878787878,eta_squared,large,True,15.0,,,,,,,,,0.06699648825762135,False
+D1_Base,B2,pythia-1.4b,Jonckheere-Terpstra,base_acc_trend,0.6004015340277085,0.2741193328531417,0.6004015340277085,Z,N/A,False,,,,,,,,,,0.3770932097940564,False
+D1_Base,B3,pythia-1.4b,Kruskal-Wallis,base_top5_by_band,4.9366391184573155,0.2938607217460766,0.09366391184573156,eta_squared,medium,False,,,,,,,,,,0.3926739926739928,False
+D1_Base,B4,pythia-1.4b,Kruskal-Wallis,base_mcp_by_band,0.5333333333333385,0.9701758952618879,0.0,eta_squared,negligible,False,,,,,,,,,,0.9766009011907745,False
+D2_Circuit,C1,pythia-70m,Kruskal-Wallis,circuit_acc_by_band,12.655933214072755,0.013085264403742953,0.8655933214072755,eta_squared,large,True,,,,,n=3/group; limited power for band discrimination,,,,,0.05099897921458792,False
+D2_Circuit,C2,pythia-70m,Jonckheere-Terpstra,circuit_acc_trend,0.6878304690167104,0.24577977321109507,0.6878304690167104,Z,N/A,False,,,,,n=3/group; limited power for band discrimination,,,,,0.34591227340820785,False
+D2_Circuit,C3,pythia-70m,Kruskal-Wallis,retention_by_band,5.533333333333331,0.23681495352918008,0.15333333333333315,eta_squared,large,False,,,,,n=3/group; limited power for band discrimination,,,,,0.34458885560860236,False
+D2_Circuit,C4,pythia-70m,Kruskal-Wallis,size_by_band,10.118067978533096,0.03848511985756202,0.6118067978533096,eta_squared,large,True,,,,,n=3/group; limited power for band discrimination,,,,,0.09749563697249045,False
+D2_Circuit,C1,pythia-160m,Kruskal-Wallis,circuit_acc_by_band,11.211793020457282,0.024284090635455193,0.7211793020457282,eta_squared,large,True,,,,,n=3/group; limited power for band discrimination,,,,,0.0730461548105799,False
+D2_Circuit,C2,pythia-160m,Jonckheere-Terpstra,circuit_acc_trend,0.5966298215417607,0.2753772782048701,0.5966298215417607,Z,N/A,False,,,,,n=3/group; limited power for band discrimination,,,,,0.3770932097940564,False
+D2_Circuit,C3,pythia-160m,Kruskal-Wallis,retention_by_band,6.266666666666666,0.18009889732487613,0.22666666666666657,eta_squared,large,False,,,,,n=3/group; limited power for band discrimination,,,,,0.27670107670107674,False
+D2_Circuit,C4,pythia-160m,Kruskal-Wallis,size_by_band,10.93333333333333,0.027323561531110666,0.693333333333333,eta_squared,large,True,,,,,n=3/group; limited power for band discrimination,,,,,0.07836191231563815,False
+D2_Circuit,C1,pythia-410m,Kruskal-Wallis,circuit_acc_by_band,6.819188191881921,0.14575743362852345,0.28191881918819206,eta_squared,large,False,,,,,n=3/group; limited power for band discrimination,,,,,0.23078260324516214,False
+D2_Circuit,C2,pythia-410m,Jonckheere-Terpstra,circuit_acc_trend,0.12084913876881045,0.45190526409115667,0.12084913876881045,Z,N/A,False,,,,,n=3/group; limited power for band discrimination,,,,,0.5539483882407727,False
+D2_Circuit,C3,pythia-410m,Kruskal-Wallis,retention_by_band,7.189189189189189,0.12622186714051345,0.3189189189189189,eta_squared,large,False,,,,,n=3/group; limited power for band discrimination,,,,,0.2062981054339575,False
+D2_Circuit,C4,pythia-410m,Kruskal-Wallis,size_by_band,11.566666666666663,0.020882063168174383,0.7566666666666663,eta_squared,large,True,,,,,n=3/group; limited power for band discrimination,,,,,0.06699648825762135,False
+D2_Circuit,C1,pythia-1b,Kruskal-Wallis,circuit_acc_by_band,3.275151515151517,0.5128788939080442,0.0,eta_squared,negligible,False,,,,,n=3/group; limited power for band discrimination,,,,,0.6126843932011734,False
+D2_Circuit,C2,pythia-1b,Jonckheere-Terpstra,circuit_acc_trend,0.22681835729935654,0.4102824943160054,0.22681835729935654,Z,N/A,False,,,,,n=3/group; limited power for band discrimination,,,,,0.511171632262564,False
+D2_Circuit,C3,pythia-1b,Kruskal-Wallis,retention_by_band,0.968395945140133,0.9145497310624544,0.0,eta_squared,negligible,False,,,,,n=3/group; limited power for band discrimination,,,,,0.9456568647720618,False
+D2_Circuit,C4,pythia-1b,Kruskal-Wallis,size_by_band,7.0333333333333385,0.1341371616680694,0.30333333333333384,eta_squared,large,False,,,,,n=3/group; limited power for band discrimination,,,,,0.21690264439943138,False
+D2_Circuit,C1,pythia-1.4b,Kruskal-Wallis,circuit_acc_by_band,12.101553166069298,0.01661185272794077,0.8101553166069297,eta_squared,large,True,,,,,n=3/group; limited power for band discrimination,,,,,0.0587209677824883,False
+D2_Circuit,C2,pythia-1.4b,Jonckheere-Terpstra,circuit_acc_trend,0.6878304690167104,0.24577977321109507,0.6878304690167104,Z,N/A,False,,,,,n=3/group; limited power for band discrimination,,,,,0.34591227340820785,False
+D2_Circuit,C3,pythia-1.4b,Kruskal-Wallis,retention_by_band,11.633333333333326,0.02029671816310589,0.7633333333333325,eta_squared,large,True,,,,,n=3/group; limited power for band discrimination,,,,,0.06699648825762135,False
+D2_Circuit,C4,pythia-1.4b,Kruskal-Wallis,size_by_band,11.766666666666666,0.01917342060370144,0.7766666666666666,eta_squared,large,True,,,,,n=3/group; limited power for band discrimination,,,,,0.06623545299460497,False
+D3_Generalization,G1,all,Mann-Whitney,same_vs_cross,12819.5,0.030783591309889603,0.13951111111111114,rank_biserial,small,True,75.0,300.0,-0.033274814814814854,0.07456370370370377,,,,,,0.08507465234733126,False
+D3_Generalization,G2,pythia-70m,Mann-Whitney,same_vs_cross,509.0,0.21913553118414114,0.13111111111111118,rank_biserial,small,False,15.0,60.0,,,,,,,,0.32338447320378105,False
+D3_Generalization,G2,pythia-160m,Mann-Whitney,same_vs_cross,603.5,0.021156785765564637,0.34111111111111114,rank_biserial,medium,True,15.0,60.0,,,,,,,,0.06699648825762135,False
+D3_Generalization,G2,pythia-410m,Mann-Whitney,same_vs_cross,591.5,0.030444914470773864,0.3144444444444445,rank_biserial,medium,True,15.0,60.0,,,,,,,,0.08507465234733126,False
+D3_Generalization,G2,pythia-1b,Mann-Whitney,same_vs_cross,634.0,0.007421454435313002,0.40888888888888886,rank_biserial,medium,True,15.0,60.0,,,,,,,,0.036389066908631494,True
+D3_Generalization,G2,pythia-1.4b,Mann-Whitney,same_vs_cross,463.5,0.43159330758606024,0.030000000000000027,rank_biserial,negligible,False,15.0,60.0,,,,,,,,0.5333510792933427,False
+D3_Generalization,G3,pythia-70m,Kruskal-Wallis,cross_acc_by_train_band,1.4607656367327777,0.8335678702905662,0.0,eta_squared,negligible,False,,,,,,,,,,0.8738090778218349,False
+D3_Generalization,G3,pythia-160m,Kruskal-Wallis,cross_acc_by_train_band,1.6854947487883807,0.7933508049840268,0.0,eta_squared,negligible,False,,,,,,,,,,0.843281974528476,False
+D3_Generalization,G3,pythia-410m,Kruskal-Wallis,cross_acc_by_train_band,8.388232910401909,0.07834838515026181,0.07978605291639834,eta_squared,medium,False,,,,,,,,,,0.16773175412450414,False
+D3_Generalization,G3,pythia-1b,Kruskal-Wallis,cross_acc_by_train_band,9.53972727610968,0.048937309853594894,0.10072231411108509,eta_squared,medium,True,,,,,,,,,,0.12194214914338398,False
+D3_Generalization,G3,pythia-1.4b,Kruskal-Wallis,cross_acc_by_train_band,11.144280199691929,0.024989474014145755,0.12989600363076234,eta_squared,medium,True,,,,,,,,,,0.0730461548105799,False
+D3_Generalization,G4,all,Kruskal-Wallis,gap_by_model,0.7342067703220988,0.9470444956033011,0.0,eta_squared,negligible,False,,,,,,,,,,0.9596717555446784,False
+D4_Asymmetry,AS1,all,Mann-Whitney,LF_HF_vs_HF_LF_twosided,2689.0,3.079557090131066e-06,0.4938888888888888,rank_biserial,medium,True,60.0,60.0,0.03007407407407425,0.18681481481481477,,,,,,5.201029752221356e-05,True
+D4_Asymmetry,AS1_directed,all,Mann-Whitney,LF_HF_gt_HF_LF,2689.0,1.539778545065533e-06,0.4938888888888888,rank_biserial,medium,True,,,,,,,,,,2.925579235624513e-05,True
+D4_Asymmetry,AS2,pythia-70m,Mann-Whitney,LF_HF_vs_HF_LF,135.5,0.0002712998588909739,0.8819444444444444,rank_biserial,large,True,12.0,12.0,,,,,,,,0.002364362827978593,True
+D4_Asymmetry,AS2,pythia-160m,Mann-Whitney,LF_HF_vs_HF_LF,132.0,0.0005568968689870966,0.8333333333333333,rank_biserial,large,True,12.0,12.0,,,,,,,,0.0038476510948199398,True
+D4_Asymmetry,AS2,pythia-410m,Mann-Whitney,LF_HF_vs_HF_LF,118.5,0.007763520491388565,0.6458333333333333,rank_biserial,large,True,12.0,12.0,,,,,,,,0.03687672233409568,True
+D4_Asymmetry,AS2,pythia-1b,Mann-Whitney,LF_HF_vs_HF_LF,126.0,0.0019688916362712427,0.75,rank_biserial,large,True,12.0,12.0,,,,,,,,0.011970861148529155,True
+D4_Asymmetry,AS2,pythia-1.4b,Mann-Whitney,LF_HF_vs_HF_LF,140.5,8.546144543890027e-05,0.9513888888888888,rank_biserial,large,True,12.0,12.0,,,,,,,,0.00108251164222607,True
+D4_Asymmetry,AS3,all,Kruskal-Wallis,asymmetry_by_model,11.166666666666679,0.024753407302517804,0.7166666666666679,eta_squared,large,True,,,,,,,,,,0.0730461548105799,False
+D4_Asymmetry,AS4,all,Mann-Whitney,low_to_high_vs_high_to_low,182.0,0.004184618067556534,0.6177777777777778,rank_biserial,large,True,15.0,15.0,,,,,,,,0.022716498081021188,True
+D4_Asymmetry,AS4,all,Mann-Whitney,low_to_very_high_vs_very_high_to_low,188.0,0.0018610960260749092,0.6711111111111112,rank_biserial,large,True,15.0,15.0,,,,,,,,0.011786941498474425,True
+D4_Asymmetry,AS4,all,Mann-Whitney,medium_to_high_vs_high_to_medium,152.0,0.10538993015300724,0.35111111111111115,rank_biserial,medium,False,15.0,15.0,,,,,,,,0.17799188203619,False
+D4_Asymmetry,AS4,all,Mann-Whitney,medium_to_very_high_vs_very_high_to_medium,164.5,0.0324954682745627,0.4622222222222223,rank_biserial,medium,True,15.0,15.0,,,,,,,,0.08516053754712982,False
+D4_Asymmetry,AS5,all,Mann-Whitney,low_to_medium_vs_medium_to_low,163.0,0.0379169515220324,0.4488888888888889,rank_biserial,medium,True,15.0,15.0,-0.11408148148148155,0.24088888888888882,,,,,,0.09749563697249045,False
+D4_Asymmetry,AS5,pythia-70m,Mann-Whitney,low_to_medium_vs_medium_to_low,9.0,0.07652250047505922,1.0,rank_biserial,large,False,3.0,3.0,,,"min_achievable_p=0.10 (n1=3,n2=3); cannot reach alpha=0.05",,,,,0.16616314388870002,False
+D4_Asymmetry,AS5,pythia-160m,Mann-Whitney,low_to_medium_vs_medium_to_low,9.0,0.07652250047505922,1.0,rank_biserial,large,False,3.0,3.0,,,"min_achievable_p=0.10 (n1=3,n2=3); cannot reach alpha=0.05",,,,,0.16616314388870002,False
+D4_Asymmetry,AS5,pythia-410m,Mann-Whitney,low_to_medium_vs_medium_to_low,9.0,0.1,1.0,rank_biserial,large,False,3.0,3.0,,,"min_achievable_p=0.10 (n1=3,n2=3); cannot reach alpha=0.05",,,,,0.17272727272727273,False
+D4_Asymmetry,AS5,pythia-1b,Mann-Whitney,low_to_medium_vs_medium_to_low,9.0,0.07652250047505922,1.0,rank_biserial,large,False,3.0,3.0,,,"min_achievable_p=0.10 (n1=3,n2=3); cannot reach alpha=0.05",,,,,0.16616314388870002,False
+D4_Asymmetry,AS5,pythia-1.4b,Mann-Whitney,low_to_medium_vs_medium_to_low,9.0,0.1,1.0,rank_biserial,large,False,3.0,3.0,,,"min_achievable_p=0.10 (n1=3,n2=3); cannot reach alpha=0.05",,,,,0.17272727272727273,False
+D4_Asymmetry,AS5,all,Mann-Whitney,low_to_high_vs_high_to_low,182.0,0.004184618067556534,0.6177777777777778,rank_biserial,large,True,15.0,15.0,-0.06281481481481477,0.274074074074074,,,,,,0.022716498081021188,True
+D4_Asymmetry,AS5,pythia-70m,Mann-Whitney,low_to_high_vs_high_to_low,9.0,0.1,1.0,rank_biserial,large,False,3.0,3.0,,,"min_achievable_p=0.10 (n1=3,n2=3); cannot reach alpha=0.05",,,,,0.17272727272727273,False
+D4_Asymmetry,AS5,pythia-160m,Mann-Whitney,low_to_high_vs_high_to_low,9.0,0.07652250047505922,1.0,rank_biserial,large,False,3.0,3.0,,,"min_achievable_p=0.10 (n1=3,n2=3); cannot reach alpha=0.05",,,,,0.16616314388870002,False
+D4_Asymmetry,AS5,pythia-410m,Mann-Whitney,low_to_high_vs_high_to_low,9.0,0.1,1.0,rank_biserial,large,False,3.0,3.0,,,"min_achievable_p=0.10 (n1=3,n2=3); cannot reach alpha=0.05",,,,,0.17272727272727273,False
+D4_Asymmetry,AS5,pythia-1b,Mann-Whitney,low_to_high_vs_high_to_low,9.0,0.1,1.0,rank_biserial,large,False,3.0,3.0,,,"min_achievable_p=0.10 (n1=3,n2=3); cannot reach alpha=0.05",,,,,0.17272727272727273,False
+D4_Asymmetry,AS5,pythia-1.4b,Mann-Whitney,low_to_high_vs_high_to_low,9.0,0.1,1.0,rank_biserial,large,False,3.0,3.0,,,"min_achievable_p=0.10 (n1=3,n2=3); cannot reach alpha=0.05",,,,,0.17272727272727273,False
+D4_Asymmetry,AS5,all,Mann-Whitney,low_to_very_high_vs_very_high_to_low,188.0,0.0018610960260749092,0.6711111111111112,rank_biserial,large,True,15.0,15.0,0.03880740740740741,0.3413407407407408,,,,,,0.011786941498474425,True
+D4_Asymmetry,AS5,pythia-70m,Mann-Whitney,low_to_very_high_vs_very_high_to_low,9.0,0.1,1.0,rank_biserial,large,False,3.0,3.0,,,"min_achievable_p=0.10 (n1=3,n2=3); cannot reach alpha=0.05",,,,,0.17272727272727273,False
+D4_Asymmetry,AS5,pythia-160m,Mann-Whitney,low_to_very_high_vs_very_high_to_low,9.0,0.1,1.0,rank_biserial,large,False,3.0,3.0,,,"min_achievable_p=0.10 (n1=3,n2=3); cannot reach alpha=0.05",,,,,0.17272727272727273,False
+D4_Asymmetry,AS5,pythia-410m,Mann-Whitney,low_to_very_high_vs_very_high_to_low,9.0,0.1,1.0,rank_biserial,large,False,3.0,3.0,,,"min_achievable_p=0.10 (n1=3,n2=3); cannot reach alpha=0.05",,,,,0.17272727272727273,False
+D4_Asymmetry,AS5,pythia-1b,Mann-Whitney,low_to_very_high_vs_very_high_to_low,9.0,0.07652250047505922,1.0,rank_biserial,large,False,3.0,3.0,,,"min_achievable_p=0.10 (n1=3,n2=3); cannot reach alpha=0.05",,,,,0.16616314388870002,False
+D4_Asymmetry,AS5,pythia-1.4b,Mann-Whitney,low_to_very_high_vs_very_high_to_low,9.0,0.1,1.0,rank_biserial,large,False,3.0,3.0,,,"min_achievable_p=0.10 (n1=3,n2=3); cannot reach alpha=0.05",,,,,0.17272727272727273,False
+D4_Asymmetry,AS5,all,Mann-Whitney,medium_to_high_vs_high_to_medium,152.0,0.10538993015300724,0.35111111111111115,rank_biserial,medium,False,15.0,15.0,-0.12059259259259258,0.2014962962962963,,,,,,0.17799188203619,False
+D4_Asymmetry,AS5,pythia-70m,Mann-Whitney,medium_to_high_vs_high_to_medium,9.0,0.1,1.0,rank_biserial,large,False,3.0,3.0,,,"min_achievable_p=0.10 (n1=3,n2=3); cannot reach alpha=0.05",,,,,0.17272727272727273,False
+D4_Asymmetry,AS5,pythia-160m,Mann-Whitney,medium_to_high_vs_high_to_medium,8.5,0.11568802229950938,0.8888888888888888,rank_biserial,large,False,3.0,3.0,,,"min_achievable_p=0.10 (n1=3,n2=3); cannot reach alpha=0.05",,,,,0.19323713614863103,False
+D4_Asymmetry,AS5,pythia-410m,Mann-Whitney,medium_to_high_vs_high_to_medium,8.5,0.12118327283746319,0.8888888888888888,rank_biserial,large,False,3.0,3.0,,,"min_achievable_p=0.10 (n1=3,n2=3); cannot reach alpha=0.05",,,,,0.20021584207928703,False
+D4_Asymmetry,AS5,pythia-1b,Mann-Whitney,medium_to_high_vs_high_to_medium,9.0,0.1,1.0,rank_biserial,large,False,3.0,3.0,,,"min_achievable_p=0.10 (n1=3,n2=3); cannot reach alpha=0.05",,,,,0.17272727272727273,False
+D4_Asymmetry,AS5,pythia-1.4b,Mann-Whitney,medium_to_high_vs_high_to_medium,8.0,0.2,0.7777777777777777,rank_biserial,large,False,3.0,3.0,,,"min_achievable_p=0.10 (n1=3,n2=3); cannot reach alpha=0.05",,,,,0.30173943916152307,False
+D4_Asymmetry,AS5,all,Mann-Whitney,medium_to_very_high_vs_very_high_to_medium,164.5,0.0324954682745627,0.4622222222222223,rank_biserial,medium,True,15.0,15.0,-0.03762962962962957,0.2414888888888888,,,,,,0.08516053754712982,False
+D4_Asymmetry,AS5,pythia-70m,Mann-Whitney,medium_to_very_high_vs_very_high_to_medium,9.0,0.07652250047505922,1.0,rank_biserial,large,False,3.0,3.0,,,"min_achievable_p=0.10 (n1=3,n2=3); cannot reach alpha=0.05",,,,,0.16616314388870002,False
+D4_Asymmetry,AS5,pythia-160m,Mann-Whitney,medium_to_very_high_vs_very_high_to_medium,7.0,0.37582508748869836,0.5555555555555556,rank_biserial,large,False,3.0,3.0,,,"min_achievable_p=0.10 (n1=3,n2=3); cannot reach alpha=0.05",,,,,0.4841136720193403,False
+D4_Asymmetry,AS5,pythia-410m,Mann-Whitney,medium_to_very_high_vs_very_high_to_medium,6.0,0.6579050194284821,0.33333333333333326,rank_biserial,medium,False,3.0,3.0,,,"min_achievable_p=0.10 (n1=3,n2=3); cannot reach alpha=0.05",,,,,0.7328602053999674,False
+D4_Asymmetry,AS5,pythia-1b,Mann-Whitney,medium_to_very_high_vs_very_high_to_medium,9.0,0.1,1.0,rank_biserial,large,False,3.0,3.0,,,"min_achievable_p=0.10 (n1=3,n2=3); cannot reach alpha=0.05",,,,,0.17272727272727273,False
+D4_Asymmetry,AS5,pythia-1.4b,Mann-Whitney,medium_to_very_high_vs_very_high_to_medium,9.0,0.1,1.0,rank_biserial,large,False,3.0,3.0,,,"min_achievable_p=0.10 (n1=3,n2=3); cannot reach alpha=0.05",,,,,0.17272727272727273,False
+D4_Asymmetry,AS5,all,Mann-Whitney,high_to_very_high_vs_very_high_to_high,129.5,0.49315243360814653,0.1511111111111112,rank_biserial,small,False,15.0,15.0,-0.09660000000000002,0.17748888888888886,,,,,,0.5996733592675062,False
+D4_Asymmetry,AS5,pythia-70m,Mann-Whitney,high_to_very_high_vs_very_high_to_high,9.0,0.1,1.0,rank_biserial,large,False,3.0,3.0,,,"min_achievable_p=0.10 (n1=3,n2=3); cannot reach alpha=0.05",,,,,0.17272727272727273,False
+D4_Asymmetry,AS5,pythia-160m,Mann-Whitney,high_to_very_high_vs_very_high_to_high,3.0,0.7,-0.33333333333333337,rank_biserial,medium,False,3.0,3.0,,,"min_achievable_p=0.10 (n1=3,n2=3); cannot reach alpha=0.05",,,,,0.754609929078014,False
+D4_Asymmetry,AS5,pythia-410m,Mann-Whitney,high_to_very_high_vs_very_high_to_high,1.5,0.26115455974183277,-0.6666666666666667,rank_biserial,large,False,3.0,3.0,,,"min_achievable_p=0.10 (n1=3,n2=3); cannot reach alpha=0.05",,,,,0.3641788356032898,False
+D4_Asymmetry,AS5,pythia-1b,Mann-Whitney,high_to_very_high_vs_very_high_to_high,6.0,0.6428348264908044,0.33333333333333326,rank_biserial,medium,False,3.0,3.0,,,"min_achievable_p=0.10 (n1=3,n2=3); cannot reach alpha=0.05",,,,,0.7291857733328527,False
+D4_Asymmetry,AS5,pythia-1.4b,Mann-Whitney,high_to_very_high_vs_very_high_to_high,9.0,0.07652250047505922,1.0,rank_biserial,large,False,3.0,3.0,,,"min_achievable_p=0.10 (n1=3,n2=3); cannot reach alpha=0.05",,,,,0.16616314388870002,False
+D4_Asymmetry,AS6,all,Spearman,abs_asymmetry_vs_freq_distance,0.9258200997725515,0.008049893100837697,0.9258200997725515,spearman_rho,large,True,6.0,,,,,,,,,0.03707829549476757,True
+D4_Asymmetry,AS7,all,Binomial,direction_consistency,6.0,0.015625,1.0,proportion,N/A,True,6.0,,,,,,,,,0.05819715774009125,False
+D5_Distance,FD1,all,Spearman,distance_vs_accuracy,-0.21068911002673757,0.004526422944182003,-0.21068911002673757,spearman_rho,small,True,180.0,,,,,,,,,0.02372469956950567,True
+D5_Distance,FD2,pythia-70m,Spearman,distance_vs_accuracy,-0.07234341426577034,0.6750028207631279,-0.07234341426577034,spearman_rho,negligible,False,36.0,,,,,,,,,0.7328602053999674,False
+D5_Distance,FD2,pythia-160m,Spearman,distance_vs_accuracy,-0.316399510571641,0.060105236220533355,-0.316399510571641,spearman_rho,medium,False,36.0,,,,,,,,,0.14510552328697948,False
+D5_Distance,FD2,pythia-410m,Spearman,distance_vs_accuracy,-0.49590875648787486,0.0020997649010381265,-0.49590875648787486,spearman_rho,medium,True,36.0,,,,,,,,,0.012275548652222893,True
+D5_Distance,FD2,pythia-1b,Spearman,distance_vs_accuracy,-0.5913876834250882,0.00014569048695603425,-0.5913876834250882,spearman_rho,large,True,36.0,,,,,,,,,0.001581782429808372,True
+D5_Distance,FD2,pythia-1.4b,Spearman,distance_vs_accuracy,-0.2509074504863811,0.13993211473459238,-0.2509074504863811,spearman_rho,small,False,36.0,,,,,,,,,0.22389138357534782,False
+D6_Scaling,M1,all,Kruskal-Wallis,circuit_acc_by_model,59.541327635327605,3.6216113854631505e-12,0.7934475376475372,eta_squared,large,True,,,,,,,,,,7.864070437005698e-11,True
+D6_Scaling,M2,all,Spearman,accuracy_vs_size,0.3018009412959832,0.008502429784794685,0.3018009412959832,spearman_rho,medium,True,,,,,,,,,,0.037278275494378475,True
+D6_Scaling,M3,all,Spearman,size_frac_vs_model_size,-0.8819009739596341,1.518813173313847e-25,-0.8819009739596341,spearman_rho,large,True,,,,,,,,,,7.695320078123492e-24,True
+D6_Scaling,M4,all,Spearman,retention_vs_model_size,0.05509472667548739,0.6387285332349275,0.05509472667548739,spearman_rho,negligible,False,,,,,,,,,,0.7291857733328527,False
+D6_Scaling,M5,all,Kruskal-Wallis,gap_by_model,0.7342067703220988,0.9470444956033011,0.0,eta_squared,negligible,False,,,,,,,,,,0.9596717555446784,False
+D7_Control,CT1,pythia-70m,Mann-Whitney,control_vs_freq_accuracy,30.0,0.09663995210019333,0.6666666666666667,rank_biserial,large,False,3.0,12.0,,,,,,,,0.17272727272727273,False
+D7_Control,CT2,pythia-70m,Mann-Whitney,control_vs_freq_size,30.0,0.09663995210019333,0.6666666666666667,rank_biserial,large,False,3.0,12.0,,,,,,,,0.17272727272727273,False
+D7_Control,CT1,pythia-160m,Mann-Whitney,control_vs_freq_accuracy,26.5,0.2456676872793946,0.4722222222222223,rank_biserial,medium,False,3.0,12.0,,,,,,,,0.34591227340820785,False
+D7_Control,CT2,pythia-160m,Mann-Whitney,control_vs_freq_size,11.0,0.36483516483516487,-0.38888888888888884,rank_biserial,medium,False,3.0,12.0,,,,,,,,0.47397388935850476,False
+D7_Control,CT1,pythia-410m,Mann-Whitney,control_vs_freq_accuracy,22.5,0.5572984317438934,0.25,rank_biserial,small,False,3.0,12.0,,,,,,,,0.6466363482829908,False
+D7_Control,CT2,pythia-410m,Mann-Whitney,control_vs_freq_size,8.0,0.18021978021978025,-0.5555555555555556,rank_biserial,large,False,3.0,12.0,,,,,,,,0.27670107670107674,False
+D7_Control,CT1,pythia-1b,Mann-Whitney,control_vs_freq_accuracy,24.5,0.38219292230511936,0.36111111111111116,rank_biserial,medium,False,3.0,12.0,,,,,,,,0.48817919487712724,False
+D7_Control,CT2,pythia-1b,Mann-Whitney,control_vs_freq_size,10.0,0.29450549450549457,-0.4444444444444444,rank_biserial,medium,False,3.0,12.0,,,,,,,,0.3926739926739928,False
+D7_Control,CT1,pythia-1.4b,Mann-Whitney,control_vs_freq_accuracy,31.5,0.0601424208360507,0.75,rank_biserial,large,False,3.0,12.0,,,,,,,,0.14510552328697948,False
+D7_Control,CT2,pythia-1.4b,Mann-Whitney,control_vs_freq_size,13.0,0.5362637362637362,-0.2777777777777778,rank_biserial,small,False,3.0,12.0,,,,,,,,0.6270160608622147,False
+D8_Completeness,CP1,pythia-70m,Wilcoxon,circuit_gt_ablation,120.0,0.0003266553907075688,3.3983198032445223,cohens_d,large,True,15.0,,,,,,,,,0.002364362827978593,True
+D8_Completeness,CP2,pythia-70m,Kruskal-Wallis,completeness_by_band,0.0,1.0,0.0,eta_squared,negligible,False,,,,,,,,,,1.0,False
+D8_Completeness,CP1,pythia-160m,Wilcoxon,circuit_gt_ablation,120.0,0.0003250121193590314,38.07193263725838,cohens_d,large,True,15.0,,,,,,,,,0.002364362827978593,True
+D8_Completeness,CP2,pythia-160m,Kruskal-Wallis,completeness_by_band,4.0,0.40600584970983794,0.0,eta_squared,negligible,False,,,,,,,,,,0.5100238773214494,False
+D8_Completeness,CP1,pythia-410m,Wilcoxon,circuit_gt_ablation,120.0,0.0003152721518633181,73.92818639859962,cohens_d,large,True,15.0,,,,,,,,,0.002364362827978593,True
+D8_Completeness,CP2,pythia-410m,Kruskal-Wallis,completeness_by_band,3.230769230769231,0.5199755705457327,0.0,eta_squared,negligible,False,,,,,,,,,,0.6126843932011734,False
+D8_Completeness,CP1,pythia-1b,Wilcoxon,circuit_gt_ablation,120.0,0.0003201165486586971,41.66871441508948,cohens_d,large,True,15.0,,,,,,,,,0.002364362827978593,True
+D8_Completeness,CP2,pythia-1b,Kruskal-Wallis,completeness_by_band,4.0,0.40600584970983794,0.0,eta_squared,negligible,False,,,,,,,,,,0.5100238773214494,False
+D8_Completeness,CP1,pythia-1.4b,Wilcoxon,circuit_gt_ablation,120.0,0.0003258330403069556,17.652964850017376,cohens_d,large,True,15.0,,,,,,,,,0.002364362827978593,True
+D8_Completeness,CP2,pythia-1.4b,Kruskal-Wallis,completeness_by_band,3.230769230769231,0.5199755705457327,0.0,eta_squared,negligible,False,,,,,,,,,,0.6126843932011734,False
+D9_Variance,V1,all,ANOVA (full model),band_effect,55.31229459846694,2.200413252232298e-17,0.03380771398158228,eta_squared,small,True,,,,,,0.03380771398158228,0.0007041310100873075,,,8.361570358482734e-16,True
+D9_Variance,V2,all,ANOVA (full model),model_effect,1509.6436336057996,8.307657539930375e-50,0.9227171020396618,eta_squared,large,True,,,,,,0.03380771398158228,,0.9227171020396618,,6.313819730347085e-48,True
+D9_Variance,V3,all,ANOVA (full model),model_x_band_interaction,14.4942698238814,3.1264103698477433e-13,0.03543647083418903,eta_squared,small,True,,,,,,,,,,7.920239603614283e-12,True
+D10_ControlAvg,CT3,pythia-70m,Mann-Whitney,ctrl_transfer_var_lt_freq,23.0,0.7758241758241758,0.2777777777777777,rank_biserial,small,False,3.0,12.0,,,,,,,,0.8304596811639066,False
+D10_ControlAvg,CT3,pythia-160m,Mann-Whitney,ctrl_transfer_var_lt_freq,25.0,0.8527472527472527,0.38888888888888884,rank_biserial,medium,False,3.0,12.0,,,,,,,,0.8877916603944,False
+D10_ControlAvg,CT3,pythia-410m,Mann-Whitney,ctrl_transfer_var_lt_freq,24.0,0.8175824175824176,0.33333333333333326,rank_biserial,medium,False,3.0,12.0,,,,,,,,0.863003663003663,False
+D10_ControlAvg,CT3,pythia-1b,Mann-Whitney,ctrl_transfer_var_lt_freq,28.0,0.9318681318681319,0.5555555555555556,rank_biserial,large,False,3.0,12.0,,,,,,,,0.9570537570537571,False
+D10_ControlAvg,CT3,pythia-1.4b,Mann-Whitney,ctrl_transfer_var_lt_freq,19.0,0.5802197802197804,0.05555555555555558,rank_biserial,negligible,False,3.0,12.0,,,,,,,,0.6681318681318683,False
+D10_ControlAvg,CT4,pythia-70m,Binomial,ctrl_best_on_n_bands,4.0,0.006720000000000001,0.8,proportion,N/A,True,5.0,,,,,,,,,0.034048,True
+D10_ControlAvg,CT4,pythia-160m,Binomial,ctrl_best_on_n_bands,1.0,0.67232,0.2,proportion,N/A,False,5.0,,,,,,,,,0.7328602053999674,False
+D10_ControlAvg,CT4,pythia-410m,Binomial,ctrl_best_on_n_bands,1.0,0.67232,0.2,proportion,N/A,False,5.0,,,,,,,,,0.7328602053999674,False
+D10_ControlAvg,CT4,pythia-1b,Binomial,ctrl_best_on_n_bands,1.0,0.67232,0.2,proportion,N/A,False,5.0,,,,,,,,,0.7328602053999674,False
+D10_ControlAvg,CT4,pythia-1.4b,Binomial,ctrl_best_on_n_bands,1.0,0.67232,0.2,proportion,N/A,False,5.0,,,,,,,,,0.7328602053999674,False
+D10_ControlAvg,CT5,pythia-70m,Descriptive,ctrl_jaccard_uniformity,0.033785749297432804,,0.033785749297432804,coefficient_of_variation,N/A,False,4.0,,,,,,,,,,False
+D10_ControlAvg,CT6,pythia-70m,Descriptive,ctrl_jaccard_gt_cross_spectrum,0.014021477838670915,,0.014021477838670915,difference,N/A,False,1.0,,,,,,,,,,False
+D10_ControlAvg,CT5,pythia-160m,Descriptive,ctrl_jaccard_uniformity,0.010572001594515011,,0.010572001594515011,coefficient_of_variation,N/A,False,4.0,,,,,,,,,,False
+D10_ControlAvg,CT6,pythia-160m,Descriptive,ctrl_jaccard_gt_cross_spectrum,0.021989176104934893,,0.021989176104934893,difference,N/A,False,1.0,,,,,,,,,,False
+D10_ControlAvg,CT5,pythia-410m,Descriptive,ctrl_jaccard_uniformity,0.015316037399966348,,0.015316037399966348,coefficient_of_variation,N/A,False,4.0,,,,,,,,,,False
+D10_ControlAvg,CT6,pythia-410m,Descriptive,ctrl_jaccard_gt_cross_spectrum,0.01594072996566054,,0.01594072996566054,difference,N/A,False,1.0,,,,,,,,,,False
+D10_ControlAvg,CT5,pythia-1b,Descriptive,ctrl_jaccard_uniformity,0.024813621144519637,,0.024813621144519637,coefficient_of_variation,N/A,False,4.0,,,,,,,,,,False
+D10_ControlAvg,CT6,pythia-1b,Descriptive,ctrl_jaccard_gt_cross_spectrum,0.020954156393015233,,0.020954156393015233,difference,N/A,False,1.0,,,,,,,,,,False
+D11_RandomBaseline,RB1,all,Wilcoxon,z_scores_gt_zero,1830.0,7.634257773683255e-14,5.7342825753751905,cohens_d,large,True,60.0,,,,,,,,46.0,2.3208143631997098e-12,True
+D11_RandomBaseline,RB2,pythia-70m,Wilcoxon,z_scores_gt_zero,120.0,0.00014555782700712792,3.287603220817172,cohens_d,large,True,15.0,,,,,,,,10.0,0.001581782429808372,True
+D11_RandomBaseline,RB2,pythia-160m,Wilcoxon,z_scores_gt_zero,120.0,0.00017863736905861008,5.160214552703037,cohens_d,large,True,15.0,,,,,,,,11.0,0.001810192006460582,True
+D11_RandomBaseline,RB2,pythia-410m,Wilcoxon,z_scores_gt_zero,120.0,5.3755588364750274e-05,0.0,cohens_d,negligible,True,15.0,,,,,,,,11.0,0.0007428044937674584,True
+D11_RandomBaseline,RB2,pythia-1b,Wilcoxon,z_scores_gt_zero,120.0,5.3755588364750274e-05,0.0,cohens_d,negligible,True,15.0,,,,,,,,14.0,0.0007428044937674584,True
+D11_RandomBaseline,RB3,all,Binomial,pct_above_95th_percentile,60.0,8.673617379884064e-79,1.0,proportion,N/A,True,60.0,,,,,,,,,1.3183898417423778e-76,True

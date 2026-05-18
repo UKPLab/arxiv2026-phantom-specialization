@@ -1,0 +1,48 @@
+Many Circuits, One Mechanism: Input Variation and Evaluation Granularity in Circuit Discovery
+Copyright 2026 Technical University of Darmstadt
+
+This product includes software developed at the
+Ubiquitous Knowledge Processing (UKP) Lab,
+Department of Computer Science,
+Technical University of Darmstadt (https://www.ukp.tu-darmstadt.de/).
+
+When using this software, please cite the accompanying publication. See the
+README for the citation.
+
+This product imports and uses the following third-party Python packages
+under their respective licenses (see each project for terms):
+
+  - PyTorch (https://pytorch.org/), BSD-3-Clause
+  - HuggingFace Transformers (https://github.com/huggingface/transformers), Apache 2.0
+  - TransformerLens (https://github.com/TransformerLensOrg/TransformerLens), MIT
+  - HuggingFace Hub (https://github.com/huggingface/huggingface_hub), Apache 2.0
+  - NumPy (https://numpy.org/), BSD-3-Clause
+  - pandas (https://pandas.pydata.org/), BSD-3-Clause
+  - SciPy (https://scipy.org/), BSD-3-Clause
+  - scikit-learn (https://scikit-learn.org/), BSD-3-Clause
+  - statsmodels (https://www.statsmodels.org/), BSD-3-Clause
+  - PyArrow (https://arrow.apache.org/), Apache 2.0
+  - Matplotlib (https://matplotlib.org/), Matplotlib License (PSF-based)
+  - seaborn (https://seaborn.pydata.org/), BSD-3-Clause
+  - NetworkX (https://networkx.org/), BSD-3-Clause
+  - tqdm (https://github.com/tqdm/tqdm), MIT / MPL 2.0
+
+This product additionally depends on two upstream research repositories that
+are cloned manually at install time and imported via `sys.path` (see SETUP.md):
+
+  - auto-circuit (https://github.com/UFO-101/auto-circuit), MIT License
+      Used for ACDC / EAP circuit discovery and activation patching utilities.
+  - tuned-lens (https://github.com/AlignmentResearch/tuned-lens), MIT License
+      Used for tuned-lens training and inference.
+
+External datasets and models used during the experiments are downloaded from
+their original sources at runtime and are NOT redistributed in this
+repository:
+
+  - Pythia model suite (EleutherAI/pythia-{70m,160m,410m,1b,1.4b}),
+    Apache 2.0, from the HuggingFace Hub.
+  - The Pile (deduplicated subset), MIT / mixed component licenses,
+    from the original source.
+  - FineWeb sample, ODC-By 1.0, from the HuggingFace Hub.
+
+Refer to each upstream project for full license terms.

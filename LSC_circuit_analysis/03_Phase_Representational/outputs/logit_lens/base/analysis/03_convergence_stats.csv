@@ -1,0 +1,46 @@
+model,draw,test,statistic,p_value,description
+pythia-70m,draw_1,kruskal_wallis,46.448126739378914,1.9868470007841928e-09,Convergence layer differs by band
+pythia-70m,draw_1,mann_whitney_low_vs_veryhigh,32376.0,1.3074301559463919e-09,Low-freq converges later than very_high
+pythia-70m,draw_1,spearman_freqrank_vs_conv,-0.20256691314150704,8.66480024738964e-10,Frequency rank correlates with convergence layer
+pythia-70m,draw_2,kruskal_wallis,53.686445014892946,6.121475089889823e-11,Convergence layer differs by band
+pythia-70m,draw_2,mann_whitney_low_vs_veryhigh,31892.5,5.9297359532678715e-09,Low-freq converges later than very_high
+pythia-70m,draw_2,spearman_freqrank_vs_conv,-0.2128010943730283,1.1246638624120443e-10,Frequency rank correlates with convergence layer
+pythia-70m,draw_3,kruskal_wallis,86.60485049805574,6.925053976235402e-18,Convergence layer differs by band
+pythia-70m,draw_3,mann_whitney_low_vs_veryhigh,33759.0,6.800409182591678e-14,Low-freq converges later than very_high
+pythia-70m,draw_3,spearman_freqrank_vs_conv,-0.2661231468316954,4.682692628728717e-16,Frequency rank correlates with convergence layer
+pythia-160m,draw_1,kruskal_wallis,47.92931735258088,9.763524240080493e-10,Convergence layer differs by band
+pythia-160m,draw_1,mann_whitney_low_vs_veryhigh,32730.5,1.4252732374687394e-08,Low-freq converges later than very_high
+pythia-160m,draw_1,spearman_freqrank_vs_conv,-0.2069910526831359,3.6310063678806267e-10,Frequency rank correlates with convergence layer
+pythia-160m,draw_2,kruskal_wallis,51.54181677968633,1.7198865514351785e-10,Convergence layer differs by band
+pythia-160m,draw_2,mann_whitney_low_vs_veryhigh,32769.0,1.1971722403541882e-08,Low-freq converges later than very_high
+pythia-160m,draw_2,spearman_freqrank_vs_conv,-0.18990762096652494,9.376463794451954e-09,Frequency rank correlates with convergence layer
+pythia-160m,draw_3,kruskal_wallis,66.44438925812256,1.2767093906233022e-13,Convergence layer differs by band
+pythia-160m,draw_3,mann_whitney_low_vs_veryhigh,33360.0,1.1439314153233422e-09,Low-freq converges later than very_high
+pythia-160m,draw_3,spearman_freqrank_vs_conv,-0.22113223357836528,1.9736384802123536e-11,Frequency rank correlates with convergence layer
+pythia-410m,draw_1,kruskal_wallis,276.537789650575,1.242899713074543e-58,Convergence layer differs by band
+pythia-410m,draw_1,mann_whitney_low_vs_veryhigh,43377.5,1.3176580379290145e-40,Low-freq converges later than very_high
+pythia-410m,draw_1,spearman_freqrank_vs_conv,-0.49605924857193573,4.452210537929907e-57,Frequency rank correlates with convergence layer
+pythia-410m,draw_2,kruskal_wallis,245.18241363512948,7.100728741057756e-52,Convergence layer differs by band
+pythia-410m,draw_2,mann_whitney_low_vs_veryhigh,41761.0,5.677339252692687e-34,Low-freq converges later than very_high
+pythia-410m,draw_2,spearman_freqrank_vs_conv,-0.45622280507107993,1.8092826892903574e-47,Frequency rank correlates with convergence layer
+pythia-410m,draw_3,kruskal_wallis,279.9866049540523,2.2432605242624714e-59,Convergence layer differs by band
+pythia-410m,draw_3,mann_whitney_low_vs_veryhigh,43164.0,1.059388750366084e-39,Low-freq converges later than very_high
+pythia-410m,draw_3,spearman_freqrank_vs_conv,-0.5040722519448729,3.6123874200378695e-59,Frequency rank correlates with convergence layer
+pythia-1b,draw_1,kruskal_wallis,106.672727302606,3.7273669687041837e-22,Convergence layer differs by band
+pythia-1b,draw_1,mann_whitney_low_vs_veryhigh,36744.0,4.82817770061851e-19,Low-freq converges later than very_high
+pythia-1b,draw_1,spearman_freqrank_vs_conv,-0.31704799636673336,1.8287393022160897e-22,Frequency rank correlates with convergence layer
+pythia-1b,draw_2,kruskal_wallis,106.16058360324925,4.79248981962403e-22,Convergence layer differs by band
+pythia-1b,draw_2,mann_whitney_low_vs_veryhigh,36064.5,2.9722762524545913e-17,Low-freq converges later than very_high
+pythia-1b,draw_2,spearman_freqrank_vs_conv,-0.30470709960307135,8.617739479265457e-21,Frequency rank correlates with convergence layer
+pythia-1b,draw_3,kruskal_wallis,124.23952645106164,6.635825776343122e-26,Convergence layer differs by band
+pythia-1b,draw_3,mann_whitney_low_vs_veryhigh,37563.0,1.6278621236708308e-21,Low-freq converges later than very_high
+pythia-1b,draw_3,spearman_freqrank_vs_conv,-0.34860403938206386,4.111315824794625e-27,Frequency rank correlates with convergence layer
+pythia-1.4b,draw_1,kruskal_wallis,336.0645415352019,1.788469959249044e-71,Convergence layer differs by band
+pythia-1.4b,draw_1,mann_whitney_low_vs_veryhigh,45229.5,6.244206592831911e-52,Low-freq converges later than very_high
+pythia-1.4b,draw_1,spearman_freqrank_vs_conv,-0.5618981746945222,4.917642759948145e-76,Frequency rank correlates with convergence layer
+pythia-1.4b,draw_2,kruskal_wallis,390.0872786434454,3.85457471602185e-83,Convergence layer differs by band
+pythia-1.4b,draw_2,mann_whitney_low_vs_veryhigh,46121.5,1.569163924165537e-56,Low-freq converges later than very_high
+pythia-1.4b,draw_2,spearman_freqrank_vs_conv,-0.6049896807577104,5.981760826721716e-91,Frequency rank correlates with convergence layer
+pythia-1.4b,draw_3,kruskal_wallis,409.0859763581369,3.0269941931683855e-87,Convergence layer differs by band
+pythia-1.4b,draw_3,mann_whitney_low_vs_veryhigh,45985.5,1.5634820860519032e-56,Low-freq converges later than very_high
+pythia-1.4b,draw_3,spearman_freqrank_vs_conv,-0.6017936863096962,9.157912032994708e-90,Frequency rank correlates with convergence layer

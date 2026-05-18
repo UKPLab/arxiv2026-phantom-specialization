@@ -1,0 +1,11 @@
+model,comparison,mantel_r,mantel_p
+pythia-70m,jaccard_vs_embedding_cka,-0.4115633480322558,0.9319
+pythia-70m,jaccard_vs_resid_cka_final,0.19795991920622255,0.2874
+pythia-160m,jaccard_vs_embedding_cka,0.1112682024222631,0.3719
+pythia-160m,jaccard_vs_resid_cka_final,-0.5002806926310336,0.9638
+pythia-410m,jaccard_vs_embedding_cka,-0.0935487836667428,0.6333
+pythia-410m,jaccard_vs_resid_cka_final,-0.04023444482423118,0.5508
+pythia-1b,jaccard_vs_embedding_cka,0.38573787142457744,0.1802
+pythia-1b,jaccard_vs_resid_cka_final,-0.25883735216638604,0.7487
+pythia-1.4b,jaccard_vs_embedding_cka,,0.0001
+pythia-1.4b,jaccard_vs_resid_cka_final,0.09806412083941897,0.4268

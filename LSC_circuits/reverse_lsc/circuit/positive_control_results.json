@@ -1,0 +1,67 @@
+{
+  "model": "pythia-160m",
+  "threshold": 0.000631,
+  "zero_distractor": {
+    "n_edges": 1498,
+    "size_fraction": 0.13063573733321707,
+    "base_accuracy": 0.8844444444444445,
+    "training_time_seconds": 1475.8951423168182
+  },
+  "standard_lsc": {
+    "n_edges": 1392,
+    "base_accuracy": 0.9866666666666667
+  },
+  "jaccard": {
+    "similarity": 0.5388711395101171,
+    "intersection": 1012,
+    "union": 1878,
+    "zero_edges": 1498,
+    "std_edges": 1392
+  },
+  "transfer_matrix": {
+    "zero_on_zero": {
+      "accuracy": 0.8266666666666667,
+      "top5_accuracy": 0.9555555555555556,
+      "top10_accuracy": 0.9822222222222222,
+      "mean_correct_prob": 0.4286439089725415,
+      "n_samples": 225
+    },
+    "zero_on_std": {
+      "accuracy": 0.8044444444444444,
+      "top5_accuracy": 0.9555555555555556,
+      "top10_accuracy": 0.9822222222222222,
+      "mean_correct_prob": 0.26362104571527906,
+      "n_samples": 225
+    },
+    "std_on_zero": {
+      "accuracy": 0.8888888888888888,
+      "top5_accuracy": 0.9644444444444444,
+      "top10_accuracy": 0.9733333333333334,
+      "mean_correct_prob": 0.5299497511372384,
+      "n_samples": 225
+    },
+    "std_on_std": {
+      "accuracy": 0.9244444444444444,
+      "top5_accuracy": 0.9777777777777777,
+      "top10_accuracy": 0.9911111111111112,
+      "mean_correct_prob": 0.43776240545428463,
+      "n_samples": 225
+    }
+  },
+  "base_metrics": {
+    "zero_distractor": {
+      "accuracy": 0.8844444444444445,
+      "top5_accuracy": 0.9688888888888889,
+      "top10_accuracy": 0.9866666666666667,
+      "mean_correct_prob": 0.4490960970396797,
+      "n_samples": 225
+    },
+    "standard": {
+      "accuracy": 0.9866666666666667,
+      "top5_accuracy": 1.0,
+      "top10_accuracy": 1.0,
+      "mean_correct_prob": 0.5169684973193539,
+      "n_samples": 225
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "pipeline_name": "Stage 0 - Core Infrastructure",
+  "execution_timestamp": "2026-02-16",
+  "validation_checks": {
+    "data_loaded": {
+      "status": "PASS",
+      "num_tokens": 50063,
+      "expected_range": [
+        45000,
+        55000
+      ],
+      "passed": true
+    },
+    "total_tokens": {
+      "status": "PASS",
+      "total_tokens": 300039168000,
+      "expected_range": [
+        280000000000.0,
+        320000000000.0
+      ],
+      "passed": true
+    },
+    "log_frequencies": {
+      "status": "PASS",
+      "num_computed": 50063,
+      "passed": true
+    },
+    "percentiles": {
+      "status": "PASS",
+      "num_computed": 50063,
+      "passed": true
+    },
+    "zipf_distribution": {
+      "log_freq_range": 9.58270642634325,
+      "log_freq_std": 0.5449545550786561,
+      "expected_range_min": 5.0,
+      "passed": true,
+      "status": "PASS"
+    },
+    "tokenizer": {
+      "status": "PASS",
+      "vocab_size": 50277,
+      "model": "EleutherAI/pythia-70m",
+      "passed": true
+    }
+  },
+  "summary": {
+    "overall_status": "PASS",
+    "checks_passed": 6,
+    "total_checks": 6,
+    "pipeline_ready": true
+  }
+}

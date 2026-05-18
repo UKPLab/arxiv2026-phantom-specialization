@@ -1,0 +1,32 @@
+\begin{table}[t]
+\centering
+\caption{Cross-method comparison of circuit discovery algorithms on LSC.
+Transfer efficiency is the mean non-control-band accuracy divided by
+control-band accuracy, averaged over all circuit bands and draws.
+Jaccard is the edge overlap between EAP/EAP-IG and ACDC circuits
+(size-matched). All five Pythia models shown.}
+\label{tab:method_comparison}
+\begin{tabular}{llcc}
+\toprule
+Method & Model & Transfer Eff.\,(\%) & Jaccard vs.\,ACDC \\
+\midrule
+ACDC & 70M & 79.1\% & -- \\
+ACDC & 160M & 97.8\% & -- \\
+ACDC & 410M & 98.8\% & -- \\
+ACDC & 1B & 96.4\% & -- \\
+ACDC & 1.4B & 92.7\% & -- \\
+\addlinespace[2pt]
+EAP & 70M & 86.2\% & 0.594 \\
+EAP & 160M & 109.1\% & 0.379 \\
+EAP & 410M & 61.7\% & 0.307 \\
+EAP & 1B & 101.4\% & 0.315 \\
+EAP & 1.4B & 16.7\% & 0.252 \\
+\addlinespace[2pt]
+EAP-IG & 70M & 77.6\% & 0.598 \\
+EAP-IG & 160M & 106.8\% & 0.416 \\
+EAP-IG & 410M & 72.8\% & 0.323 \\
+EAP-IG & 1B & 97.5\% & 0.361 \\
+EAP-IG & 1.4B & 75.0\% & 0.281 \\
+\bottomrule
+\end{tabular}
+\end{table}

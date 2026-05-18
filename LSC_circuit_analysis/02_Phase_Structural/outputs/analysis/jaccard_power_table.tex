@@ -1,0 +1,22 @@
+\begin{table}[t]
+\centering
+\caption{Power analysis for detecting the within-band vs.\ between-band Jaccard gap.
+Cohen's $d$ and CLES (probability that a random within-band pair exceeds a
+random between-band pair) characterise the effect size.
+$n_{\min}$ is the minimum number of ACDC draws per condition (with 5~bands)
+needed to achieve 80\% power at $\alpha{=}0.05$.
+Achieved power reports the post-hoc power of our 3-draw design.}
+\label{tab:power_analysis}
+\small
+\begin{tabular}{lcccccc}
+\toprule
+Model & Gap & Pooled SD & $d$ & CLES & $n_{\min}$ draws & Power (3 draws) \\
+\midrule
+Pythia-70m & 0.032 & 0.026 & 1.22 & 0.81 & 3 & 1.00 \\
+Pythia-160m & 0.032 & 0.022 & 1.45 & 0.85 & 2 & 1.00 \\
+Pythia-410m & 0.016 & 0.016 & 1.02 & 0.76 & 3 & 1.00 \\
+Pythia-1b & 0.013 & 0.024 & 0.53 & 0.65 & 5 & 0.69 \\
+Pythia-1.4b & 0.019 & 0.026 & 0.72 & 0.69 & 4 & 0.89 \\
+\bottomrule
+\end{tabular}
+\end{table}

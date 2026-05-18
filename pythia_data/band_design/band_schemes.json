@@ -1,0 +1,1067 @@
+{
+  "created_at": "2026-02-16",
+  "source_csv": "pythia_data/token_categories/token_categories.csv",
+  "n_word_en_total": 26863,
+  "core_range": {
+    "percentiles": [
+      1.0,
+      99.0
+    ],
+    "log_freq": [
+      -0.4273,
+      2.2659
+    ],
+    "width": 2.6932,
+    "freq_ratio": 493.4
+  },
+  "tails": {
+    "bottom_tail": {
+      "n_tokens": 269,
+      "range": [
+        -3.0539,
+        -0.4273
+      ]
+    },
+    "top_tail": {
+      "n_tokens": 269,
+      "range": [
+        2.2659,
+        4.4431
+      ]
+    }
+  },
+  "schemes": {
+    "3": {
+      "k": 3,
+      "range": [
+        -0.4273,
+        2.2659
+      ],
+      "total_range_width": 2.6932,
+      "band_width": 0.8977,
+      "freq_ratio_per_band": 7.9,
+      "boundaries": [
+        -0.4273,
+        0.4704,
+        1.3681,
+        2.2659
+      ],
+      "bands": [
+        {
+          "band_id": "bottom_tail",
+          "band_index": -1,
+          "range": [
+            -3.053932078569261,
+            -0.42733477214431104
+          ],
+          "range_width": 2.6265973064249497,
+          "n_tokens": 269,
+          "capitalization": {
+            "capitalized": 37,
+            "lowercase": 221,
+            "mixed_case": 1,
+            "uppercase": 10
+          }
+        },
+        {
+          "band_id": "band_1",
+          "band_index": 0,
+          "range": [
+            -0.4273,
+            0.4704
+          ],
+          "center": 0.0215,
+          "range_width": 0.8977,
+          "freq_ratio": 7.9,
+          "n_tokens": 11740,
+          "capitalization": {
+            "capitalized": 3437,
+            "lowercase": 7494,
+            "mixed_case": 80,
+            "uppercase": 729
+          }
+        },
+        {
+          "band_id": "band_2",
+          "band_index": 1,
+          "range": [
+            0.4704,
+            1.3681
+          ],
+          "center": 0.9193,
+          "range_width": 0.8977,
+          "freq_ratio": 7.9,
+          "n_tokens": 12172,
+          "capitalization": {
+            "capitalized": 2857,
+            "lowercase": 8724,
+            "mixed_case": 42,
+            "uppercase": 549
+          }
+        },
+        {
+          "band_id": "band_3",
+          "band_index": 2,
+          "range": [
+            1.3681,
+            2.2659
+          ],
+          "center": 1.817,
+          "range_width": 0.8977,
+          "freq_ratio": 7.9,
+          "n_tokens": 2413,
+          "capitalization": {
+            "capitalized": 305,
+            "lowercase": 2070,
+            "uppercase": 38
+          }
+        },
+        {
+          "band_id": "top_tail",
+          "band_index": 3,
+          "range": [
+            2.2658747134990365,
+            4.4430912908497415
+          ],
+          "range_width": 2.177216577350705,
+          "n_tokens": 269,
+          "capitalization": {
+            "capitalized": 16,
+            "lowercase": 231,
+            "uppercase": 22
+          }
+        }
+      ],
+      "core_summary": {
+        "total_tokens": 26325,
+        "min_tokens": 2413,
+        "max_tokens": 12172,
+        "mean_tokens": 8775,
+        "std_tokens": 4502,
+        "min_capitalized": 305,
+        "counts_per_band": [
+          11740,
+          12172,
+          2413
+        ],
+        "capitalized_per_band": [
+          3437,
+          2857,
+          305
+        ]
+      }
+    },
+    "4": {
+      "k": 4,
+      "range": [
+        -0.4273,
+        2.2659
+      ],
+      "total_range_width": 2.6932,
+      "band_width": 0.6733,
+      "freq_ratio_per_band": 4.71,
+      "boundaries": [
+        -0.4273,
+        0.246,
+        0.9193,
+        1.5926,
+        2.2659
+      ],
+      "bands": [
+        {
+          "band_id": "bottom_tail",
+          "band_index": -1,
+          "range": [
+            -3.053932078569261,
+            -0.42733477214431104
+          ],
+          "range_width": 2.6265973064249497,
+          "n_tokens": 269,
+          "capitalization": {
+            "capitalized": 37,
+            "lowercase": 221,
+            "mixed_case": 1,
+            "uppercase": 10
+          }
+        },
+        {
+          "band_id": "band_1",
+          "band_index": 0,
+          "range": [
+            -0.4273,
+            0.246
+          ],
+          "center": -0.0907,
+          "range_width": 0.6733,
+          "freq_ratio": 4.71,
+          "n_tokens": 5254,
+          "capitalization": {
+            "capitalized": 1651,
+            "lowercase": 3204,
+            "mixed_case": 34,
+            "uppercase": 365
+          }
+        },
+        {
+          "band_id": "band_2",
+          "band_index": 1,
+          "range": [
+            0.246,
+            0.9193
+          ],
+          "center": 0.5826,
+          "range_width": 0.6733,
+          "freq_ratio": 4.71,
+          "n_tokens": 14672,
+          "capitalization": {
+            "capitalized": 3880,
+            "lowercase": 9938,
+            "mixed_case": 79,
+            "uppercase": 775
+          }
+        },
+        {
+          "band_id": "band_3",
+          "band_index": 2,
+          "range": [
+            0.9193,
+            1.5926
+          ],
+          "center": 1.2559,
+          "range_width": 0.6733,
+          "freq_ratio": 4.71,
+          "n_tokens": 5071,
+          "capitalization": {
+            "capitalized": 926,
+            "lowercase": 3977,
+            "mixed_case": 9,
+            "uppercase": 159
+          }
+        },
+        {
+          "band_id": "band_4",
+          "band_index": 3,
+          "range": [
+            1.5926,
+            2.2659
+          ],
+          "center": 1.9292,
+          "range_width": 0.6733,
+          "freq_ratio": 4.71,
+          "n_tokens": 1328,
+          "capitalization": {
+            "capitalized": 142,
+            "lowercase": 1169,
+            "uppercase": 17
+          }
+        },
+        {
+          "band_id": "top_tail",
+          "band_index": 4,
+          "range": [
+            2.2658747134990365,
+            4.4430912908497415
+          ],
+          "range_width": 2.177216577350705,
+          "n_tokens": 269,
+          "capitalization": {
+            "capitalized": 16,
+            "lowercase": 231,
+            "uppercase": 22
+          }
+        }
+      ],
+      "core_summary": {
+        "total_tokens": 26325,
+        "min_tokens": 1328,
+        "max_tokens": 14672,
+        "mean_tokens": 6581,
+        "std_tokens": 4926,
+        "min_capitalized": 142,
+        "counts_per_band": [
+          5254,
+          14672,
+          5071,
+          1328
+        ],
+        "capitalized_per_band": [
+          1651,
+          3880,
+          926,
+          142
+        ]
+      }
+    },
+    "5": {
+      "k": 5,
+      "range": [
+        -0.4273,
+        2.2659
+      ],
+      "total_range_width": 2.6932,
+      "band_width": 0.5386,
+      "freq_ratio_per_band": 3.46,
+      "boundaries": [
+        -0.4273,
+        0.1113,
+        0.6499,
+        1.1886,
+        1.7272,
+        2.2659
+      ],
+      "bands": [
+        {
+          "band_id": "bottom_tail",
+          "band_index": -1,
+          "range": [
+            -3.053932078569261,
+            -0.42733477214431104
+          ],
+          "range_width": 2.6265973064249497,
+          "n_tokens": 269,
+          "capitalization": {
+            "capitalized": 37,
+            "lowercase": 221,
+            "mixed_case": 1,
+            "uppercase": 10
+          }
+        },
+        {
+          "band_id": "band_1",
+          "band_index": 0,
+          "range": [
+            -0.4273,
+            0.1113
+          ],
+          "center": -0.158,
+          "range_width": 0.5386,
+          "freq_ratio": 3.46,
+          "n_tokens": 935,
+          "capitalization": {
+            "capitalized": 272,
+            "lowercase": 604,
+            "mixed_case": 5,
+            "uppercase": 54
+          }
+        },
+        {
+          "band_id": "band_2",
+          "band_index": 1,
+          "range": [
+            0.1113,
+            0.6499
+          ],
+          "center": 0.3806,
+          "range_width": 0.5386,
+          "freq_ratio": 3.46,
+          "n_tokens": 14768,
+          "capitalization": {
+            "capitalized": 4231,
+            "lowercase": 9556,
+            "mixed_case": 90,
+            "uppercase": 891
+          }
+        },
+        {
+          "band_id": "band_3",
+          "band_index": 2,
+          "range": [
+            0.6499,
+            1.1886
+          ],
+          "center": 0.9193,
+          "range_width": 0.5386,
+          "freq_ratio": 3.46,
+          "n_tokens": 6917,
+          "capitalization": {
+            "capitalized": 1568,
+            "lowercase": 5032,
+            "mixed_case": 23,
+            "uppercase": 294
+          }
+        },
+        {
+          "band_id": "band_4",
+          "band_index": 3,
+          "range": [
+            1.1886,
+            1.7272
+          ],
+          "center": 1.4579,
+          "range_width": 0.5386,
+          "freq_ratio": 3.46,
+          "n_tokens": 2884,
+          "capitalization": {
+            "capitalized": 453,
+            "lowercase": 2360,
+            "mixed_case": 4,
+            "uppercase": 67
+          }
+        },
+        {
+          "band_id": "band_5",
+          "band_index": 4,
+          "range": [
+            1.7272,
+            2.2659
+          ],
+          "center": 1.9966,
+          "range_width": 0.5386,
+          "freq_ratio": 3.46,
+          "n_tokens": 821,
+          "capitalization": {
+            "capitalized": 75,
+            "lowercase": 736,
+            "uppercase": 10
+          }
+        },
+        {
+          "band_id": "top_tail",
+          "band_index": 5,
+          "range": [
+            2.2658747134990365,
+            4.4430912908497415
+          ],
+          "range_width": 2.177216577350705,
+          "n_tokens": 269,
+          "capitalization": {
+            "capitalized": 16,
+            "lowercase": 231,
+            "uppercase": 22
+          }
+        }
+      ],
+      "core_summary": {
+        "total_tokens": 26325,
+        "min_tokens": 821,
+        "max_tokens": 14768,
+        "mean_tokens": 5265,
+        "std_tokens": 5238,
+        "min_capitalized": 75,
+        "counts_per_band": [
+          935,
+          14768,
+          6917,
+          2884,
+          821
+        ],
+        "capitalized_per_band": [
+          272,
+          4231,
+          1568,
+          453,
+          75
+        ]
+      }
+    },
+    "6": {
+      "k": 6,
+      "range": [
+        -0.4273,
+        2.2659
+      ],
+      "total_range_width": 2.6932,
+      "band_width": 0.4489,
+      "freq_ratio_per_band": 2.81,
+      "boundaries": [
+        -0.4273,
+        0.0215,
+        0.4704,
+        0.9193,
+        1.3681,
+        1.817,
+        2.2659
+      ],
+      "bands": [
+        {
+          "band_id": "bottom_tail",
+          "band_index": -1,
+          "range": [
+            -3.053932078569261,
+            -0.42733477214431104
+          ],
+          "range_width": 2.6265973064249497,
+          "n_tokens": 269,
+          "capitalization": {
+            "capitalized": 37,
+            "lowercase": 221,
+            "mixed_case": 1,
+            "uppercase": 10
+          }
+        },
+        {
+          "band_id": "band_1",
+          "band_index": 0,
+          "range": [
+            -0.4273,
+            0.0215
+          ],
+          "center": -0.2029,
+          "range_width": 0.4489,
+          "freq_ratio": 2.81,
+          "n_tokens": 513,
+          "capitalization": {
+            "capitalized": 105,
+            "lowercase": 386,
+            "mixed_case": 2,
+            "uppercase": 20
+          }
+        },
+        {
+          "band_id": "band_2",
+          "band_index": 1,
+          "range": [
+            0.0215,
+            0.4704
+          ],
+          "center": 0.246,
+          "range_width": 0.4489,
+          "freq_ratio": 2.81,
+          "n_tokens": 11227,
+          "capitalization": {
+            "capitalized": 3332,
+            "lowercase": 7108,
+            "mixed_case": 78,
+            "uppercase": 709
+          }
+        },
+        {
+          "band_id": "band_3",
+          "band_index": 2,
+          "range": [
+            0.4704,
+            0.9193
+          ],
+          "center": 0.6948,
+          "range_width": 0.4489,
+          "freq_ratio": 2.81,
+          "n_tokens": 8186,
+          "capitalization": {
+            "capitalized": 2094,
+            "lowercase": 5648,
+            "mixed_case": 33,
+            "uppercase": 411
+          }
+        },
+        {
+          "band_id": "band_4",
+          "band_index": 3,
+          "range": [
+            0.9193,
+            1.3681
+          ],
+          "center": 1.1437,
+          "range_width": 0.4489,
+          "freq_ratio": 2.81,
+          "n_tokens": 3986,
+          "capitalization": {
+            "capitalized": 763,
+            "lowercase": 3076,
+            "mixed_case": 9,
+            "uppercase": 138
+          }
+        },
+        {
+          "band_id": "band_5",
+          "band_index": 4,
+          "range": [
+            1.3681,
+            1.817
+          ],
+          "center": 1.5926,
+          "range_width": 0.4489,
+          "freq_ratio": 2.81,
+          "n_tokens": 1810,
+          "capitalization": {
+            "capitalized": 261,
+            "lowercase": 1518,
+            "uppercase": 31
+          }
+        },
+        {
+          "band_id": "band_6",
+          "band_index": 5,
+          "range": [
+            1.817,
+            2.2659
+          ],
+          "center": 2.0414,
+          "range_width": 0.4489,
+          "freq_ratio": 2.81,
+          "n_tokens": 603,
+          "capitalization": {
+            "capitalized": 44,
+            "lowercase": 552,
+            "uppercase": 7
+          }
+        },
+        {
+          "band_id": "top_tail",
+          "band_index": 6,
+          "range": [
+            2.2658747134990365,
+            4.4430912908497415
+          ],
+          "range_width": 2.177216577350705,
+          "n_tokens": 269,
+          "capitalization": {
+            "capitalized": 16,
+            "lowercase": 231,
+            "uppercase": 22
+          }
+        }
+      ],
+      "core_summary": {
+        "total_tokens": 26325,
+        "min_tokens": 513,
+        "max_tokens": 11227,
+        "mean_tokens": 4387,
+        "std_tokens": 4027,
+        "min_capitalized": 44,
+        "counts_per_band": [
+          513,
+          11227,
+          8186,
+          3986,
+          1810,
+          603
+        ],
+        "capitalized_per_band": [
+          105,
+          3332,
+          2094,
+          763,
+          261,
+          44
+        ]
+      }
+    },
+    "7": {
+      "k": 7,
+      "range": [
+        -0.4273,
+        2.2659
+      ],
+      "total_range_width": 2.6932,
+      "band_width": 0.3847,
+      "freq_ratio_per_band": 2.43,
+      "boundaries": [
+        -0.4273,
+        -0.0426,
+        0.3422,
+        0.7269,
+        1.1116,
+        1.4964,
+        1.8811,
+        2.2659
+      ],
+      "bands": [
+        {
+          "band_id": "bottom_tail",
+          "band_index": -1,
+          "range": [
+            -3.053932078569261,
+            -0.42733477214431104
+          ],
+          "range_width": 2.6265973064249497,
+          "n_tokens": 269,
+          "capitalization": {
+            "capitalized": 37,
+            "lowercase": 221,
+            "mixed_case": 1,
+            "uppercase": 10
+          }
+        },
+        {
+          "band_id": "band_1",
+          "band_index": 0,
+          "range": [
+            -0.4273,
+            -0.0426
+          ],
+          "center": -0.235,
+          "range_width": 0.3847,
+          "freq_ratio": 2.43,
+          "n_tokens": 394,
+          "capitalization": {
+            "capitalized": 78,
+            "lowercase": 298,
+            "mixed_case": 1,
+            "uppercase": 17
+          }
+        },
+        {
+          "band_id": "band_2",
+          "band_index": 1,
+          "range": [
+            -0.0426,
+            0.3422
+          ],
+          "center": 0.1498,
+          "range_width": 0.3847,
+          "freq_ratio": 2.43,
+          "n_tokens": 7889,
+          "capitalization": {
+            "capitalized": 2413,
+            "lowercase": 4896,
+            "mixed_case": 53,
+            "uppercase": 527
+          }
+        },
+        {
+          "band_id": "band_3",
+          "band_index": 2,
+          "range": [
+            0.3422,
+            0.7269
+          ],
+          "center": 0.5345,
+          "range_width": 0.3847,
+          "freq_ratio": 2.43,
+          "n_tokens": 8810,
+          "capitalization": {
+            "capitalized": 2383,
+            "lowercase": 5900,
+            "mixed_case": 50,
+            "uppercase": 477
+          }
+        },
+        {
+          "band_id": "band_4",
+          "band_index": 3,
+          "range": [
+            0.7269,
+            1.1116
+          ],
+          "center": 0.9193,
+          "range_width": 0.3847,
+          "freq_ratio": 2.43,
+          "n_tokens": 4883,
+          "capitalization": {
+            "capitalized": 1069,
+            "lowercase": 3598,
+            "mixed_case": 14,
+            "uppercase": 202
+          }
+        },
+        {
+          "band_id": "band_5",
+          "band_index": 4,
+          "range": [
+            1.1116,
+            1.4964
+          ],
+          "center": 1.304,
+          "range_width": 0.3847,
+          "freq_ratio": 2.43,
+          "n_tokens": 2627,
+          "capitalization": {
+            "capitalized": 461,
+            "lowercase": 2093,
+            "mixed_case": 4,
+            "uppercase": 69
+          }
+        },
+        {
+          "band_id": "band_6",
+          "band_index": 5,
+          "range": [
+            1.4964,
+            1.8811
+          ],
+          "center": 1.6888,
+          "range_width": 0.3847,
+          "freq_ratio": 2.43,
+          "n_tokens": 1249,
+          "capitalization": {
+            "capitalized": 159,
+            "lowercase": 1072,
+            "uppercase": 18
+          }
+        },
+        {
+          "band_id": "band_7",
+          "band_index": 6,
+          "range": [
+            1.8811,
+            2.2659
+          ],
+          "center": 2.0735,
+          "range_width": 0.3847,
+          "freq_ratio": 2.43,
+          "n_tokens": 473,
+          "capitalization": {
+            "capitalized": 36,
+            "lowercase": 431,
+            "uppercase": 6
+          }
+        },
+        {
+          "band_id": "top_tail",
+          "band_index": 7,
+          "range": [
+            2.2658747134990365,
+            4.4430912908497415
+          ],
+          "range_width": 2.177216577350705,
+          "n_tokens": 269,
+          "capitalization": {
+            "capitalized": 16,
+            "lowercase": 231,
+            "uppercase": 22
+          }
+        }
+      ],
+      "core_summary": {
+        "total_tokens": 26325,
+        "min_tokens": 394,
+        "max_tokens": 8810,
+        "mean_tokens": 3760,
+        "std_tokens": 3241,
+        "min_capitalized": 36,
+        "counts_per_band": [
+          394,
+          7889,
+          8810,
+          4883,
+          2627,
+          1249,
+          473
+        ],
+        "capitalized_per_band": [
+          78,
+          2413,
+          2383,
+          1069,
+          461,
+          159,
+          36
+        ]
+      }
+    },
+    "8": {
+      "k": 8,
+      "range": [
+        -0.4273,
+        2.2659
+      ],
+      "total_range_width": 2.6932,
+      "band_width": 0.3367,
+      "freq_ratio_per_band": 2.17,
+      "boundaries": [
+        -0.4273,
+        -0.0907,
+        0.246,
+        0.5826,
+        0.9193,
+        1.2559,
+        1.5926,
+        1.9292,
+        2.2659
+      ],
+      "bands": [
+        {
+          "band_id": "bottom_tail",
+          "band_index": -1,
+          "range": [
+            -3.053932078569261,
+            -0.42733477214431104
+          ],
+          "range_width": 2.6265973064249497,
+          "n_tokens": 269,
+          "capitalization": {
+            "capitalized": 37,
+            "lowercase": 221,
+            "mixed_case": 1,
+            "uppercase": 10
+          }
+        },
+        {
+          "band_id": "band_1",
+          "band_index": 0,
+          "range": [
+            -0.4273,
+            -0.0907
+          ],
+          "center": -0.259,
+          "range_width": 0.3367,
+          "freq_ratio": 2.17,
+          "n_tokens": 313,
+          "capitalization": {
+            "capitalized": 56,
+            "lowercase": 243,
+            "mixed_case": 1,
+            "uppercase": 13
+          }
+        },
+        {
+          "band_id": "band_2",
+          "band_index": 1,
+          "range": [
+            -0.0907,
+            0.246
+          ],
+          "center": 0.0776,
+          "range_width": 0.3367,
+          "freq_ratio": 2.17,
+          "n_tokens": 4941,
+          "capitalization": {
+            "capitalized": 1595,
+            "lowercase": 2961,
+            "mixed_case": 33,
+            "uppercase": 352
+          }
+        },
+        {
+          "band_id": "band_3",
+          "band_index": 2,
+          "range": [
+            0.246,
+            0.5826
+          ],
+          "center": 0.4143,
+          "range_width": 0.3367,
+          "freq_ratio": 2.17,
+          "n_tokens": 9108,
+          "capitalization": {
+            "capitalized": 2495,
+            "lowercase": 6040,
+            "mixed_case": 59,
+            "uppercase": 514
+          }
+        },
+        {
+          "band_id": "band_4",
+          "band_index": 3,
+          "range": [
+            0.5826,
+            0.9193
+          ],
+          "center": 0.7509,
+          "range_width": 0.3367,
+          "freq_ratio": 2.17,
+          "n_tokens": 5564,
+          "capitalization": {
+            "capitalized": 1385,
+            "lowercase": 3898,
+            "mixed_case": 20,
+            "uppercase": 261
+          }
+        },
+        {
+          "band_id": "band_5",
+          "band_index": 4,
+          "range": [
+            0.9193,
+            1.2559
+          ],
+          "center": 1.0876,
+          "range_width": 0.3367,
+          "freq_ratio": 2.17,
+          "n_tokens": 3201,
+          "capitalization": {
+            "capitalized": 627,
+            "lowercase": 2459,
+            "mixed_case": 7,
+            "uppercase": 108
+          }
+        },
+        {
+          "band_id": "band_6",
+          "band_index": 5,
+          "range": [
+            1.2559,
+            1.5926
+          ],
+          "center": 1.4242,
+          "range_width": 0.3367,
+          "freq_ratio": 2.17,
+          "n_tokens": 1870,
+          "capitalization": {
+            "capitalized": 299,
+            "lowercase": 1518,
+            "mixed_case": 2,
+            "uppercase": 51
+          }
+        },
+        {
+          "band_id": "band_7",
+          "band_index": 6,
+          "range": [
+            1.5926,
+            1.9292
+          ],
+          "center": 1.7609,
+          "range_width": 0.3367,
+          "freq_ratio": 2.17,
+          "n_tokens": 951,
+          "capitalization": {
+            "capitalized": 113,
+            "lowercase": 824,
+            "uppercase": 14
+          }
+        },
+        {
+          "band_id": "band_8",
+          "band_index": 7,
+          "range": [
+            1.9292,
+            2.2659
+          ],
+          "center": 2.0975,
+          "range_width": 0.3367,
+          "freq_ratio": 2.17,
+          "n_tokens": 377,
+          "capitalization": {
+            "capitalized": 29,
+            "lowercase": 345,
+            "uppercase": 3
+          }
+        },
+        {
+          "band_id": "top_tail",
+          "band_index": 8,
+          "range": [
+            2.2658747134990365,
+            4.4430912908497415
+          ],
+          "range_width": 2.177216577350705,
+          "n_tokens": 269,
+          "capitalization": {
+            "capitalized": 16,
+            "lowercase": 231,
+            "uppercase": 22
+          }
+        }
+      ],
+      "core_summary": {
+        "total_tokens": 26325,
+        "min_tokens": 313,
+        "max_tokens": 9108,
+        "mean_tokens": 3290,
+        "std_tokens": 2885,
+        "min_capitalized": 29,
+        "counts_per_band": [
+          313,
+          4941,
+          9108,
+          5564,
+          3201,
+          1870,
+          951,
+          377
+        ],
+        "capitalized_per_band": [
+          56,
+          1595,
+          2495,
+          1385,
+          627,
+          299,
+          113,
+          29
+        ]
+      }
+    }
+  }
+}

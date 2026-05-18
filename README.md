@@ -1,116 +1,130 @@
-<p  align="center">
-  <img src='logo.png' width='200'>
-</p>
+# Many Circuits, One Mechanism: Input Variation and Evaluation Granularity in Circuit Discovery
 
-# arxiv2026_phantom_specialization
-[![Arxiv](https://img.shields.io/badge/Arxiv-YYMM.NNNNN-red?style=flat-square&logo=arxiv&logoColor=white)](https://put-here-your-paper.com)
-[![License](https://img.shields.io/github/license/UKPLab/arxiv2026-phantom-specialization)](https://opensource.org/licenses/Apache-2.0)
-[![Python Versions](https://img.shields.io/badge/Python-3.9-blue.svg?style=flat&logo=python&logoColor=white)](https://www.python.org/)
-[![CI](https://github.com/UKPLab/arxiv2026-phantom-specialization/actions/workflows/main.yml/badge.svg)](https://github.com/UKPLab/arxiv2026-phantom-specialization/actions/workflows/main.yml)
+[![arXiv](https://img.shields.io/badge/arXiv-TBA-b31b1b.svg)](#citation)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/python-3.10%2B-blue.svg)](#setup)
 
-This is the official template for new Python projects at UKP Lab. It was adapted for the needs of UKP Lab from the excellent [python-project-template](https://github.com/rochacbruno/python-project-template/) by [rochacbruno](https://github.com/rochacbruno).
+Code and experiment artifacts accompanying the paper
+**"Many Circuits, One Mechanism: Input Variation and Evaluation Granularity in Circuit Discovery"**
+by Alireza Bayat Makou, Jingcheng Niu, Subhabrata Dutta, and Iryna Gurevych
+(UKP Lab, Technical University of Darmstadt), 2026.
 
-It should help you start your project and give you continuous status updates on the development through [GitHub Actions](https://docs.github.com/en/actions).
+![Conceptual overview](figures/fig1_conceptual.png)
 
-> **Abstract:** The study of natural language processing (NLP) has gained increasing importance in recent years, with applications ranging from machine translation to sentiment analysis. Properly managing Python projects in this domain is of paramount importance to ensure reproducibility and facilitate collaboration. The template provides a structured starting point for projects and offers continuous status updates on development through GitHub Actions. Key features include a basic setup.py file for installation, packaging, and distribution, documentation structure using mkdocs, testing structure using pytest, code linting with pylint, and entry points for executing the program with basic CLI argument parsing. Additionally, the template incorporates continuous integration using GitHub Actions with jobs to check, lint, and test the project, ensuring robustness and reliability throughout the development process.
+> **Disclaimer.** This repository contains experimental software and is published for the sole purpose of giving additional background details on the respective publication.
 
-Contact person: [Federico Tiblias](mailto:federico.tiblias@tu-darmstadt.de) 
+## Abstract
 
-[UKP Lab](https://www.ukp.tu-darmstadt.de/) | [TU Darmstadt](https://www.tu-darmstadt.de/
-)
+Circuit discovery methods identify subgraphs that explain specific model behaviors, and structural differences between discovered circuits are commonly interpreted as evidence of distinct mechanisms. We test this assumption by varying input statistics while holding the task fixed, and show that the resulting structural differences exhibit apparent specialization but do not correspond to functional differences, a pattern we term *phantom specialization*. Using Literal Sequence Copying across four token-frequency bands in five Pythia models (70M to 1.4B), we extract 75 circuits and find that structurally distinct circuits implement the same computation: band-specific edges transfer broadly across bands, a shared core recovers at least 99% of circuit performance, and causal interchange interventions confirm that internal representations are interchangeable across frequency bands. Repeated extractions within the same frequency band further suggest that discovery algorithms sample from an equivalence class of valid subgraphs rather than recovering a unique mechanism. Standard evaluation practice obscures this pattern: source-level evaluation inflates apparent faithfulness, while edge-level evaluation reveals the many-to-one mapping from structure to function. Our results show that structural differences between circuits are not sufficient evidence for distinct mechanisms, and that exposing this requires edge-level evaluation and cross-condition transfer tests.
 
-Don't hesitate to send us an e-mail or report an issue, if something is broken (and it shouldn't be) or if you have further questions.
+## Overview
 
+This repository contains data preparation, circuit discovery, evaluation, and multi-phase analysis code for the Literal Sequence Copying (LSC) study across the Pythia model family.
 
-## Getting Started
+## Repository structure
 
-> **DO NOT CLONE OR FORK**
+```text
+.
+├── pythia_data/                Token preparation, frequency profiling, band design
+├── LSC_data/                   Linguistic-structure datasets and matched token pools
+├── LSC_circuits/               Circuit discovery (ACDC, EAP) + base/per-example evaluation
+└── LSC_circuit_analysis/       Five-phase analysis pipeline:
+    ├── 01_Phase_Functional/        Behavioral / functional analysis
+    ├── 02_Phase_Structural/        Edge / component structural analysis
+    ├── 03_Phase_Representational/  Embedding, residual stream, logit lens, attention, MLP, info-theoretic
+    ├── 04_Phase_Integration/       Cross-phase synthesis
+    └── 05_Phase_Targeted/          Targeted experiments (cross-band transfer, ablations, etc.)
+```
 
-If you want to set up this template:
+Shared path configuration lives in [`src/config.py`](src/config.py).
 
-1. Request a repository on UKP Lab's GitHub by following the standard procedure on the wiki. It will install the template directly. Alternatively, set it up in your personal GitHub account by clicking **[Use this template](https://github.com/rochacbruno/python-project-template/generate)**.
-2. Wait until the first run of CI finishes. Github Actions will commit to your new repo with a "✅ Ready to clone and code" message.
-3. Delete optional files: 
-    - If you don't need automatic documentation generation, you can delete folder `docs`, file `.github\workflows\docs.yml` and `mkdocs.yml`
-    - If you don't want automatic testing, you can delete folder `tests` and file `.github\workflows\tests.yml`
-    - If you do not wish to have a project page, delete folder `static` and files `.nojekyll`, `index.html`
-4. Prepare a virtual environment:
+## Setup
+
+Tested with Python 3.10+. Full instructions, including the two upstream research repositories that must be cloned separately, are in [SETUP.md](SETUP.md). Quick start:
+
 ```bash
-python -m venv .venv
+git clone https://github.com/UKPLab/arxiv2026-phantom-specialization.git
+cd arxiv2026-phantom-specialization
+
+python3 -m venv .venv
 source .venv/bin/activate
-pip install .
-pip install -r requirements-dev.txt # Only needed for development
-```
-5. Adapt anything else (for example this file) to your project. 
+pip install --upgrade pip
+pip install -r requirements.txt
 
-6. Read the file [ABOUT_THIS_TEMPLATE.md](ABOUT_THIS_TEMPLATE.md)  for more information about development.
+# Upstream research dependencies (cloned, not pip-installed):
+mkdir -p circuit_discovery
+git clone https://github.com/UFO-101/auto-circuit.git           circuit_discovery/auto-circuit
+git clone https://github.com/AlignmentResearch/tuned-lens.git   circuit_discovery/tuned-lens
 
-## Usage
-
-### Using the classes
-
-To import classes/methods of `arxiv2026_phantom_specialization` from inside the package itself you can use relative imports: 
-
-```py
-from .base import BaseClass # Notice how I omit the package name
-
-BaseClass().something()
+export PROJECT_ROOT="$(pwd)"
+export AUTOCIRCUIT_PATH="$PROJECT_ROOT/circuit_discovery/auto-circuit"
+export TUNED_LENS_PATH="$PROJECT_ROOT/circuit_discovery/tuned-lens"
 ```
 
-To import classes/methods from outside the package (e.g. when you want to use the package in some other project) you can instead refer to the package name:
+## Reproducing the experiments
 
-```py
-from arxiv2026_phantom_specialization import BaseClass # Notice how I omit the file name
-from arxiv2026_phantom_specialization.subpackage import SubPackageClass # Here it's necessary because it's a subpackage
-
-BaseClass().something()
-SubPackageClass().something()
-```
-
-### Using scripts
-
-This is how you can use `arxiv2026_phantom_specialization` from command line:
+The pipeline runs in three stages. Run them in order from the repository root; each stage assumes the environment variables from the Setup section are set.
 
 ```bash
-$ python -m arxiv2026_phantom_specialization
+# 1. Data preparation: token frequency profiling, band design, matched token pools.
+#    Downloads The Pile and FineWeb on first run.
+python pythia_data/00_download_pile.py
+python pythia_data/01_profile_pile_frequencies.py
+python pythia_data/12_band_design.py
+python LSC_data/lsc_token_pools.py
+python LSC_data/lsc_generator.py
+
+# 2. Circuit discovery: ACDC across 5 Pythia models, 5 frequency bands, 3 draws
+#    each = 75 circuits. Pareto sweep selects thresholds.
+python LSC_circuits/lsc_pareto_sweep.py
+python LSC_circuits/lsc_threshold_select.py
+python LSC_circuits/lsc_acdc_circuit.py
+python LSC_circuits/lsc_random_baseline.py
+
+# 3. Multi-phase analysis: each phase has a numbered notebook driver.
+jupyter notebook LSC_circuit_analysis/01_Phase_Functional/01_functional_analysis.ipynb
+# ... continue through phases 02 to 05.
 ```
 
-### Expected results
+**Expected outputs.** Discovered circuits land in `LSC_circuits/circuit_discovery/`; per-phase analysis CSVs, summary tables, and figures land under each `LSC_circuit_analysis/<phase>/outputs/`. The figures that appear in the paper are written to per-phase `outputs/viz/` directories.
 
-After running the experiments, you should expect the following results:
+**Compute budget.** End-to-end reproduction takes on the order of 700 GPU-hours on A100-class GPUs (around 290 hours for the Pareto sweep and 450 hours for circuit discovery), plus CPU time for the analysis notebooks.
 
-(Feel free to describe your expected results here...)
+**Excluded artifacts.** Large precomputed artifacts (activation `.npz` files, tuned-lens `.pt` weights, raw Pile shards, pickled token contexts) are **not** committed; they are regenerated by the scripts above. The excluded directories are listed in [`.gitignore`](.gitignore).
 
-### Parameter description
+## Citation
 
-* `x, --xxxx`: This parameter does something nice
+A preprint will be made available on arXiv; please check back here for the final citation once it is posted.
 
-* ...
-
-* `z, --zzzz`: This parameter does something even nicer
-
-## Development
-
-Read the FAQs in [ABOUT_THIS_TEMPLATE.md](ABOUT_THIS_TEMPLATE.md) to learn more about how this template works and where you should put your classes & methods. Make sure you've correctly installed `requirements-dev.txt` dependencies
-
-## Cite
-
-Please use the following citation:
-
-```
-@InProceedings{smith:20xx:CONFERENCE_TITLE,
-  author    = {Smith, John},
-  title     = {My Paper Title},
-  booktitle = {Proceedings of the 20XX Conference on XXXX},
-  month     = mmm,
-  year      = {20xx},
-  address   = {Gotham City, USA},
-  publisher = {Association for XXX},
-  pages     = {XXXX--XXXX},
-  url       = {http://xxxx.xxx}
+```bibtex
+@article{bayatmakou2026phantom,
+  title  = {Many Circuits, One Mechanism: Input Variation and Evaluation Granularity in Circuit Discovery},
+  author = {Bayat Makou, Alireza and Niu, Jingcheng and Dutta, Subhabrata and Gurevych, Iryna},
+  year   = {2026},
+  note   = {arXiv preprint, link to be added.}
 }
 ```
 
-## Disclaimer
+## Third-party resources
 
-> This repository contains experimental software and is published for the sole purpose of giving additional background details on the respective publication. 
+- **Models.** Pythia model family (`pythia-70m`, `pythia-160m`, `pythia-410m`, `pythia-1b`, `pythia-1.4b`) by [EleutherAI](https://huggingface.co/EleutherAI), downloaded from the HuggingFace Hub.
+- **Corpora.** [The Pile](https://pile.eleuther.ai/) (deduplicated subset) for token frequencies; the [FineWeb](https://huggingface.co/datasets/HuggingFaceFW/fineweb) sample for context extraction. Neither is redistributed here.
+- **Circuit discovery.** [`auto-circuit`](https://github.com/UFO-101/auto-circuit) provides the ACDC / EAP implementations and patching utilities used throughout.
+- **Lens.** [`tuned-lens`](https://github.com/AlignmentResearch/tuned-lens) is used for tuned-lens training and inference in the representational analysis.
+
+A complete attribution list is in the [`NOTICE`](NOTICE) file.
+
+## Maintainer
+
+- **Alireza Bayat Makou** — [alireza.makou@tu-darmstadt.de](mailto:alireza.makou@tu-darmstadt.de)
+
+For paper-related questions, the corresponding co-authors are listed in the citation above.
+
+## Links
+
+- [UKP Lab](https://www.ukp.tu-darmstadt.de/)
+- [Technical University of Darmstadt](https://www.tu-darmstadt.de/)
+
+## License
+
+This repository is released under the [MIT License](LICENSE). External dependencies retain their own licenses; see the [`NOTICE`](NOTICE) file for details and check each upstream repository for full terms.

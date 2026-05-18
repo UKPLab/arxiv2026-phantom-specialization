@@ -1,0 +1,73 @@
+domain,hypothesis,model,test,comparison,statistic,p_value,effect_size,effect_type,interpretation,significant_uncorrected,n1,n2,ci_lower,ci_upper,p_value_bh,significant_bh
+R1_embedding,H-R1.1,pythia-70m,permutation,kNN purity vs chance,0.3153481481481481,0.0,0.10050874074074073,purity_excess,N/A,True,1125,,,,0.0,True
+R1_embedding,H-R1.1,pythia-160m,permutation,kNN purity vs chance,0.3112,0.0,0.09628355555555562,purity_excess,N/A,True,1125,,,,0.0,True
+R1_embedding,H-R1.1,pythia-410m,permutation,kNN purity vs chance,0.31828148148148144,0.0,0.10369733333333328,purity_excess,N/A,True,1125,,,,0.0,True
+R1_embedding,H-R1.1,pythia-1b,permutation,kNN purity vs chance,0.32565925925925926,0.0,0.11081585185185189,purity_excess,N/A,True,1125,,,,0.0,True
+R1_embedding,H-R1.2,pythia-70m,permutation,linear probe vs chance,0.48148148148148145,,0.28148148148148144,accuracy_excess,N/A,False,3,,,,,False
+R1_embedding,H-R1.2,pythia-160m,permutation,linear probe vs chance,0.4912592592592593,,0.2912592592592593,accuracy_excess,N/A,False,3,,,,,False
+R1_embedding,H-R1.2,pythia-410m,permutation,linear probe vs chance,0.4992592592592593,,0.2992592592592593,accuracy_excess,N/A,False,3,,,,,False
+R1_embedding,H-R1.2,pythia-1b,permutation,linear probe vs chance,0.5087407407407407,,0.3087407407407407,accuracy_excess,N/A,False,3,,,,,False
+R1_embedding,H-R1.3,pythia-70m,spearman,norm vs freq_rank,0.39999999999999997,0.6,0.39999999999999997,spearman_rho,medium,False,4,,,,0.8533333333333333,False
+R1_embedding,H-R1.3,pythia-160m,spearman,norm vs freq_rank,-0.39999999999999997,0.6,-0.39999999999999997,spearman_rho,medium,False,4,,,,0.8533333333333333,False
+R1_embedding,H-R1.3,pythia-410m,spearman,norm vs freq_rank,0.19999999999999998,0.8,0.19999999999999998,spearman_rho,small,False,4,,,,0.9999813266466255,False
+R1_embedding,H-R1.3,pythia-1b,spearman,norm vs freq_rank,0.39999999999999997,0.6,0.39999999999999997,spearman_rho,medium,False,4,,,,0.8533333333333333,False
+R1_embedding,H-R1.4,all,spearman,separation_ratio vs model_capacity,0.9716254134469436,1.3811738967574587e-07,0.9716254134469436,spearman_rho,large,True,12,,,,1.104939117405967e-06,True
+R1_embedding,H-R1.5,pythia-70m,mann_whitney,CKA adjacent vs distant,76.0,0.1823673381831563,-0.2962962962962963,rank_biserial,small,False,12,18.0,,,0.41683963013292874,False
+R1_embedding,H-R1.5,pythia-160m,mann_whitney,CKA adjacent vs distant,91.0,0.4848641211897319,-0.15740740740740744,rank_biserial,small,False,12,18.0,,,0.7568610672229961,False
+R1_embedding,H-R1.5,pythia-410m,mann_whitney,CKA adjacent vs distant,90.0,0.4587940522130931,-0.16666666666666663,rank_biserial,small,False,12,18.0,,,0.734070483540949,False
+R1_embedding,H-R1.5,pythia-1b,mann_whitney,CKA adjacent vs distant,79.0,0.22762429416533925,-0.2685185185185185,rank_biserial,small,False,12,18.0,,,0.4608015028851178,False
+R1_embedding,H-R1.6,pythia-70m,kruskal_wallis,intrinsic_dim across bands,12.033333333333331,0.01710510374806111,0.8033333333333331,eta_squared,large,True,15,,,,0.04976030181254141,True
+R1_embedding,H-R1.6,pythia-160m,kruskal_wallis,intrinsic_dim across bands,11.333333333333329,0.023062515576431776,0.7333333333333328,eta_squared,large,True,15,,,,0.061500041537151405,False
+R1_embedding,H-R1.6,pythia-410m,kruskal_wallis,intrinsic_dim across bands,12.43333333333333,0.014403651892788673,0.843333333333333,eta_squared,large,True,15,,,,0.043896843863736906,True
+R1_embedding,H-R1.6,pythia-1b,kruskal_wallis,intrinsic_dim across bands,11.43333333333333,0.02210227649495274,0.743333333333333,eta_squared,large,True,15,,,,0.061500041537151405,False
+R2_residual,H-R2.1,pythia-70m,jonckheere_terpstra,probe accuracy increasing with layer,0.3666789847647558,0.35692924202329535,0.3666789847647558,jt_z,N/A,False,18,,,,0.617391121337592,False
+R2_residual,H-R2.1,pythia-160m,jonckheere_terpstra,probe accuracy increasing with layer,0.4629958283295242,0.32168367865394015,0.4629958283295242,jt_z,N/A,False,36,,,,0.5882215838243477,False
+R2_residual,H-R2.1,pythia-410m,jonckheere_terpstra,probe accuracy increasing with layer,0.7691038909335585,0.22091581927222287,0.7691038909335585,jt_z,N/A,False,72,,,,0.4608015028851178,False
+R2_residual,H-R2.1,pythia-1b,jonckheere_terpstra,probe accuracy increasing with layer,0.6136330433650089,0.2697289215146964,0.6136330433650089,jt_z,N/A,False,48,,,,0.5231106356648657,False
+R2_residual,H-R2.2,pythia-70m,jonckheere_terpstra,separation ratio increasing with layer,-0.13825601064900628,0.5549809550108065,-0.13825601064900628,jt_z,N/A,False,18,,,,0.8456852647783718,False
+R2_residual,H-R2.2,pythia-160m,jonckheere_terpstra,separation ratio increasing with layer,0.5704548089507641,0.2841846322691015,0.5704548089507641,jt_z,N/A,False,36,,,,0.5349357783888969,False
+R2_residual,H-R2.2,pythia-410m,jonckheere_terpstra,separation ratio increasing with layer,0.7375277027261311,0.2304007514425589,0.7375277027261311,jt_z,N/A,False,72,,,,0.4608015028851178,False
+R2_residual,H-R2.2,pythia-1b,jonckheere_terpstra,separation ratio increasing with layer,0.41485840531913065,0.33912278041268806,0.41485840531913065,jt_z,N/A,False,48,,,,0.6028849429558899,False
+R2_residual,H-R2.3,pythia-70m,permutation,freq direction R2 vs null,0.7040441166479815,,0.7040441166479815,r_squared,N/A,False,18,,,,,False
+R2_residual,H-R2.3,pythia-160m,permutation,freq direction R2 vs null,0.571581773315734,,0.571581773315734,r_squared,N/A,False,36,,,,,False
+R2_residual,H-R2.3,pythia-410m,permutation,freq direction R2 vs null,0.7542102202063259,,0.7542102202063259,r_squared,N/A,False,72,,,,,False
+R2_residual,H-R2.3,pythia-1b,permutation,freq direction R2 vs null,0.8929888342894537,,0.8929888342894537,r_squared,N/A,False,48,,,,,False
+R2_residual,H-R2.4,pythia-70m,kruskal_wallis,convergence layer across bands,12.904420549581834,0.011752378830532349,0.8904420549581834,eta_squared,large,True,15,,,,0.040566481458345675,True
+R2_residual,H-R2.4,pythia-160m,kruskal_wallis,convergence layer across bands,12.847942754919503,0.012043174182946372,0.8847942754919502,eta_squared,large,True,15,,,,0.040566481458345675,True
+R2_residual,H-R2.4,pythia-410m,kruskal_wallis,convergence layer across bands,13.5,0.009074317061131603,0.95,eta_squared,large,True,15,,,,0.0341621348183778,True
+R2_residual,H-R2.4,pythia-1b,kruskal_wallis,convergence layer across bands,13.524150268336316,0.008979371198801355,0.9524150268336316,eta_squared,large,True,15,,,,0.0341621348183778,True
+R2_residual,H-R2.5,pythia-70m,mann_whitney,convergence: low-freq vs high-freq,36.0,0.004998124765082457,1.0,rank_biserial,large,True,6,6.0,,,0.021325332331018482,True
+R2_residual,H-R2.5,pythia-160m,mann_whitney,convergence: low-freq vs high-freq,36.0,0.0021645021645021645,1.0,rank_biserial,large,True,6,6.0,,,0.011544011544011544,True
+R2_residual,H-R2.5,pythia-410m,mann_whitney,convergence: low-freq vs high-freq,36.0,0.0021645021645021645,1.0,rank_biserial,large,True,6,6.0,,,0.011544011544011544,True
+R2_residual,H-R2.5,pythia-1b,mann_whitney,convergence: low-freq vs high-freq,36.0,0.004998124765082457,1.0,rank_biserial,large,True,6,6.0,,,0.021325332331018482,True
+R3_attention,H-R3.2,pythia-70m,kruskal_wallis,attention entropy across bands,1.0169838701394838,0.9072098379272409,-0.004172050531273449,eta_squared,negligible,False,720,,,,0.9999813266466255,False
+R3_attention,H-R3.2,pythia-160m,kruskal_wallis,attention entropy across bands,0.16304885950466996,0.9968520902616507,-0.00178048776821129,eta_squared,negligible,False,2160,,,,0.9999813266466255,False
+R3_attention,H-R3.2,pythia-410m,kruskal_wallis,attention entropy across bands,2.5752030334879237,0.6312220221908083,-0.0002475754937466683,eta_squared,negligible,False,5760,,,,0.8595363706428027,False
+R3_attention,H-R3.2,pythia-1b,kruskal_wallis,attention entropy across bands,1.633583853896198,0.802743808660458,-0.0012357264470515938,eta_squared,negligible,False,1920,,,,0.9999813266466255,False
+R4_mlp,H-R4.1,pythia-70m,kruskal_wallis,MLP contribution across bands,0.38795278795277,0.9834513095095692,-0.042494673082908586,eta_squared,negligible,False,90,,,,0.9999813266466255,False
+R4_mlp,H-R4.1,pythia-160m,kruskal_wallis,MLP contribution across bands,0.17427869858806844,0.9964168815955828,-0.02186126457949675,eta_squared,negligible,False,180,,,,0.9999813266466255,False
+R4_mlp,H-R4.1,pythia-410m,kruskal_wallis,MLP contribution across bands,12.442702882938192,0.014345638420173855,0.023782261642079416,eta_squared,small,True,360,,,,0.043896843863736906,True
+R4_mlp,H-R4.1,pythia-1b,kruskal_wallis,MLP contribution across bands,16.352679806362403,0.002580656431983619,0.05256459492069108,eta_squared,small,True,240,,,,0.012704770126688587,True
+R4_mlp,H-R4.2,pythia-70m,jonckheere_terpstra,MLP fraction trend with frequency,-0.03378845219275,0.9730458445041593,-0.03378845219275,jt_z,N/A,False,72,,,,0.9999813266466255,False
+R4_mlp,H-R4.2,pythia-160m,jonckheere_terpstra,MLP fraction trend with frequency,0.01543894860432577,0.9876819906313038,0.01543894860432577,jt_z,N/A,False,144,,,,0.9999813266466255,False
+R4_mlp,H-R4.2,pythia-410m,jonckheere_terpstra,MLP fraction trend with frequency,0.1355845862293961,0.8921496913259961,0.1355845862293961,jt_z,N/A,False,288,,,,0.9999813266466255,False
+R4_mlp,H-R4.2,pythia-1b,jonckheere_terpstra,MLP fraction trend with frequency,0.1888384320304365,0.8502194493075644,0.1888384320304365,jt_z,N/A,False,192,,,,0.9999813266466255,False
+R4_mlp,H-R4.4,pythia-70m,kruskal_wallis,MLP sparsity across bands,0.15124135124136728,0.9972808954934895,-0.04527951351480745,eta_squared,negligible,False,90,,,,0.9999813266466255,False
+R4_mlp,H-R4.4,pythia-160m,kruskal_wallis,MLP sparsity across bands,0.1596071209330603,0.9969801446329146,-0.021945102166096797,eta_squared,negligible,False,180,,,,0.9999813266466255,False
+R4_mlp,H-R4.4,pythia-410m,kruskal_wallis,MLP sparsity across bands,0.012247358161403099,0.9999813266466255,-0.01123310603334816,eta_squared,negligible,False,360,,,,0.9999813266466255,False
+R4_mlp,H-R4.4,pythia-1b,kruskal_wallis,MLP sparsity across bands,0.1894623098202146,0.9957865591380581,-0.016215054000765044,eta_squared,negligible,False,240,,,,0.9999813266466255,False
+R5_info_theory,H-R5.2,all,kruskal_wallis,delta-MI peak layer across models,40.03547597750437,1.0472181485235972e-08,0.21785574104414335,eta_squared,large,True,174,,,,9.574565929358602e-08,True
+R5_info_theory,H-R5.3,all,spearman,coding efficiency vs model capacity,-1.0,0.0,-1.0,spearman_rho,large,True,174,,,,0.0,True
+R6_repr_structure,H-R6.1,pythia-70m,mantel_spearman,CKA similarity vs Jaccard similarity,-0.15620267735421367,0.40977994960910974,-0.15620267735421367,spearman_rho,small,False,30,,,,0.6724594044867442,False
+R6_repr_structure,H-R6.1,pythia-160m,mantel_spearman,CKA similarity vs Jaccard similarity,0.1602250638955239,0.397673970271574,0.1602250638955239,spearman_rho,small,False,30,,,,0.6697666867731772,False
+R6_repr_structure,H-R6.1,pythia-410m,mantel_spearman,CKA similarity vs Jaccard similarity,0.0006703977568850373,0.9971947344551112,0.0006703977568850373,spearman_rho,negligible,False,30,,,,0.9999813266466255,False
+R6_repr_structure,H-R6.1,pythia-1b,mantel_spearman,CKA similarity vs Jaccard similarity,0.32246132106170294,0.08222645330222984,0.32246132106170294,spearman_rho,medium,False,30,,,,0.1949071485682485,False
+R6_repr_structure,H-R6.2,all,spearman,separation ratio vs edge fraction,-0.7527328186398033,3.8033670338617283e-34,-0.7527328186398033,spearman_rho,large,True,180,,,,4.056924836119177e-33,True
+R6_repr_structure,H-R6.3,all,spearman,probe accuracy vs edge density,0.1544835041006861,0.040067860579188805,0.1544835041006861,spearman_rho,small,True,177,,,,0.10257372308272333,False
+R6_repr_structure,H-R6.4,all,spearman,copy scores vs head participation,0.19999999999999998,0.8,0.19999999999999998,spearman_rho,small,False,4,,,,0.9999813266466255,False
+R7_repr_function,H-R7.1,pythia-70m,spearman,CKA vs transfer accuracy,0.0395756824670987,0.7111255605469281,0.0395756824670987,spearman_rho,negligible,False,90,,,,0.9481674140625708,False
+R7_repr_function,H-R7.1,pythia-160m,spearman,CKA vs transfer accuracy,0.395364384254912,0.00011492745232550545,0.395364384254912,spearman_rho,medium,True,90,,,,0.0007355356948832349,True
+R7_repr_function,H-R7.1,pythia-410m,spearman,CKA vs transfer accuracy,-0.21325142439632758,0.04358309823017158,-0.21325142439632758,spearman_rho,small,True,90,,,,0.10728147256657619,False
+R7_repr_function,H-R7.1,pythia-1b,spearman,CKA vs transfer accuracy,-0.051772370638744486,0.6279491609980931,-0.051772370638744486,spearman_rho,negligible,False,90,,,,0.8595363706428027,False
+R7_repr_function,H-R7.2,all,spearman,convergence layer vs circuit accuracy,0.7745582656465366,6.0927662359355285e-05,0.7745582656465366,spearman_rho,large,True,20,,,,0.0004332633767776376,True
+R7_repr_function,H-R7.3,all,spearman,separation ratio vs transfer asymmetry,-0.7999999999999999,0.2000000000000001,-0.7999999999999999,spearman_rho,large,False,4,,,,0.4413793103448278,False

@@ -1,0 +1,183 @@
+{
+  "created_at": "2026-02-16",
+  "source_categories": "pythia_data/token_categories/token_categories.csv",
+  "source_bands": "pythia_data/band_design/final_bands.json",
+  "n_word_en_total": 26863,
+  "chosen_k": 5,
+  "bands": {
+    "bottom_tail": {
+      "type": "exploratory",
+      "n_tokens": 269,
+      "capitalization": {
+        "lowercase": 221,
+        "capitalized": 37,
+        "uppercase": 10,
+        "mixed_case": 1
+      },
+      "log_freq_range": [
+        -3.0539,
+        -0.4273
+      ],
+      "file": "pool_bottom_tail.json",
+      "log_freq_stats": {
+        "min": -3.0539,
+        "max": -0.4281,
+        "mean": -0.942,
+        "median": -0.714,
+        "std": 0.5536
+      }
+    },
+    "very_low": {
+      "type": "core",
+      "n_tokens": 935,
+      "capitalization": {
+        "lowercase": 604,
+        "capitalized": 272,
+        "uppercase": 54,
+        "mixed_case": 5
+      },
+      "log_freq_range": [
+        -0.4273,
+        0.1113
+      ],
+      "file": "pool_very_low.json",
+      "log_freq_stats": {
+        "min": -0.4269,
+        "max": 0.1112,
+        "mean": -0.0487,
+        "median": -0.0007,
+        "std": 0.1478
+      }
+    },
+    "low": {
+      "type": "core",
+      "n_tokens": 14765,
+      "capitalization": {
+        "lowercase": 9553,
+        "capitalized": 4231,
+        "uppercase": 891,
+        "mixed_case": 90
+      },
+      "log_freq_range": [
+        0.1113,
+        0.6499
+      ],
+      "file": "pool_low.json",
+      "log_freq_stats": {
+        "min": 0.1113,
+        "max": 0.6498,
+        "mean": 0.3574,
+        "median": 0.3432,
+        "std": 0.1492
+      }
+    },
+    "medium": {
+      "type": "core",
+      "n_tokens": 6920,
+      "capitalization": {
+        "lowercase": 5035,
+        "capitalized": 1568,
+        "uppercase": 294,
+        "mixed_case": 23
+      },
+      "log_freq_range": [
+        0.6499,
+        1.1886
+      ],
+      "file": "pool_medium.json",
+      "log_freq_stats": {
+        "min": 0.6499,
+        "max": 1.1885,
+        "mean": 0.8807,
+        "median": 0.8628,
+        "std": 0.1526
+      }
+    },
+    "high": {
+      "type": "core",
+      "n_tokens": 2884,
+      "capitalization": {
+        "lowercase": 2360,
+        "capitalized": 453,
+        "uppercase": 67,
+        "mixed_case": 4
+      },
+      "log_freq_range": [
+        1.1886,
+        1.7272
+      ],
+      "file": "pool_high.json",
+      "log_freq_stats": {
+        "min": 1.1886,
+        "max": 1.727,
+        "mean": 1.4157,
+        "median": 1.3967,
+        "std": 0.153
+      }
+    },
+    "very_high": {
+      "type": "core",
+      "n_tokens": 821,
+      "capitalization": {
+        "lowercase": 736,
+        "capitalized": 75,
+        "uppercase": 10
+      },
+      "log_freq_range": [
+        1.7272,
+        2.2659
+      ],
+      "file": "pool_very_high.json",
+      "log_freq_stats": {
+        "min": 1.7275,
+        "max": 2.2655,
+        "mean": 1.9366,
+        "median": 1.9141,
+        "std": 0.1446
+      }
+    },
+    "top_tail": {
+      "type": "exploratory",
+      "n_tokens": 269,
+      "capitalization": {
+        "lowercase": 231,
+        "uppercase": 22,
+        "capitalized": 16
+      },
+      "log_freq_range": [
+        2.2659,
+        4.4431
+      ],
+      "file": "pool_top_tail.json",
+      "log_freq_stats": {
+        "min": 2.2664,
+        "max": 4.4431,
+        "mean": 2.6706,
+        "median": 2.5522,
+        "std": 0.3935
+      }
+    },
+    "control": {
+      "type": "baseline",
+      "n_tokens": 26863,
+      "capitalization": {
+        "lowercase": 18740,
+        "capitalized": 6652,
+        "uppercase": 1348,
+        "mixed_case": 123
+      },
+      "log_freq_range": [
+        -3.0539,
+        4.4431
+      ],
+      "file": "pool_control.json",
+      "log_freq_stats": {
+        "min": -3.0539,
+        "max": 4.4431,
+        "mean": 0.6501,
+        "median": 0.5278,
+        "std": 0.5332
+      }
+    }
+  }
+}

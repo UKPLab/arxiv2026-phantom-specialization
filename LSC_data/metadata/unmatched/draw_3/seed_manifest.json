@@ -1,0 +1,82 @@
+{
+  "description": "Complete record of all seeds used in this draw. Reproduce exactly by using the same master_seed.",
+  "draw_index": 3,
+  "master_seed": 200042,
+  "derived_seeds": {
+    "generation": 201042,
+    "split": 203042
+  },
+  "seed_formula": "example_seed = generation_seed + band_offset + example_index",
+  "per_band": [
+    {
+      "band": "very_low",
+      "generation_seed_base": 201042,
+      "band_offset": 10000,
+      "example_seed_range": [
+        211042,
+        212541
+      ],
+      "split_seed": 203042
+    },
+    {
+      "band": "low",
+      "generation_seed_base": 201042,
+      "band_offset": 20000,
+      "example_seed_range": [
+        221042,
+        222541
+      ],
+      "split_seed": 203042
+    },
+    {
+      "band": "medium",
+      "generation_seed_base": 201042,
+      "band_offset": 30000,
+      "example_seed_range": [
+        231042,
+        232541
+      ],
+      "split_seed": 203042
+    },
+    {
+      "band": "high",
+      "generation_seed_base": 201042,
+      "band_offset": 40000,
+      "example_seed_range": [
+        241042,
+        242541
+      ],
+      "split_seed": 203042
+    },
+    {
+      "band": "very_high",
+      "generation_seed_base": 201042,
+      "band_offset": 50000,
+      "example_seed_range": [
+        251042,
+        252541
+      ],
+      "split_seed": 203042
+    },
+    {
+      "band": "top_tail",
+      "generation_seed_base": 201042,
+      "band_offset": 60000,
+      "example_seed_range": [
+        261042,
+        262541
+      ],
+      "split_seed": 203042
+    },
+    {
+      "band": "control",
+      "generation_seed_base": 201042,
+      "band_offset": 70000,
+      "example_seed_range": [
+        271042,
+        272541
+      ],
+      "split_seed": 203042
+    }
+  ]
+}

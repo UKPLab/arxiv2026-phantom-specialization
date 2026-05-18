@@ -1,0 +1,259 @@
+{
+  "created_at": "2026-02-16",
+  "n_tokens_total": 50063,
+  "category_counts": {
+    "mixed": 2201,
+    "numeric": 2042,
+    "punctuation": 1418,
+    "subword_en": 16431,
+    "subword_other": 829,
+    "whitespace": 92,
+    "word_en": 26863,
+    "word_other": 187
+  },
+  "category_pct": {
+    "mixed": 4.4,
+    "numeric": 4.08,
+    "punctuation": 2.83,
+    "subword_en": 32.82,
+    "subword_other": 1.66,
+    "whitespace": 0.18,
+    "word_en": 53.66,
+    "word_other": 0.37
+  },
+  "mixed_subtypes": {
+    "alpha_punct": 1123,
+    "other": 754,
+    "alpha_num": 323,
+    "num_punct": 1
+  },
+  "script_counts": {
+    "latin": 45887,
+    "other": 5
+  },
+  "capitalization_counts": {
+    "": 92,
+    "capitalized": 9940,
+    "lowercase": 31037,
+    "mixed_case": 1286,
+    "no_letters": 4079,
+    "uppercase": 3629
+  },
+  "label_x_capitalization": {
+    "mixed": {
+      "capitalized": 139,
+      "lowercase": 433,
+      "mixed_case": 581,
+      "no_letters": 619,
+      "uppercase": 429
+    },
+    "numeric": {
+      "no_letters": 2042
+    },
+    "punctuation": {
+      "no_letters": 1418
+    },
+    "subword_en": {
+      "capitalized": 2991,
+      "lowercase": 11635,
+      "mixed_case": 143,
+      "uppercase": 1662
+    },
+    "subword_other": {
+      "capitalized": 100,
+      "lowercase": 213,
+      "mixed_case": 369,
+      "uppercase": 147
+    },
+    "whitespace": {
+      "": 92
+    },
+    "word_en": {
+      "capitalized": 6652,
+      "lowercase": 18740,
+      "mixed_case": 123,
+      "uppercase": 1348
+    },
+    "word_other": {
+      "capitalized": 58,
+      "lowercase": 16,
+      "mixed_case": 70,
+      "uppercase": 43
+    }
+  },
+  "has_space_prefix": {
+    "true": 28731,
+    "false": 21332
+  },
+  "is_ascii": {
+    "true": 47434,
+    "false": 2629
+  },
+  "content_length_by_category": {
+    "mixed": {
+      "min": 2,
+      "max": 20,
+      "mean": 3.49,
+      "median": 3
+    },
+    "numeric": {
+      "min": 1,
+      "max": 34,
+      "mean": 3.15,
+      "median": 3
+    },
+    "punctuation": {
+      "min": 1,
+      "max": 256,
+      "mean": 5.84,
+      "median": 3
+    },
+    "subword_en": {
+      "min": 1,
+      "max": 17,
+      "mean": 4.88,
+      "median": 4
+    },
+    "subword_other": {
+      "min": 1,
+      "max": 64,
+      "mean": 2.89,
+      "median": 2
+    },
+    "whitespace": {
+      "min": 0,
+      "max": 16,
+      "mean": 3.12,
+      "median": 3
+    },
+    "word_en": {
+      "min": 1,
+      "max": 20,
+      "mean": 6.35,
+      "median": 6
+    },
+    "word_other": {
+      "min": 1,
+      "max": 19,
+      "mean": 2.7,
+      "median": 2
+    }
+  },
+  "frequency_by_category": {
+    "mixed": {
+      "n": 2201,
+      "log_freq_min": -2.8478,
+      "log_freq_max": 3.3411,
+      "log_freq_mean": 0.5533,
+      "log_freq_median": 0.4505,
+      "log_freq_std": 0.4761,
+      "log_freq_p5": 0.0984,
+      "log_freq_p25": 0.2484,
+      "log_freq_p75": 0.7705,
+      "log_freq_p95": 1.397
+    },
+    "numeric": {
+      "n": 2042,
+      "log_freq_min": -2.6623,
+      "log_freq_max": 3.5492,
+      "log_freq_mean": 0.6775,
+      "log_freq_median": 0.5204,
+      "log_freq_std": 0.5456,
+      "log_freq_p5": 0.1604,
+      "log_freq_p25": 0.2996,
+      "log_freq_p75": 0.8613,
+      "log_freq_p95": 1.8522
+    },
+    "punctuation": {
+      "n": 1418,
+      "log_freq_min": -1.5111,
+      "log_freq_max": 4.526,
+      "log_freq_mean": 0.8638,
+      "log_freq_median": 0.6481,
+      "log_freq_std": 0.7406,
+      "log_freq_p5": 0.13,
+      "log_freq_p25": 0.3412,
+      "log_freq_p75": 1.2258,
+      "log_freq_p95": 2.3558
+    },
+    "subword_en": {
+      "n": 16431,
+      "log_freq_min": -3.3533,
+      "log_freq_max": 3.401,
+      "log_freq_mean": 0.5589,
+      "log_freq_median": 0.4624,
+      "log_freq_std": 0.5277,
+      "log_freq_p5": -0.1596,
+      "log_freq_p25": 0.2472,
+      "log_freq_p75": 0.8115,
+      "log_freq_p95": 1.5283
+    },
+    "subword_other": {
+      "n": 829,
+      "log_freq_min": -2.8762,
+      "log_freq_max": 3.2627,
+      "log_freq_mean": 0.5294,
+      "log_freq_median": 0.4709,
+      "log_freq_std": 0.5997,
+      "log_freq_p5": -0.3642,
+      "log_freq_p25": 0.2296,
+      "log_freq_p75": 0.8697,
+      "log_freq_p95": 1.477
+    },
+    "whitespace": {
+      "n": 92,
+      "log_freq_min": -5.0001,
+      "log_freq_max": 4.5826,
+      "log_freq_mean": 1.1068,
+      "log_freq_median": 1.2182,
+      "log_freq_std": 1.5308,
+      "log_freq_p5": -1.4849,
+      "log_freq_p25": 0.4023,
+      "log_freq_p75": 2.1129,
+      "log_freq_p95": 3.1038
+    },
+    "word_en": {
+      "n": 26863,
+      "log_freq_min": -3.0539,
+      "log_freq_max": 4.4431,
+      "log_freq_mean": 0.6501,
+      "log_freq_median": 0.5278,
+      "log_freq_std": 0.5332,
+      "log_freq_p5": 0.1222,
+      "log_freq_p25": 0.2815,
+      "log_freq_p75": 0.9164,
+      "log_freq_p95": 1.658
+    },
+    "word_other": {
+      "n": 187,
+      "log_freq_min": -0.9837,
+      "log_freq_max": 2.7884,
+      "log_freq_mean": 0.512,
+      "log_freq_median": 0.4264,
+      "log_freq_std": 0.4825,
+      "log_freq_p5": -0.0831,
+      "log_freq_p25": 0.2452,
+      "log_freq_p75": 0.7021,
+      "log_freq_p95": 1.2214
+    }
+  },
+  "word_en_profile": {
+    "n_tokens": 26863,
+    "pct_of_vocab": 53.66,
+    "log_freq_range": [
+      -3.0539,
+      4.4431
+    ],
+    "percentiles": {
+      "p1": -0.4273,
+      "p5": 0.1222,
+      "p10": 0.1655,
+      "p25": 0.2815,
+      "p50": 0.5278,
+      "p75": 0.9164,
+      "p90": 1.3671,
+      "p95": 1.658,
+      "p99": 2.2659
+    }
+  }
+}

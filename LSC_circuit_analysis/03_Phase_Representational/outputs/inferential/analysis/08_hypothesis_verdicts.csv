@@ -1,0 +1,28 @@
+domain,hypothesis,comparison,n_models,n_significant,mean_effect,min_p_adj,verdict
+R1_embedding,H-R1.1,purity > chance,5,5,14.596645407073236,0.003308770347702493,supported
+R1_embedding,H-R1.2,probe > chance,5,5,15.718888847070236,0.002007265334006672,supported
+R1_embedding,H-R1.4,sep_ratio ~ model_size,1,1,0.9999999999999999,1.6324585531381936e-23,supported
+R1_embedding,H-R1.5,CKA adj > dist,5,0,0.37962962962962965,1.0,not supported
+R2_residual,H-R2.1,probe increases w/ layer,4,4,,0.0,supported
+R2_residual,H-R2.2,sep_ratio increases w/ layer,4,3,,0.0,supported
+R2_residual,H-R2.4,convergence differs by band,5,5,0.925530271456753,0.024111756762435405,supported
+R2_residual,H-R2.5,low-freq converge later,5,5,1.0,0.0037683821202865917,supported
+R3_attention,H-R3.1,induction heads exist,4,2,0.03732638888888889,0.029506190862811078,marginal
+R3_attention,H-R3.5,role dist differs by band,4,0,0.02161903076475051,1.0,not supported
+R4_mlp,H-R4.1,MLP contrib differs by band,4,2,0.00299772972509129,0.007500032755452393,marginal
+R4_mlp,H-R4.2,MLP frac freq trend,4,0,,0.4768996507186626,not supported
+R4_mlp,H-R4.3,selective neurons ~ model_size,1,1,1.0,0.0,supported
+R5_info,H-R5.1,MI increases w/ layer,4,3,,0.0,supported
+R5_info,H-R5.2,delta-MI peak differs by model,1,0,,1.0,not supported
+R5_info,H-R5.3,coding eff ~ model_size,1,1,-1.0,0.0,supported
+R5_info,H-R5.4,MI ~ geometric separation,4,0,,1.0,not supported
+RC1_circuit_vs_base,H-RC1.1,circuit probe < base,4,0,-1.1802536946723583,1.0,not supported
+RC1_circuit_vs_base,H-RC1.2,circuit sep < base,4,0,-0.17475900277643536,1.0,not supported
+RC1_circuit_vs_base,H-RC1.3,CKA differs by band,4,3,0.05183521843817994,0.0037683821202865917,supported
+RC1_circuit_vs_base,H-RC1.4,circuit conv >= base,5,0,,1.0,not supported
+RC1_circuit_vs_base,H-RC1.5,circuit MI < base,4,1,,0.006500893587424427,marginal
+RC2_band_dep,H-RC2.1,repr loss differs by band,4,0,,0.686518982236635,not supported
+RC2_band_dep,H-RC2.2,low-freq lose more,4,0,0.375,1.0,not supported
+RC3_scaling,H-RC3.1,circuit probe ~ model_size,1,0,0.7999999999999999,0.3795918367346941,not supported
+RC3_scaling,H-RC3.2,circuit coding eff ~ model_size,1,1,-0.9999999999999999,1.6324585531381936e-23,supported
+RC3_scaling,H-RC3.3,CKA ~ model_size,1,1,-1.0,0.0,supported

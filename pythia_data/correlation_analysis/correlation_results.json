@@ -1,0 +1,133 @@
+{
+  "timestamp": "2026-02-16",
+  "n_tokens": 50063,
+  "correlations": {
+    "raw_count": {
+      "pearson": {
+        "coefficient": -0.07976638153760157,
+        "p_value": 1.827647539829872e-71,
+        "interpretation": "negligible negative",
+        "significant": true
+      },
+      "spearman": {
+        "coefficient": -0.8058322284518692,
+        "p_value": 0.0,
+        "interpretation": "very strong negative",
+        "significant": true
+      },
+      "kendall_tau": {
+        "coefficient": -0.7124004145402424,
+        "p_value": 0.0,
+        "interpretation": "very strong negative",
+        "significant": true
+      }
+    },
+    "freq_per_million": {
+      "pearson": {
+        "coefficient": -0.07976638153760159,
+        "p_value": 1.827647539829872e-71,
+        "interpretation": "negligible negative",
+        "significant": true
+      },
+      "spearman": {
+        "coefficient": -0.8058322284518692,
+        "p_value": 0.0,
+        "interpretation": "very strong negative",
+        "significant": true
+      },
+      "kendall_tau": {
+        "coefficient": -0.7124004145402424,
+        "p_value": 0.0,
+        "interpretation": "very strong negative",
+        "significant": true
+      }
+    },
+    "log_frequency": {
+      "pearson": {
+        "coefficient": -0.7087883163420894,
+        "p_value": 0.0,
+        "interpretation": "very strong negative",
+        "significant": true
+      },
+      "spearman": {
+        "coefficient": -0.8058322284518692,
+        "p_value": 0.0,
+        "interpretation": "very strong negative",
+        "significant": true
+      },
+      "kendall_tau": {
+        "coefficient": -0.7124004145402424,
+        "p_value": 0.0,
+        "interpretation": "very strong negative",
+        "significant": true
+      }
+    }
+  },
+  "band_analysis": {
+    "very_low": {
+      "log_freq_range": [
+        -5.000056697786406,
+        0.23106528399579762
+      ],
+      "n_tokens": 10013,
+      "pearson_r": 0.44880805339854657,
+      "pearson_p": 0.0,
+      "spearman_r": 0.2787408978465425,
+      "spearman_p": 4.286415196768526e-178,
+      "avg_token_id": 38460.42934185559,
+      "interpretation": "moderate positive"
+    },
+    "low": {
+      "log_freq_range": [
+        0.23106528399579762,
+        0.4004479051183459
+      ],
+      "n_tokens": 10012,
+      "pearson_r": -0.3469369915944679,
+      "pearson_p": 3.9308065574570966e-281,
+      "spearman_r": -0.6922457316440431,
+      "spearman_p": 0.0,
+      "avg_token_id": 36392.634738314024,
+      "interpretation": "moderate negative"
+    },
+    "medium": {
+      "log_freq_range": [
+        0.4004479051183459,
+        0.6282833157839864
+      ],
+      "n_tokens": 10013,
+      "pearson_r": -0.3861190789205706,
+      "pearson_p": 0.0,
+      "spearman_r": -0.6479730652940763,
+      "spearman_p": 0.0,
+      "avg_token_id": 27042.30640167782,
+      "interpretation": "moderate negative"
+    },
+    "high": {
+      "log_freq_range": [
+        0.6282833157839864,
+        0.9974970798882342
+      ],
+      "n_tokens": 10012,
+      "pearson_r": -0.5306069522577083,
+      "pearson_p": 0.0,
+      "spearman_r": -0.6658020301919545,
+      "spearman_p": 0.0,
+      "avg_token_id": 17167.445765081902,
+      "interpretation": "strong negative"
+    },
+    "very_high": {
+      "log_freq_range": [
+        0.9974970798882342,
+        4.582649728556843
+      ],
+      "n_tokens": 10013,
+      "pearson_r": -0.5900716260857652,
+      "pearson_p": 0.0,
+      "spearman_r": -0.7827934796245781,
+      "spearman_p": 0.0,
+      "avg_token_id": 6694.901028662738,
+      "interpretation": "strong negative"
+    }
+  }
+}

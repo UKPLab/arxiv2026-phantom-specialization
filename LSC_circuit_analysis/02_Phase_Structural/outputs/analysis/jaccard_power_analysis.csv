@@ -1,0 +1,6 @@
+model,gap,pooled_sd,cohens_d,cles,n1_required,n2_required,min_draws,pairs_at_min_draws_within,pairs_at_min_draws_between,pairs_at_3_draws_within,pairs_at_3_draws_between,achieved_power_3_draws
+pythia-70m,0.0324,0.0265,1.221,0.806,8,24,3,15,90,15,90,1.0
+pythia-160m,0.0323,0.0222,1.45,0.847,5,15,2,5,40,15,90,1.0
+pythia-410m,0.0159,0.0156,1.016,0.764,11,33,3,15,90,15,90,0.998
+pythia-1b,0.0128,0.0241,0.531,0.646,38,114,5,50,250,15,90,0.693
+pythia-1.4b,0.0187,0.0261,0.716,0.694,21,63,4,30,160,15,90,0.894

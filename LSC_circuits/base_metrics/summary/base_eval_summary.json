@@ -1,0 +1,75 @@
+{
+  "created_at": "2026-04-14",
+  "n_completed": 160,
+  "n_failed": 0,
+  "config": {
+    "models": [
+      "pythia-70m"
+    ],
+    "bands": [
+      "control"
+    ],
+    "draws": [
+      "draw_1"
+    ],
+    "splits": [
+      "val",
+      "test"
+    ],
+    "variant": "matched",
+    "eval_seed": 123,
+    "full_split_evaluation": true
+  },
+  "results": {
+    "pythia-70m": {
+      "control": {
+        "per_draw": {
+          "draw_1": {
+            "val": {
+              "accuracy": 0.6177777777777778,
+              "top5_accuracy": 0.7733333333333333,
+              "top10_accuracy": 0.8044444444444444,
+              "mean_correct_prob": 0.25473950758355285,
+              "n_samples": 225
+            },
+            "test": {
+              "accuracy": 0.5955555555555555,
+              "top5_accuracy": 0.7955555555555556,
+              "top10_accuracy": 0.84,
+              "mean_correct_prob": 0.22581108712009862,
+              "n_samples": 225
+            }
+          }
+        },
+        "aggregated": {
+          "val": {
+            "accuracy_mean": 0.6177777777777778,
+            "accuracy_std": 0.0,
+            "top5_accuracy_mean": 0.7733333333333333,
+            "top5_accuracy_std": 0.0,
+            "top10_accuracy_mean": 0.8044444444444444,
+            "top10_accuracy_std": 0.0,
+            "mean_correct_prob_mean": 0.25473950758355285,
+            "mean_correct_prob_std": 0.0,
+            "n_samples_mean": 225.0,
+            "n_samples_std": 0.0,
+            "n_draws": 1
+          },
+          "test": {
+            "accuracy_mean": 0.5955555555555555,
+            "accuracy_std": 0.0,
+            "top5_accuracy_mean": 0.7955555555555556,
+            "top5_accuracy_std": 0.0,
+            "top10_accuracy_mean": 0.84,
+            "top10_accuracy_std": 0.0,
+            "mean_correct_prob_mean": 0.22581108712009862,
+            "mean_correct_prob_std": 0.0,
+            "n_samples_mean": 225.0,
+            "n_samples_std": 0.0,
+            "n_draws": 1
+          }
+        }
+      }
+    }
+  }
+}

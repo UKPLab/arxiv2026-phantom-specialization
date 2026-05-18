@@ -1,0 +1,169 @@
+{
+  "created_at": "2026-02-18",
+  "validation_method": "fineweb_word_filtered",
+  "description": "FineWeb-validated WORD tokens. All capitalizations preserved. Task generators handle capitalization filtering and length matching.",
+  "source_pools": "pythia_data/token_pools",
+  "fineweb_csv": "pythia_data/fineweb_validated/all_tokens_fineweb_prevalidated.csv",
+  "all_bands": [
+    "bottom_tail",
+    "very_low",
+    "low",
+    "medium",
+    "high",
+    "very_high",
+    "top_tail",
+    "control"
+  ],
+  "bands": {
+    "bottom_tail": {
+      "type": "exploratory",
+      "n_original": 269,
+      "n_validated": 269,
+      "retention_pct": 100.0,
+      "capitalization": {
+        "capitalized": 37,
+        "lowercase": 221,
+        "mixed_case": 1,
+        "uppercase": 10
+      },
+      "log_freq_stats": {
+        "min": -3.0539,
+        "max": -0.4281,
+        "mean": -0.942,
+        "median": -0.714,
+        "std": 0.5536
+      }
+    },
+    "very_low": {
+      "type": "core",
+      "n_original": 935,
+      "n_validated": 932,
+      "retention_pct": 99.7,
+      "capitalization": {
+        "capitalized": 271,
+        "lowercase": 603,
+        "mixed_case": 5,
+        "uppercase": 53
+      },
+      "log_freq_stats": {
+        "min": -0.4269,
+        "max": 0.1112,
+        "mean": -0.0492,
+        "median": -0.0019,
+        "std": 0.1478
+      }
+    },
+    "low": {
+      "type": "core",
+      "n_original": 14765,
+      "n_validated": 14720,
+      "retention_pct": 99.7,
+      "capitalization": {
+        "capitalized": 4223,
+        "lowercase": 9542,
+        "mixed_case": 86,
+        "uppercase": 869
+      },
+      "log_freq_stats": {
+        "min": 0.1113,
+        "max": 0.6498,
+        "mean": 0.3575,
+        "median": 0.3432,
+        "std": 0.1492
+      }
+    },
+    "medium": {
+      "type": "core",
+      "n_original": 6920,
+      "n_validated": 6893,
+      "retention_pct": 99.6,
+      "capitalization": {
+        "capitalized": 1563,
+        "lowercase": 5027,
+        "mixed_case": 21,
+        "uppercase": 282
+      },
+      "log_freq_stats": {
+        "min": 0.6499,
+        "max": 1.1885,
+        "mean": 0.8807,
+        "median": 0.8628,
+        "std": 0.1526
+      }
+    },
+    "high": {
+      "type": "core",
+      "n_original": 2884,
+      "n_validated": 2869,
+      "retention_pct": 99.5,
+      "capitalization": {
+        "capitalized": 449,
+        "lowercase": 2354,
+        "mixed_case": 3,
+        "uppercase": 63
+      },
+      "log_freq_stats": {
+        "min": 1.1886,
+        "max": 1.727,
+        "mean": 1.4161,
+        "median": 1.3976,
+        "std": 0.1531
+      }
+    },
+    "very_high": {
+      "type": "core",
+      "n_original": 821,
+      "n_validated": 808,
+      "retention_pct": 98.4,
+      "capitalization": {
+        "capitalized": 75,
+        "lowercase": 729,
+        "uppercase": 4
+      },
+      "log_freq_stats": {
+        "min": 1.7275,
+        "max": 2.2655,
+        "mean": 1.935,
+        "median": 1.9104,
+        "std": 0.1435
+      }
+    },
+    "top_tail": {
+      "type": "exploratory",
+      "n_original": 269,
+      "n_validated": 229,
+      "retention_pct": 85.1,
+      "capitalization": {
+        "capitalized": 16,
+        "lowercase": 211,
+        "uppercase": 2
+      },
+      "log_freq_stats": {
+        "min": 2.2664,
+        "max": 4.4431,
+        "mean": 2.6963,
+        "median": 2.562,
+        "std": 0.4181
+      }
+    },
+    "control": {
+      "type": "baseline",
+      "n_original": 26863,
+      "n_validated": 26720,
+      "retention_pct": 99.5,
+      "capitalization": {
+        "capitalized": 6634,
+        "lowercase": 18687,
+        "mixed_case": 116,
+        "uppercase": 1283
+      },
+      "log_freq_stats": {
+        "min": -3.0539,
+        "max": 4.4431,
+        "mean": 0.6466,
+        "median": 0.5261,
+        "std": 0.5282
+      }
+    }
+  }
+}

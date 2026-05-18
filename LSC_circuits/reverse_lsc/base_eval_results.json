@@ -1,0 +1,19 @@
+{
+  "model": "pythia-160m",
+  "device": "cuda",
+  "reverse_lsc": {
+    "top1_accuracy": 0.0,
+    "top5_accuracy": 0.0044444444444444444,
+    "top10_accuracy": 0.008888888888888889,
+    "mean_correct_prob": 0.00021013517844898564,
+    "n_examples": 225,
+    "frac_predicts_r1": 0.9422222222222222
+  },
+  "standard_lsc": {
+    "top1_accuracy": 0.9866666666666667,
+    "top5_accuracy": 1.0,
+    "top10_accuracy": 1.0,
+    "mean_correct_prob": 0.516972721848223,
+    "n_examples": 225
+  }
+}

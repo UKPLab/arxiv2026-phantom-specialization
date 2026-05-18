@@ -1,0 +1,28 @@
+metric,perspective,phase,source_file,granularity,description
+n_edges,functional,1,full_circuit_data.csv,model×condition×replication,Number of edges in circuit
+total_edges,functional,1,full_circuit_data.csv,model×condition×replication,Total possible edges in model
+size_fraction,functional,1,full_circuit_data.csv,model×condition×replication,Circuit size as fraction of total
+base_accuracy,functional,1,full_circuit_data.csv,model×condition×replication,Full model accuracy
+circuit_accuracy,functional,1,full_circuit_data.csv,model×condition×replication,Circuit-only accuracy
+circuit_kl_div,functional,1,full_circuit_data.csv,model×condition×replication,KL divergence between circuit and full model
+retention_ratio,functional,1,full_circuit_data.csv,model×condition×replication,Circuit accuracy / base accuracy
+completeness,functional,1,full_circuit_data.csv,model×condition×replication,Ablation completeness score
+edge_fraction,structural,2,full_structure_data.csv,model×condition×replication,Fraction of total possible edges in circuit
+skip_fraction,structural,2,full_structure_data.csv,model×condition×replication,Fraction of circuit edges that are skip connections
+attn_fraction,structural,2,full_structure_data.csv,model×condition×replication,Fraction of circuit edges in attention
+mlp_fraction,structural,2,full_structure_data.csv,model×condition×replication,Fraction of circuit edges in MLP
+resid_fraction,structural,2,full_structure_data.csv,model×condition×replication,Fraction of circuit edges in residual stream
+head_participation_rate,structural,2,full_structure_data.csv,model×condition×replication,Fraction of attention heads with >=1 circuit edge
+active_heads,structural,2,full_structure_data.csv,model×condition×replication,Number of attention heads with >=1 circuit edge
+mean_edges_per_head,structural,2,full_structure_data.csv,model×condition×replication,Mean circuit edges per active attention head
+n_universal,structural,2,universal_edges.csv,model×replication,Number of edges present in all conditions (model×replication level)
+universal_fraction,structural,2,universal_edges.csv,model×replication,Fraction of circuit edges that are universal
+convergence_layer,representational,3,03_master_logit_lens.csv,model×condition×replication,Layer where logit lens probability reaches 90% of final
+frac_converged,representational,3,03_master_logit_lens.csv,model×condition×replication,Fraction of examples that converge
+final_prob_correct,representational,3,03_master_logit_lens.csv,model×condition×replication,Final layer probability of correct token
+peak_probe_accuracy,representational,3,02_master_residual.csv,model×replication,Peak linear probe accuracy across layers
+peak_probe_layer,representational,3,02_master_residual.csv,model×replication,Layer with peak probe accuracy
+peak_separation_ratio,representational,3,02_master_residual.csv,model×replication,Peak between/within cluster distance ratio
+peak_mi_probe,representational,3,06_master_info_theoretic.csv,model×replication,Peak probe-based mutual information across layers
+peak_mi_probe_layer,representational,3,06_master_info_theoretic.csv,model×replication,Layer with peak probe MI
+peak_efficiency,representational,3,06_master_info_theoretic.csv,model×replication,Peak information coding efficiency

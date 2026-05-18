@@ -1,0 +1,94 @@
+domain,hypothesis,model,comparison,stat_name,stat_value,p_value,effect_size,n,p_adjusted,significant,verdict
+R1_embedding,H-R1.1,pythia-70m,purity > chance,t,26.913639210060893,0.0006888536025370518,15.538596842801125,3,0.003371757107155043,True,supported
+R1_embedding,H-R1.1,pythia-160m,purity > chance,t,27.91511436405924,0.0006404071640714503,16.11679879254879,3,0.003308770347702493,True,supported
+R1_embedding,H-R1.1,pythia-410m,purity > chance,t,23.17993856563624,0.0009279724704156419,13.382943770669073,3,0.0037683821202865917,True,supported
+R1_embedding,H-R1.1,pythia-1b,purity > chance,t,20.005384669316864,0.0012446641476395752,11.550114224072104,3,0.004134063061802875,True,supported
+R1_embedding,H-R1.1,pythia-1.4b,purity > chance,t,28.396580516515478,0.0006189149248687414,16.394773405275092,3,0.003308770347702493,True,supported
+R1_embedding,H-R1.2,pythia-70m,probe > chance,t,28.735153690897928,0.000604442345218667,16.590248718645185,3,0.003308770347702493,True,supported
+R1_embedding,H-R1.2,pythia-160m,probe > chance,t,22.972557417928943,0.0009447546740162625,13.263212209215409,3,0.0037683821202865917,True,supported
+R1_embedding,H-R1.2,pythia-410m,probe > chance,t,23.799318296126785,0.0008804256726619013,13.740542824798384,3,0.0037683821202865917,True,supported
+R1_embedding,H-R1.2,pythia-1b,probe > chance,t,21.342903879925576,0.001094046422018688,12.32233130036334,3,0.0037683821202865917,True,supported
+R1_embedding,H-R1.2,pythia-1.4b,probe > chance,t,39.27963732338786,0.00032375247322688255,22.67810918232885,3,0.002007265334006672,True,supported
+R1_embedding,H-R1.4,all,sep_ratio ~ model_size,spearman_rho,0.9999999999999999,1.4042654220543602e-24,0.9999999999999999,5,1.6324585531381936e-23,True,supported
+R1_embedding,H-R1.5,pythia-70m,CKA adj > dist,U,76.0,0.9155635935691274,0.35185185185185186,30,1.0,False,not supported
+R1_embedding,H-R1.5,pythia-160m,CKA adj > dist,U,91.0,0.7706029738934534,0.4212962962962963,30,1.0,False,not supported
+R1_embedding,H-R1.5,pythia-410m,CKA adj > dist,U,90.0,0.7832356066767598,0.4166666666666667,30,1.0,False,not supported
+R1_embedding,H-R1.5,pythia-1b,CKA adj > dist,U,79.0,0.8941372087589573,0.36574074074074076,30,1.0,False,not supported
+R1_embedding,H-R1.5,pythia-1.4b,CKA adj > dist,U,74.0,0.9279238467789312,0.3425925925925926,30,1.0,False,not supported
+R2_residual,H-R2.1,pythia-70m,probe increases w/ layer,JT_Z,2.270911058812528,0.011576181331878987,,18,0.029474084184579277,True,supported
+R2_residual,H-R2.1,pythia-160m,probe increases w/ layer,JT_Z,4.034665537655906,2.734006470739292e-05,,36,0.00018161614412768153,True,supported
+R2_residual,H-R2.1,pythia-410m,probe increases w/ layer,JT_Z,9.367646148016949,0.0,,72,0.0,True,supported
+R2_residual,H-R2.1,pythia-1b,probe increases w/ layer,JT_Z,6.164825980113256,3.5280345311861083e-10,,48,3.281072114003081e-09,True,supported
+R2_residual,H-R2.2,pythia-70m,sep_ratio increases w/ layer,JT_Z,-0.8852704127574261,0.8119945981850121,,18,1.0,False,not supported
+R2_residual,H-R2.2,pythia-160m,sep_ratio increases w/ layer,JT_Z,5.005720633159531,2.782671234546896e-07,,36,2.3526220437532848e-06,True,supported
+R2_residual,H-R2.2,pythia-410m,sep_ratio increases w/ layer,JT_Z,9.002672921470833,0.0,,72,0.0,True,supported
+R2_residual,H-R2.2,pythia-1b,sep_ratio increases w/ layer,JT_Z,4.16927537383382,1.5278480491764945e-05,,48,0.00010929989890262616,True,supported
+R2_residual,H-R2.4,pythia-70m,convergence differs by band,H,12.904420549581834,0.011752378830532349,0.8904420549581834,15,0.029474084184579277,True,supported
+R2_residual,H-R2.4,pythia-160m,convergence differs by band,H,12.847942754919503,0.012043174182946372,0.8847942754919502,15,0.029474084184579277,True,supported
+R2_residual,H-R2.4,pythia-410m,convergence differs by band,H,13.5,0.009074317061131603,0.95,15,0.024111756762435405,True,supported
+R2_residual,H-R2.4,pythia-1b,convergence differs by band,H,13.524150268336316,0.008979371198801355,0.9524150268336316,15,0.024111756762435405,True,supported
+R2_residual,H-R2.4,pythia-1.4b,convergence differs by band,H,13.5,0.009074317061131603,0.95,15,0.024111756762435405,True,supported
+R2_residual,H-R2.5,pythia-70m,low-freq converge later,U,36.0,0.0024990623825412285,1.0,12,0.007497187147623686,True,supported
+R2_residual,H-R2.5,pythia-160m,low-freq converge later,U,36.0,0.0010822510822510823,1.0,12,0.0037683821202865917,True,supported
+R2_residual,H-R2.5,pythia-410m,low-freq converge later,U,36.0,0.0010822510822510823,1.0,12,0.0037683821202865917,True,supported
+R2_residual,H-R2.5,pythia-1b,low-freq converge later,U,36.0,0.0024990623825412285,1.0,12,0.007497187147623686,True,supported
+R2_residual,H-R2.5,pythia-1.4b,low-freq converge later,U,36.0,0.0010822510822510823,1.0,12,0.0037683821202865917,True,supported
+R3_attention,H-R3.1,pythia-70m,induction heads exist,binomial,0.0625,0.012373563910211098,0.0625,48,0.029506190862811078,True,supported
+R3_attention,H-R3.1,pythia-160m,induction heads exist,binomial,0.034722222222222224,0.015348430846432289,0.034722222222222224,144,0.0348147333833708,True,supported
+R3_attention,H-R3.1,pythia-410m,induction heads exist,binomial,0.020833333333333332,0.041341358558866344,0.020833333333333332,384,0.083581442303795,False,marginal
+R3_attention,H-R3.1,pythia-1b,induction heads exist,binomial,0.03125,0.04028568476771615,0.03125,128,0.08325708185328004,False,marginal
+R3_attention,H-R3.5,pythia-70m,role dist differs by band,chi2,0.7183844259890034,0.999997805397367,0.03158727824943056,240,1.0,False,not supported
+R3_attention,H-R3.5,pythia-160m,role dist differs by band,chi2,0.9182481716545696,0.9999912086442188,0.020618314535493027,720,1.0,False,not supported
+R3_attention,H-R3.5,pythia-410m,role dist differs by band,chi2,0.5822928300740517,0.9999993404581548,0.010054476874566351,1920,1.0,False,not supported
+R3_attention,H-R3.5,pythia-1b,role dist differs by band,chi2,1.1259211051162008,0.9999726437041966,0.024216053399512095,640,1.0,False,not supported
+R4_mlp,H-R4.1,pythia-70m,MLP contrib differs by band,H,0.38795278795277,0.9834513095095692,-0.042494673082908586,90,1.0,False,not supported
+R4_mlp,H-R4.1,pythia-160m,MLP contrib differs by band,H,0.17427869858806844,0.9964168815955828,-0.02186126457949675,180,1.0,False,not supported
+R4_mlp,H-R4.1,pythia-410m,MLP contrib differs by band,H,12.442702882938192,0.014345638420173855,0.023782261642079416,360,0.03335360932690421,True,supported
+R4_mlp,H-R4.1,pythia-1b,MLP contrib differs by band,H,16.352679806362403,0.002580656431983619,0.05256459492069108,240,0.007500032755452393,True,supported
+R4_mlp,H-R4.2,pythia-70m,MLP frac freq trend,JT_Z,-3.4118678479793276,0.999677403079729,,90,1.0,False,not supported
+R4_mlp,H-R4.2,pythia-160m,MLP frac freq trend,JT_Z,0.6544913109564533,0.2563976616767003,,180,0.4768996507186626,False,not supported
+R4_mlp,H-R4.2,pythia-410m,MLP frac freq trend,JT_Z,-0.6524342229105655,0.7429394534939704,,360,1.0,False,not supported
+R4_mlp,H-R4.2,pythia-1b,MLP frac freq trend,JT_Z,0.3942593239325762,0.34669479549268567,,240,0.6322081564866622,False,not supported
+R4_mlp,H-R4.3,all,selective neurons ~ model_size,spearman_rho,1.0,0.0,1.0,4,0.0,True,supported
+R5_info,H-R5.1,pythia-70m,MI increases w/ layer,JT_Z,1.501110699893027,0.06666346588717464,,18,0.13190856015972854,False,not supported
+R5_info,H-R5.1,pythia-160m,MI increases w/ layer,JT_Z,4.6501229925525704,1.6586856838030073e-06,,36,1.2854814049473307e-05,True,supported
+R5_info,H-R5.1,pythia-410m,MI increases w/ layer,JT_Z,10.55015940202636,0.0,,72,0.0,True,supported
+R5_info,H-R5.1,pythia-1b,MI increases w/ layer,JT_Z,7.055696786488004,8.586464872450961e-13,,48,8.872680368199326e-12,True,supported
+R5_info,H-R5.2,all,delta-MI peak differs by model,H,,1.0,,12,1.0,False,not supported
+R5_info,H-R5.3,all,coding eff ~ model_size,spearman_rho,-1.0,0.0,-1.0,4,0.0,True,supported
+R5_info,H-R5.4,pythia-70m,MI ~ geometric separation,t,,1.0,,6,1.0,False,not supported
+R5_info,H-R5.4,pythia-160m,MI ~ geometric separation,t,,1.0,,6,1.0,False,not supported
+R5_info,H-R5.4,pythia-410m,MI ~ geometric separation,t,,1.0,,6,1.0,False,not supported
+R5_info,H-R5.4,pythia-1b,MI ~ geometric separation,t,,1.0,,6,1.0,False,not supported
+RC1_circuit_vs_base,H-RC1.1,pythia-70m,circuit probe < base,t,-2.2831212493998296,1.0,-0.7002985259948046,6,1.0,False,not supported
+RC1_circuit_vs_base,H-RC1.1,pythia-160m,circuit probe < base,t,-4.275376767902684,1.0,-0.8851601892336803,12,1.0,False,not supported
+RC1_circuit_vs_base,H-RC1.1,pythia-410m,circuit probe < base,t,-5.7725757203218935,1.0,-0.8384008143400785,24,1.0,False,not supported
+RC1_circuit_vs_base,H-RC1.1,pythia-1b,circuit probe < base,t,-13.043135796969803,1.0,-2.2971552491208693,16,1.0,False,not supported
+RC1_circuit_vs_base,H-RC1.2,pythia-70m,circuit sep < base,t,-1.779185050674693,1.0,-0.008238838445573162,6,1.0,False,not supported
+RC1_circuit_vs_base,H-RC1.2,pythia-160m,circuit sep < base,t,-0.8278838438098506,1.0,-0.034323042611033916,12,1.0,False,not supported
+RC1_circuit_vs_base,H-RC1.2,pythia-410m,circuit sep < base,t,-9.81281145870234,1.0,-0.18577239625751235,24,1.0,False,not supported
+RC1_circuit_vs_base,H-RC1.2,pythia-1b,circuit sep < base,t,-8.27837409895608,1.0,-0.47070173379162195,16,1.0,False,not supported
+RC1_circuit_vs_base,H-RC1.3,pythia-70m,CKA differs by band,H,12.096540496540456,0.016647619988516122,0.0952534176063583,90,0.03684464381020592,True,supported
+RC1_circuit_vs_base,H-RC1.3,pythia-160m,CKA differs by band,H,10.450480867607894,0.03348598224080422,0.036859890672045106,180,0.07077718973624528,False,marginal
+RC1_circuit_vs_base,H-RC1.3,pythia-410m,CKA differs by band,H,18.55599928183028,0.0009605601181099624,0.04100281487839516,360,0.0037683821202865917,True,supported
+RC1_circuit_vs_base,H-RC1.3,pythia-1b,CKA differs by band,H,12.04281639004148,0.017035695525148973,0.03422475059592119,240,0.03684464381020592,True,supported
+RC1_circuit_vs_base,H-RC1.4,pythia-70m,circuit conv >= base,t,-1.2247448713916687,1.0,,5,1.0,False,not supported
+RC1_circuit_vs_base,H-RC1.4,pythia-160m,circuit conv >= base,t,-0.15054198589893653,1.0,,5,1.0,False,not supported
+RC1_circuit_vs_base,H-RC1.4,pythia-410m,circuit conv >= base,t,-2.4904807851740807,1.0,,5,1.0,False,not supported
+RC1_circuit_vs_base,H-RC1.4,pythia-1b,circuit conv >= base,t,-2.6760232055167066,1.0,,5,1.0,False,not supported
+RC1_circuit_vs_base,H-RC1.4,pythia-1.4b,circuit conv >= base,t,-2.8518965714707187,1.0,,5,1.0,False,not supported
+RC1_circuit_vs_base,H-RC1.5,pythia-70m,circuit MI < base,t,1.7645325497135842,0.06895780103511644,,6,0.1336057395055381,False,not supported
+RC1_circuit_vs_base,H-RC1.5,pythia-160m,circuit MI < base,t,3.6160597145449063,0.002027160365971058,,12,0.006500893587424427,True,supported
+RC1_circuit_vs_base,H-RC1.5,pythia-410m,circuit MI < base,t,-3.273861239733059,1.0,,24,1.0,False,not supported
+RC1_circuit_vs_base,H-RC1.5,pythia-1b,circuit MI < base,t,-1.0424150116565172,1.0,,16,1.0,False,not supported
+RC2_band_dep,H-RC2.1,pythia-70m,repr loss differs by band,H,4.0,0.40600584970983794,,5,0.686518982236635,False,not supported
+RC2_band_dep,H-RC2.1,pythia-160m,repr loss differs by band,H,4.0,0.40600584970983794,,5,0.686518982236635,False,not supported
+RC2_band_dep,H-RC2.1,pythia-410m,repr loss differs by band,H,4.0,0.40600584970983794,,5,0.686518982236635,False,not supported
+RC2_band_dep,H-RC2.1,pythia-1b,repr loss differs by band,H,4.0,0.40600584970983794,,5,0.686518982236635,False,not supported
+RC2_band_dep,H-RC2.2,pythia-70m,low-freq lose more,U,2.0,0.6666666666666666,0.5,4,1.0,False,not supported
+RC2_band_dep,H-RC2.2,pythia-160m,low-freq lose more,U,2.0,0.6666666666666666,0.5,4,1.0,False,not supported
+RC2_band_dep,H-RC2.2,pythia-410m,low-freq lose more,U,0.0,1.0,0.0,4,1.0,False,not supported
+RC2_band_dep,H-RC2.2,pythia-1b,low-freq lose more,U,2.0,0.6666666666666666,0.5,4,1.0,False,not supported
+RC3_scaling,H-RC3.1,all,circuit probe ~ model_size,spearman_rho,0.7999999999999999,0.2000000000000001,0.7999999999999999,4,0.3795918367346941,False,not supported
+RC3_scaling,H-RC3.2,all,circuit coding eff ~ model_size,spearman_rho,-0.9999999999999999,1.4042654220543602e-24,-0.9999999999999999,5,1.6324585531381936e-23,True,supported
+RC3_scaling,H-RC3.3,all,CKA ~ model_size,spearman_rho,-1.0,0.0,-1.0,4,0.0,True,supported

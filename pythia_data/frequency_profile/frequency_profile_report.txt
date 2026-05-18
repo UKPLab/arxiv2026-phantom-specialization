@@ -1,0 +1,120 @@
+
+================================================================================
+FREQUENCY DISTRIBUTION PROFILE REPORT
+================================================================================
+Generated: 2026-02-16
+Source:    <PROJECT_ROOT>/pythia_data/token_dataset/all_tokens_complete.csv
+
+================================================================================
+Q1: DISTRIBUTION SHAPE
+================================================================================
+n = 50,063
+Range:    [-5.0001, 4.5827]  (span = 9.5827)
+Mean:     0.6214
+Median:   0.5041
+Std:      0.5450
+IQR:      0.6092
+
+--- Normality Tests ---
+Skewness:        0.7620  (moderately skewed)
+Excess kurtosis: 4.0036  (leptokurtic (heavy tails))
+Shapiro-Wilk:    p = 9.27e-45  -> REJECT H0
+D'Agostino:      p = 0.00e+00  -> REJECT H0
+Anderson-Darling: stat = 1184.5799  (crit 5% = 0.7520)  -> REJECT H0
+K-S test:        p = 0.00e+00  -> REJECT H0
+
+CONCLUSION: CLEARLY NON-NORMAL
+  (4/4 tests reject normality at α=0.05)
+
+--- Percentile Table ---
+      p1: -0.5744
+    p2.5: -0.2179
+      p5: 0.0654
+     p10: 0.1566
+     p25: 0.2693
+     p50: 0.5041
+     p75: 0.8786
+     p90: 1.3378
+     p95: 1.6404
+   p97.5: 1.9153
+     p99: 2.3136
+
+================================================================================
+Q2: HOW MANY NATURAL GROUPS?
+================================================================================
+
+--- KDE Mode Analysis ---
+Modes found:  1 (stable across bandwidths: YES)
+Mode count by bandwidth: {'bw_x0.5': 1, 'bw_x0.75': 1, 'bw_x1.0': 1, 'bw_x1.25': 1, 'bw_x1.5': 1, 'bw_x2.0': 1}
+  Mode at log-freq = 0.2545  (density = 1.222093)
+
+--- Gaussian Mixture Models ---
+Optimal k by BIC:   10
+Optimal k by AIC:   12
+Elbow k by BIC:     2
+GMM boundaries:     [-0.4741, 0.1319, 0.2729, 0.4459, 0.6577, 0.9133, 1.2241, 1.5859, 2.0131]
+
+--- K-Means Clustering ---
+Optimal k by silhouette:  2
+Elbow k by inertia:       2
+First k with GVF >= 0.90:  6
+
+Silhouette scores:
+  k= 2:  sil=0.6240  GVF=0.6152
+  k= 3:  sil=0.5524  GVF=0.7664
+  k= 4:  sil=0.5796  GVF=0.8355
+  k= 5:  sil=0.5614  GVF=0.8908
+  k= 6:  sil=0.5424  GVF=0.9183
+  k= 7:  sil=0.5318  GVF=0.9361
+  k= 8:  sil=0.5462  GVF=0.9512
+  k= 9:  sil=0.5375  GVF=0.9609
+  k=10:  sil=0.5374  GVF=0.9679
+  k=11:  sil=0.5430  GVF=0.9725
+  k=12:  sil=0.5370  GVF=0.9766
+
+--- Method Consensus on Number of Groups ---
+  KDE modes                : k = 1
+  GMM BIC                  : k = 10
+  GMM AIC                  : k = 12
+  GMM elbow                : k = 2
+  K-Means silhouette       : k = 2
+  K-Means elbow            : k = 2
+  K-Means GVF>=0.90         : k = 6
+                     Median: k = 2
+                      Range: [1, 12]
+
+================================================================================
+Q3: WHERE ARE THE NATURAL BREAK POINTS?
+================================================================================
+KDE valleys:     []
+GMM boundaries:  [-0.4741, 0.1319, 0.2729, 0.4459, 0.6577, 0.9133, 1.2241, 1.5859, 2.0131]
+K-Means breaks:  [0.8515]
+
+CONVERGENT BREAKS (tolerance = 0.1035):
+  log-freq = 0.8824  (2 methods: gmm, kmeans)
+
+================================================================================
+Q4: TAIL ANALYSIS
+================================================================================
+Tukey inner fences:  [-0.6445, 1.7925]
+  Mild outliers below:   413 (0.82%)
+  Mild outliers above:   1,720 (3.44%)
+MAD thresholds:      [-0.9216, 1.9297]
+  Outliers below:        230
+  Outliers above:        1198
+
+Tail density vs bulk (IQR):
+  Bottom 5%: 0.01x bulk density
+  Top 5%:    0.02x bulk density
+  -> bottom tail is sparser than bulk
+
+================================================================================
+BINNING RECOMMENDATIONS
+================================================================================
+  sturges                  : 17
+  freedman_diaconis        : 290
+  scott                    : 186
+  rice                     : 74
+  doane                    : 23
+                RECOMMENDED: 74
+  Binning rules suggest 17-290 bins. Large spread indicates the distribution has multi-scale structure.

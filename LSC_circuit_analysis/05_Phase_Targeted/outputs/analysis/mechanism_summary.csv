@@ -1,0 +1,6 @@
+model,n_universal_heads,n_total_heads,universal_head_fraction,dominant_role_in_universal,n_induction_in_universal,n_induction_total,induction_enrichment_OR,induction_enrichment_p,peak_layer_position,universal_stable_frac,band_specific_stable_frac,dominant_edge_type
+pythia-70m,36,48,0.75,diffuse,3,3,inf,0.5629047178538391,middle,0.9792642140468227,0.012121212121212121,attn_to_mlp
+pythia-160m,80,144,0.5555555555555556,bos_sink,5,5,inf,0.06582945240422017,late,0.959214501510574,0.016845329249617153,attn_to_mlp
+pythia-410m,159,384,0.4140625,bos_sink,7,8,10.31578947368421,0.009984534722677917,late,0.9478933791917454,0.01608139153265507,attn_to_mlp
+pythia-1b,58,128,0.453125,bos_sink,4,4,inf,0.03977034120734909,late,0.9386075949367089,0.010711553175210406,attn_to_attn
+pythia-1.4b,119,384,0.3098958333333333,diffuse,7,7,inf,0.0002422819227123531,middle,0.9323135755258126,0.008341056533827619,attn_to_attn

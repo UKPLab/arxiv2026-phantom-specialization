@@ -1,0 +1,96 @@
+
+================================================================================
+TOKEN CATEGORIZATION REPORT
+================================================================================
+Generated: 2026-02-16
+Total tokens: 50,063
+
+================================================================================
+CATEGORY DISTRIBUTION
+================================================================================
+  word_en             : 26,863  ( 53.7%)
+  subword_en          : 16,431  ( 32.8%)
+  mixed               :  2,201  (  4.4%)
+  numeric             :  2,042  (  4.1%)
+  punctuation         :  1,418  (  2.8%)
+  subword_other       :    829  (  1.7%)
+  word_other          :    187  (  0.4%)
+  whitespace          :     92  (  0.2%)
+
+  Mixed token subtypes:
+    alpha_punct         :  1,123
+    other               :    754
+    alpha_num           :    323
+    num_punct           :      1
+
+================================================================================
+SCRIPT DISTRIBUTION (letter-containing tokens)
+================================================================================
+  latin               : 45,887
+  other               :      5
+
+================================================================================
+CAPITALIZATION DISTRIBUTION
+================================================================================
+  lowercase           : 31,037
+  capitalized         :  9,940
+  no_letters          :  4,079
+  uppercase           :  3,629
+  mixed_case          :  1,286
+                      :     92
+
+  Cross-tab (label x capitalization):
+    mixed             : no_letters=619, mixed_case=581, lowercase=433, uppercase=429, capitalized=139
+    numeric           : no_letters=2042
+    punctuation       : no_letters=1418
+    subword_en        : lowercase=11635, capitalized=2991, uppercase=1662, mixed_case=143
+    subword_other     : mixed_case=369, lowercase=213, uppercase=147, capitalized=100
+    whitespace        : =92
+    word_en           : lowercase=18740, capitalized=6652, uppercase=1348, mixed_case=123
+    word_other        : mixed_case=70, capitalized=58, uppercase=43, lowercase=16
+
+================================================================================
+SPACE PREFIX
+================================================================================
+  With space prefix:    28,731
+  Without space prefix: 21,332
+
+================================================================================
+CONTENT LENGTH BY CATEGORY
+================================================================================
+  mixed               : min=2  max=20  mean=3.5  median=3
+  numeric             : min=1  max=34  mean=3.1  median=3
+  punctuation         : min=1  max=256  mean=5.8  median=3
+  subword_en          : min=1  max=17  mean=4.9  median=4
+  subword_other       : min=1  max=64  mean=2.9  median=2
+  whitespace          : min=0  max=16  mean=3.1  median=3
+  word_en             : min=1  max=20  mean=6.3  median=6
+  word_other          : min=1  max=19  mean=2.7  median=2
+
+================================================================================
+FREQUENCY PROFILE BY CATEGORY
+================================================================================
+  mixed               : n= 2,201  log_freq=[ -2.848,  3.341]  mean= 0.553  std=0.476
+  numeric             : n= 2,042  log_freq=[ -2.662,  3.549]  mean= 0.677  std=0.546
+  punctuation         : n= 1,418  log_freq=[ -1.511,  4.526]  mean= 0.864  std=0.741
+  subword_en          : n=16,431  log_freq=[ -3.353,  3.401]  mean= 0.559  std=0.528
+  subword_other       : n=   829  log_freq=[ -2.876,  3.263]  mean= 0.529  std=0.600
+  whitespace          : n=    92  log_freq=[ -5.000,  4.583]  mean= 1.107  std=1.531
+  word_en             : n=26,863  log_freq=[ -3.054,  4.443]  mean= 0.650  std=0.533
+  word_other          : n=   187  log_freq=[ -0.984,  2.788]  mean= 0.512  std=0.482
+
+================================================================================
+ALPHABETIC_EN PROFILE (key for experiments)
+================================================================================
+  Total word_en tokens: 26,863 (53.66% of vocabulary)
+  Log-freq range: [-3.0539, 4.4431]
+  Percentiles:
+       p1: -0.4273
+       p5: 0.1222
+      p10: 0.1655
+      p25: 0.2815
+      p50: 0.5278
+      p75: 0.9164
+      p90: 1.3671
+      p95: 1.6580
+      p99: 2.2659

@@ -1,0 +1,250 @@
+{
+  "task": "LSC",
+  "variant": "unmatched",
+  "draw_index": 1,
+  "master_seed": 42,
+  "created_at": "2026-02-16",
+  "sequence_structure": {
+    "format": "[S1..S5][T][R1..R10][S1..S5]",
+    "n_source": 5,
+    "n_distract": 10,
+    "total_len": 21,
+    "bos_included": false,
+    "prediction_position": 20,
+    "prediction_description": "At position 20 (second S5), predict T"
+  },
+  "parameters": {
+    "n_examples_per_band": 1500,
+    "master_seed": 42,
+    "train_ratio": 0.7,
+    "test_ratio": 0.15,
+    "val_ratio": 0.15
+  },
+  "pool_dir": "lsc_token_pools/unmatched",
+  "n_bands_generated": 7,
+  "n_bands_skipped": 1,
+  "skipped_bands": [
+    "bottom_tail"
+  ],
+  "total_examples": 10500,
+  "validation_warnings": 0,
+  "bands": {
+    "very_low": {
+      "band_type": "core",
+      "pool_size": 97,
+      "n_examples": 1500,
+      "train": 1050,
+      "test": 225,
+      "val": 225,
+      "sampling": "uniform",
+      "log_freq_range": [
+        -0.4273,
+        0.1113
+      ],
+      "token_overlap": {
+        "tokens_per_example": 16,
+        "total_token_slots": 24000,
+        "unique_tokens_used": 97,
+        "pool_size": 97,
+        "pool_coverage": 1.0,
+        "mean_token_appearances": 247.42,
+        "median_token_appearances": 246,
+        "max_token_appearances": 292,
+        "min_token_appearances": 212,
+        "appearance_buckets": {
+          "1-10": 0,
+          "11-50": 0,
+          "51-100": 0,
+          "101+": 97
+        },
+        "note": "High token reuse creates statistical dependency between examples. If pool_coverage < 1.0, some tokens were never sampled. If mean_token_appearances >> 1, most tokens appear in multiple examples."
+      }
+    },
+    "low": {
+      "band_type": "core",
+      "pool_size": 7616,
+      "n_examples": 1500,
+      "train": 1050,
+      "test": 225,
+      "val": 225,
+      "sampling": "uniform",
+      "log_freq_range": [
+        0.1113,
+        0.6499
+      ],
+      "token_overlap": {
+        "tokens_per_example": 16,
+        "total_token_slots": 24000,
+        "unique_tokens_used": 7282,
+        "pool_size": 7616,
+        "pool_coverage": 0.9561,
+        "mean_token_appearances": 3.3,
+        "median_token_appearances": 3,
+        "max_token_appearances": 12,
+        "min_token_appearances": 1,
+        "appearance_buckets": {
+          "1-10": 7280,
+          "11-50": 2,
+          "51-100": 0,
+          "101+": 0
+        },
+        "note": "High token reuse creates statistical dependency between examples. If pool_coverage < 1.0, some tokens were never sampled. If mean_token_appearances >> 1, most tokens appear in multiple examples."
+      }
+    },
+    "medium": {
+      "band_type": "core",
+      "pool_size": 4450,
+      "n_examples": 1500,
+      "train": 1050,
+      "test": 225,
+      "val": 225,
+      "sampling": "uniform",
+      "log_freq_range": [
+        0.6499,
+        1.1886
+      ],
+      "token_overlap": {
+        "tokens_per_example": 16,
+        "total_token_slots": 24000,
+        "unique_tokens_used": 4432,
+        "pool_size": 4450,
+        "pool_coverage": 0.996,
+        "mean_token_appearances": 5.42,
+        "median_token_appearances": 5,
+        "max_token_appearances": 15,
+        "min_token_appearances": 1,
+        "appearance_buckets": {
+          "1-10": 4326,
+          "11-50": 106,
+          "51-100": 0,
+          "101+": 0
+        },
+        "note": "High token reuse creates statistical dependency between examples. If pool_coverage < 1.0, some tokens were never sampled. If mean_token_appearances >> 1, most tokens appear in multiple examples."
+      }
+    },
+    "high": {
+      "band_type": "core",
+      "pool_size": 2186,
+      "n_examples": 1500,
+      "train": 1050,
+      "test": 225,
+      "val": 225,
+      "sampling": "uniform",
+      "log_freq_range": [
+        1.1886,
+        1.7272
+      ],
+      "token_overlap": {
+        "tokens_per_example": 16,
+        "total_token_slots": 24000,
+        "unique_tokens_used": 2186,
+        "pool_size": 2186,
+        "pool_coverage": 1.0,
+        "mean_token_appearances": 10.98,
+        "median_token_appearances": 11,
+        "max_token_appearances": 25,
+        "min_token_appearances": 1,
+        "appearance_buckets": {
+          "1-10": 1005,
+          "11-50": 1181,
+          "51-100": 0,
+          "101+": 0
+        },
+        "note": "High token reuse creates statistical dependency between examples. If pool_coverage < 1.0, some tokens were never sampled. If mean_token_appearances >> 1, most tokens appear in multiple examples."
+      }
+    },
+    "very_high": {
+      "band_type": "core",
+      "pool_size": 703,
+      "n_examples": 1500,
+      "train": 1050,
+      "test": 225,
+      "val": 225,
+      "sampling": "uniform",
+      "log_freq_range": [
+        1.7272,
+        2.2659
+      ],
+      "token_overlap": {
+        "tokens_per_example": 16,
+        "total_token_slots": 24000,
+        "unique_tokens_used": 703,
+        "pool_size": 703,
+        "pool_coverage": 1.0,
+        "mean_token_appearances": 34.14,
+        "median_token_appearances": 34,
+        "max_token_appearances": 50,
+        "min_token_appearances": 20,
+        "appearance_buckets": {
+          "1-10": 0,
+          "11-50": 703,
+          "51-100": 0,
+          "101+": 0
+        },
+        "note": "High token reuse creates statistical dependency between examples. If pool_coverage < 1.0, some tokens were never sampled. If mean_token_appearances >> 1, most tokens appear in multiple examples."
+      }
+    },
+    "top_tail": {
+      "band_type": "exploratory",
+      "pool_size": 206,
+      "n_examples": 1500,
+      "train": 1050,
+      "test": 225,
+      "val": 225,
+      "sampling": "uniform",
+      "log_freq_range": [
+        2.2659,
+        4.4431
+      ],
+      "token_overlap": {
+        "tokens_per_example": 16,
+        "total_token_slots": 24000,
+        "unique_tokens_used": 206,
+        "pool_size": 206,
+        "pool_coverage": 1.0,
+        "mean_token_appearances": 116.5,
+        "median_token_appearances": 116,
+        "max_token_appearances": 150,
+        "min_token_appearances": 93,
+        "appearance_buckets": {
+          "1-10": 0,
+          "11-50": 0,
+          "51-100": 10,
+          "101+": 196
+        },
+        "note": "High token reuse creates statistical dependency between examples. If pool_coverage < 1.0, some tokens were never sampled. If mean_token_appearances >> 1, most tokens appear in multiple examples."
+      }
+    },
+    "control": {
+      "band_type": "baseline",
+      "pool_size": 15269,
+      "n_examples": 1500,
+      "train": 1050,
+      "test": 225,
+      "val": 225,
+      "sampling": "frequency_weighted",
+      "log_freq_range": [
+        -3.0539,
+        4.4431
+      ],
+      "token_overlap": {
+        "tokens_per_example": 16,
+        "total_token_slots": 24000,
+        "unique_tokens_used": 5539,
+        "pool_size": 15269,
+        "pool_coverage": 0.3628,
+        "mean_token_appearances": 4.33,
+        "median_token_appearances": 1,
+        "max_token_appearances": 1007,
+        "min_token_appearances": 1,
+        "appearance_buckets": {
+          "1-10": 5273,
+          "11-50": 216,
+          "51-100": 25,
+          "101+": 25
+        },
+        "note": "High token reuse creates statistical dependency between examples. If pool_coverage < 1.0, some tokens were never sampled. If mean_token_appearances >> 1, most tokens appear in multiple examples."
+      }
+    }
+  }
+}

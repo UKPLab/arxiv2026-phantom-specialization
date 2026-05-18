@@ -1,0 +1,68 @@
+{
+  "method": "parallel_shard_processing",
+  "shard_dir": "Pile/pile_shards",
+  "num_shards": 21,
+  "shards_processed": 21,
+  "workers_used": 21,
+  "total_tokens": 300039168000,
+  "unique_tokens": 50063,
+  "max_token_id_found": 50276,
+  "vocab_size_used": 51276,
+  "processing_time_seconds": 313.25065445899963,
+  "processing_time_minutes": 5.220844240983327,
+  "tokens_per_second": 957824552.7313691,
+  "top_10_tokens": [
+    [
+      187,
+      "\u010a",
+      11476981486
+    ],
+    [
+      15,
+      ".",
+      10072969681
+    ],
+    [
+      13,
+      ",",
+      9271163964
+    ],
+    [
+      253,
+      "\u0120the",
+      8322795877
+    ],
+    [
+      273,
+      "\u0120of",
+      4733405750
+    ],
+    [
+      285,
+      "\u0120and",
+      4054400801
+    ],
+    [
+      281,
+      "\u0120to",
+      3860085147
+    ],
+    [
+      247,
+      "\u0120a",
+      3187633387
+    ],
+    [
+      14,
+      "-",
+      3089797395
+    ],
+    [
+      275,
+      "\u0120in",
+      2859383246
+    ]
+  ],
+  "errors": null,
+  "processed_at": "2026-02-16"
+}

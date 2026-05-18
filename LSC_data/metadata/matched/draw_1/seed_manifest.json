@@ -1,0 +1,62 @@
+{
+  "description": "Complete record of all seeds used in this draw. Reproduce exactly by using the same master_seed.",
+  "draw_index": 1,
+  "master_seed": 42,
+  "derived_seeds": {
+    "generation": 1042,
+    "split": 3042
+  },
+  "seed_formula": "example_seed = generation_seed + band_offset + example_index",
+  "per_band": [
+    {
+      "band": "low",
+      "generation_seed_base": 1042,
+      "band_offset": 20000,
+      "example_seed_range": [
+        21042,
+        22541
+      ],
+      "split_seed": 3042
+    },
+    {
+      "band": "medium",
+      "generation_seed_base": 1042,
+      "band_offset": 30000,
+      "example_seed_range": [
+        31042,
+        32541
+      ],
+      "split_seed": 3042
+    },
+    {
+      "band": "high",
+      "generation_seed_base": 1042,
+      "band_offset": 40000,
+      "example_seed_range": [
+        41042,
+        42541
+      ],
+      "split_seed": 3042
+    },
+    {
+      "band": "very_high",
+      "generation_seed_base": 1042,
+      "band_offset": 50000,
+      "example_seed_range": [
+        51042,
+        52541
+      ],
+      "split_seed": 3042
+    },
+    {
+      "band": "control",
+      "generation_seed_base": 1042,
+      "band_offset": 70000,
+      "example_seed_range": [
+        71042,
+        72541
+      ],
+      "split_seed": 3042
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "timestamp": "2026-02-16",
+  "validations": {
+    "tokenization_consistency": {
+      "tokens_tested": 100,
+      "issues_found": 0,
+      "sample_issues": [],
+      "status": "PASS"
+    },
+    "zipf_distribution": {
+      "alpha_exponent": 1.2017593570915097,
+      "expected_alpha": 1.0,
+      "r_squared": 0.9159982763163349,
+      "log_freq_range": 9.58270642634325,
+      "expected_range_min": 5.0,
+      "status": "WARNING"
+    },
+    "band_separation": {
+      "HF": {
+        "min": 0.9975166464013798,
+        "max": 4.525979574247909,
+        "n_tokens": 10012
+      },
+      "MF": {
+        "min": 0.40045193472391494,
+        "max": 0.6282760258116336,
+        "n_tokens": 10013
+      },
+      "LF": {
+        "min": -5.000056697786406,
+        "max": 0.23106358351925527,
+        "n_tokens": 10013
+      },
+      "overlap_HF_MF": false,
+      "overlap_MF_LF": false,
+      "status": "PASS"
+    }
+  },
+  "overall_status": "WARNING"
+}

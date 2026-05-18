@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-02-24",
+  "source": "lsc_threshold_select.ipynb",
+  "note": "Human-selected thresholds for Phase 2 circuit discovery",
+  "selections": {
+    "pythia-70m": {
+      "threshold": 0.00158,
+      "size_fraction": 0.3293051359516616,
+      "n_edges": 436,
+      "kl_div": 0.23805111646652222,
+      "accuracy": 0.5288888888888889,
+      "retention": 0.85,
+      "ablation_accuracy": 0.0,
+      "is_pareto_optimal": true
+    },
+    "pythia-160m": {
+      "threshold": 0.000631,
+      "size_fraction": 0.12174064707421296,
+      "n_edges": 1396,
+      "kl_div": 0.28355976939201355,
+      "accuracy": 0.9333333333333333,
+      "retention": 0.963302752293578,
+      "ablation_accuracy": 0.0,
+      "is_pareto_optimal": true
+    },
+    "pythia-410m": {
+      "threshold": 0.000251,
+      "size_fraction": 0.042739603628646955,
+      "n_edges": 3444,
+      "kl_div": 0.285493940114975,
+      "accuracy": 0.9555555555555556,
+      "retention": 0.9684684684684685,
+      "ablation_accuracy": 0.0,
+      "is_pareto_optimal": true
+    },
+    "pythia-1b": {
+      "threshold": 0.00158,
+      "size_fraction": 0.09381556599060845,
+      "n_edges": 939,
+      "kl_div": 0.48489153385162354,
+      "accuracy": 0.92,
+      "retention": 0.940909090909091,
+      "ablation_accuracy": 0.0,
+      "is_pareto_optimal": true
+    },
+    "pythia-1.4b": {
+      "threshold": 0.000631,
+      "size_fraction": 0.026023504300021098,
+      "n_edges": 2097,
+      "kl_div": 0.4984774589538574,
+      "accuracy": 0.9244444444444444,
+      "retention": 0.9411764705882353,
+      "ablation_accuracy": 0.0,
+      "is_pareto_optimal": true
+    }
+  }
+}

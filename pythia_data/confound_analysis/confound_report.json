@@ -1,0 +1,849 @@
+{
+  "created_at": "2026-02-18",
+  "all_bands": [
+    "bottom_tail",
+    "very_low",
+    "low",
+    "medium",
+    "high",
+    "very_high",
+    "top_tail",
+    "control"
+  ],
+  "band_types": {
+    "bottom_tail": "exploratory",
+    "very_low": "core",
+    "low": "core",
+    "medium": "core",
+    "high": "core",
+    "very_high": "core",
+    "top_tail": "exploratory",
+    "control": "baseline"
+  },
+  "profiles": {
+    "bottom_tail": {
+      "n_total": 269,
+      "n_word": 269,
+      "pct_word": 100.0,
+      "fineweb_signals": {
+        "WORD": 269
+      },
+      "fineweb_word_confidence": {
+        "high": 10,
+        "low": 231,
+        "medium": 15,
+        "very_high": 13
+      },
+      "capitalization_all": {
+        "capitalized": 37,
+        "lowercase": 221,
+        "mixed_case": 1,
+        "uppercase": 10
+      },
+      "capitalization_word": {
+        "capitalized": 37,
+        "lowercase": 221,
+        "mixed_case": 1,
+        "uppercase": 10
+      },
+      "length_distribution_all": {
+        "3": 12,
+        "4": 54,
+        "5": 67,
+        "6": 74,
+        "7": 31,
+        "8": 13,
+        "9": 11,
+        "10": 5,
+        "11": 1,
+        "12": 1
+      },
+      "length_stats_all": {
+        "min": 3,
+        "max": 12,
+        "mean": 5.67,
+        "median": 6.0,
+        "std": 1.59
+      },
+      "length_distribution_word": {
+        "3": 12,
+        "4": 54,
+        "5": 67,
+        "6": 74,
+        "7": 31,
+        "8": 13,
+        "9": 11,
+        "10": 5,
+        "11": 1,
+        "12": 1
+      },
+      "length_stats_word": {
+        "min": 3,
+        "max": 12,
+        "mean": 5.67,
+        "median": 6.0,
+        "std": 1.59
+      },
+      "n_word_lowercase": 221,
+      "n_word_capitalized": 37,
+      "n_word_uppercase": 10,
+      "token_id_stats_all": {
+        "mean": 21314.5,
+        "std": 13299.3,
+        "min": 927,
+        "max": 48628,
+        "corr_with_log_freq": 0.1962
+      },
+      "token_id_stats_word": {
+        "mean": 21314.5,
+        "std": 13299.3,
+        "min": 927,
+        "max": 48628,
+        "corr_with_log_freq": 0.1962
+      },
+      "pct_space_prefix_all": 100.0,
+      "pct_space_prefix_word": 100.0,
+      "pct_ascii_all": 100.0,
+      "pct_ascii_word": 100.0,
+      "log_freq_stats_all": {
+        "mean": -0.942,
+        "std": 0.5536
+      },
+      "log_freq_stats_word": {
+        "mean": -0.942,
+        "std": 0.5536
+      }
+    },
+    "very_low": {
+      "n_total": 935,
+      "n_word": 932,
+      "pct_word": 99.7,
+      "fineweb_signals": {
+        "ROMAN_NUMERAL": 3,
+        "WORD": 932
+      },
+      "fineweb_word_confidence": {
+        "high": 35,
+        "low": 599,
+        "medium": 47,
+        "very_high": 251
+      },
+      "capitalization_all": {
+        "capitalized": 272,
+        "lowercase": 604,
+        "mixed_case": 5,
+        "uppercase": 54
+      },
+      "capitalization_word": {
+        "capitalized": 271,
+        "lowercase": 603,
+        "mixed_case": 5,
+        "uppercase": 53
+      },
+      "length_distribution_all": {
+        "2": 30,
+        "3": 110,
+        "4": 208,
+        "5": 208,
+        "6": 172,
+        "7": 90,
+        "8": 57,
+        "9": 30,
+        "10": 12,
+        "11": 8,
+        "12": 4,
+        "13": 4,
+        "14": 1,
+        "16": 1
+      },
+      "length_stats_all": {
+        "min": 2,
+        "max": 16,
+        "mean": 5.33,
+        "median": 5.0,
+        "std": 1.96
+      },
+      "length_distribution_word": {
+        "2": 28,
+        "3": 110,
+        "4": 207,
+        "5": 208,
+        "6": 172,
+        "7": 90,
+        "8": 57,
+        "9": 30,
+        "10": 12,
+        "11": 8,
+        "12": 4,
+        "13": 4,
+        "14": 1,
+        "16": 1
+      },
+      "length_stats_word": {
+        "min": 2,
+        "max": 16,
+        "mean": 5.34,
+        "median": 5.0,
+        "std": 1.95
+      },
+      "n_word_lowercase": 603,
+      "n_word_capitalized": 271,
+      "n_word_uppercase": 53,
+      "token_id_stats_all": {
+        "mean": 28852.8,
+        "std": 14510.5,
+        "min": 791,
+        "max": 50253,
+        "corr_with_log_freq": 0.3173
+      },
+      "token_id_stats_word": {
+        "mean": 28787.8,
+        "std": 14488.5,
+        "min": 791,
+        "max": 50253,
+        "corr_with_log_freq": 0.3144
+      },
+      "pct_space_prefix_all": 100.0,
+      "pct_space_prefix_word": 100.0,
+      "pct_ascii_all": 100.0,
+      "pct_ascii_word": 100.0,
+      "log_freq_stats_all": {
+        "mean": -0.0487,
+        "std": 0.1478
+      },
+      "log_freq_stats_word": {
+        "mean": -0.0492,
+        "std": 0.1478
+      }
+    },
+    "low": {
+      "n_total": 14765,
+      "n_word": 14720,
+      "pct_word": 99.7,
+      "fineweb_signals": {
+        "ROMAN_NUMERAL": 45,
+        "WORD": 14720
+      },
+      "fineweb_word_confidence": {
+        "high": 359,
+        "low": 2799,
+        "medium": 394,
+        "very_high": 11168
+      },
+      "capitalization_all": {
+        "capitalized": 4231,
+        "lowercase": 9553,
+        "mixed_case": 90,
+        "uppercase": 891
+      },
+      "capitalization_word": {
+        "capitalized": 4223,
+        "lowercase": 9542,
+        "mixed_case": 86,
+        "uppercase": 869
+      },
+      "length_distribution_all": {
+        "2": 414,
+        "3": 1629,
+        "4": 1923,
+        "5": 1957,
+        "6": 1960,
+        "7": 1796,
+        "8": 1576,
+        "9": 1273,
+        "10": 973,
+        "11": 591,
+        "12": 347,
+        "13": 184,
+        "14": 76,
+        "15": 44,
+        "16": 11,
+        "17": 7,
+        "18": 2,
+        "19": 1,
+        "20": 1
+      },
+      "length_stats_all": {
+        "min": 2,
+        "max": 20,
+        "mean": 6.53,
+        "median": 6.0,
+        "std": 2.72
+      },
+      "length_distribution_word": {
+        "2": 387,
+        "3": 1613,
+        "4": 1921,
+        "5": 1957,
+        "6": 1960,
+        "7": 1796,
+        "8": 1576,
+        "9": 1273,
+        "10": 973,
+        "11": 591,
+        "12": 347,
+        "13": 184,
+        "14": 76,
+        "15": 44,
+        "16": 11,
+        "17": 7,
+        "18": 2,
+        "19": 1,
+        "20": 1
+      },
+      "length_stats_word": {
+        "min": 2,
+        "max": 20,
+        "mean": 6.55,
+        "median": 6.0,
+        "std": 2.71
+      },
+      "n_word_lowercase": 9542,
+      "n_word_capitalized": 4223,
+      "n_word_uppercase": 869,
+      "token_id_stats_all": {
+        "mean": 34808.3,
+        "std": 9915.5,
+        "min": 488,
+        "max": 50251,
+        "corr_with_log_freq": -0.7425
+      },
+      "token_id_stats_word": {
+        "mean": 34807.5,
+        "std": 9918.1,
+        "min": 488,
+        "max": 50251,
+        "corr_with_log_freq": -0.7423
+      },
+      "pct_space_prefix_all": 100.0,
+      "pct_space_prefix_word": 100.0,
+      "pct_ascii_all": 100.0,
+      "pct_ascii_word": 100.0,
+      "log_freq_stats_all": {
+        "mean": 0.3574,
+        "std": 0.1492
+      },
+      "log_freq_stats_word": {
+        "mean": 0.3575,
+        "std": 0.1492
+      }
+    },
+    "medium": {
+      "n_total": 6920,
+      "n_word": 6893,
+      "pct_word": 99.6,
+      "fineweb_signals": {
+        "ROMAN_NUMERAL": 27,
+        "WORD": 6893
+      },
+      "fineweb_word_confidence": {
+        "high": 141,
+        "low": 888,
+        "medium": 130,
+        "very_high": 5734
+      },
+      "capitalization_all": {
+        "capitalized": 1568,
+        "lowercase": 5035,
+        "mixed_case": 23,
+        "uppercase": 294
+      },
+      "capitalization_word": {
+        "capitalized": 1563,
+        "lowercase": 5027,
+        "mixed_case": 21,
+        "uppercase": 282
+      },
+      "length_distribution_all": {
+        "2": 361,
+        "3": 825,
+        "4": 851,
+        "5": 809,
+        "6": 920,
+        "7": 837,
+        "8": 720,
+        "9": 597,
+        "10": 442,
+        "11": 282,
+        "12": 151,
+        "13": 84,
+        "14": 28,
+        "15": 10,
+        "16": 3
+      },
+      "length_stats_all": {
+        "min": 2,
+        "max": 16,
+        "mean": 6.38,
+        "median": 6.0,
+        "std": 2.74
+      },
+      "length_distribution_word": {
+        "2": 340,
+        "3": 819,
+        "4": 851,
+        "5": 809,
+        "6": 920,
+        "7": 837,
+        "8": 720,
+        "9": 597,
+        "10": 442,
+        "11": 282,
+        "12": 151,
+        "13": 84,
+        "14": 28,
+        "15": 10,
+        "16": 3
+      },
+      "length_stats_word": {
+        "min": 2,
+        "max": 16,
+        "mean": 6.4,
+        "median": 6.0,
+        "std": 2.74
+      },
+      "n_word_lowercase": 5027,
+      "n_word_capitalized": 1563,
+      "n_word_uppercase": 282,
+      "token_id_stats_all": {
+        "mean": 15573.8,
+        "std": 5012.4,
+        "min": 694,
+        "max": 26381,
+        "corr_with_log_freq": -0.7151
+      },
+      "token_id_stats_word": {
+        "mean": 15575.1,
+        "std": 5012.7,
+        "min": 694,
+        "max": 26381,
+        "corr_with_log_freq": -0.7148
+      },
+      "pct_space_prefix_all": 100.0,
+      "pct_space_prefix_word": 100.0,
+      "pct_ascii_all": 100.0,
+      "pct_ascii_word": 100.0,
+      "log_freq_stats_all": {
+        "mean": 0.8807,
+        "std": 0.1526
+      },
+      "log_freq_stats_word": {
+        "mean": 0.8807,
+        "std": 0.1526
+      }
+    },
+    "high": {
+      "n_total": 2884,
+      "n_word": 2869,
+      "pct_word": 99.5,
+      "fineweb_signals": {
+        "ROMAN_NUMERAL": 15,
+        "WORD": 2869
+      },
+      "fineweb_word_confidence": {
+        "high": 32,
+        "low": 228,
+        "medium": 46,
+        "very_high": 2563
+      },
+      "capitalization_all": {
+        "capitalized": 453,
+        "lowercase": 2360,
+        "mixed_case": 4,
+        "uppercase": 67
+      },
+      "capitalization_word": {
+        "capitalized": 449,
+        "lowercase": 2354,
+        "mixed_case": 3,
+        "uppercase": 63
+      },
+      "length_distribution_all": {
+        "2": 193,
+        "3": 275,
+        "4": 343,
+        "5": 393,
+        "6": 392,
+        "7": 424,
+        "8": 320,
+        "9": 235,
+        "10": 148,
+        "11": 82,
+        "12": 39,
+        "13": 25,
+        "14": 13,
+        "15": 2
+      },
+      "length_stats_all": {
+        "min": 2,
+        "max": 15,
+        "mean": 6.22,
+        "median": 6.0,
+        "std": 2.57
+      },
+      "length_distribution_word": {
+        "2": 181,
+        "3": 272,
+        "4": 343,
+        "5": 393,
+        "6": 392,
+        "7": 424,
+        "8": 320,
+        "9": 235,
+        "10": 148,
+        "11": 82,
+        "12": 39,
+        "13": 25,
+        "14": 13,
+        "15": 2
+      },
+      "length_stats_word": {
+        "min": 2,
+        "max": 15,
+        "mean": 6.24,
+        "median": 6.0,
+        "std": 2.56
+      },
+      "n_word_lowercase": 2354,
+      "n_word_capitalized": 449,
+      "n_word_uppercase": 63,
+      "token_id_stats_all": {
+        "mean": 6590.3,
+        "std": 2358.7,
+        "min": 289,
+        "max": 10902,
+        "corr_with_log_freq": -0.6918
+      },
+      "token_id_stats_word": {
+        "mean": 6595.4,
+        "std": 2354.6,
+        "min": 289,
+        "max": 10902,
+        "corr_with_log_freq": -0.6959
+      },
+      "pct_space_prefix_all": 100.0,
+      "pct_space_prefix_word": 100.0,
+      "pct_ascii_all": 100.0,
+      "pct_ascii_word": 100.0,
+      "log_freq_stats_all": {
+        "mean": 1.4157,
+        "std": 0.153
+      },
+      "log_freq_stats_word": {
+        "mean": 1.4161,
+        "std": 0.1531
+      }
+    },
+    "very_high": {
+      "n_total": 821,
+      "n_word": 808,
+      "pct_word": 98.4,
+      "fineweb_signals": {
+        "ROMAN_NUMERAL": 4,
+        "SINGLE_CHAR_FRAGMENT": 9,
+        "WORD": 808
+      },
+      "fineweb_word_confidence": {
+        "high": 2,
+        "low": 21,
+        "medium": 11,
+        "very_high": 774
+      },
+      "capitalization_all": {
+        "capitalized": 75,
+        "lowercase": 736,
+        "uppercase": 10
+      },
+      "capitalization_word": {
+        "capitalized": 75,
+        "lowercase": 729,
+        "uppercase": 4
+      },
+      "length_distribution_all": {
+        "1": 9,
+        "2": 42,
+        "3": 77,
+        "4": 145,
+        "5": 151,
+        "6": 134,
+        "7": 106,
+        "8": 81,
+        "9": 36,
+        "10": 25,
+        "11": 9,
+        "12": 4,
+        "13": 2
+      },
+      "length_stats_all": {
+        "min": 1,
+        "max": 13,
+        "mean": 5.6,
+        "median": 5.0,
+        "std": 2.15
+      },
+      "length_distribution_word": {
+        "2": 38,
+        "3": 77,
+        "4": 145,
+        "5": 151,
+        "6": 134,
+        "7": 106,
+        "8": 81,
+        "9": 36,
+        "10": 25,
+        "11": 9,
+        "12": 4,
+        "13": 2
+      },
+      "length_stats_word": {
+        "min": 2,
+        "max": 13,
+        "mean": 5.67,
+        "median": 5.0,
+        "std": 2.1
+      },
+      "n_word_lowercase": 729,
+      "n_word_capitalized": 75,
+      "n_word_uppercase": 4,
+      "token_id_stats_all": {
+        "mean": 2729.8,
+        "std": 930.7,
+        "min": 259,
+        "max": 4323,
+        "corr_with_log_freq": -0.6729
+      },
+      "token_id_stats_word": {
+        "mean": 2749.0,
+        "std": 915.5,
+        "min": 294,
+        "max": 4323,
+        "corr_with_log_freq": -0.6735
+      },
+      "pct_space_prefix_all": 100.0,
+      "pct_space_prefix_word": 100.0,
+      "pct_ascii_all": 100.0,
+      "pct_ascii_word": 100.0,
+      "log_freq_stats_all": {
+        "mean": 1.9366,
+        "std": 0.1446
+      },
+      "log_freq_stats_word": {
+        "mean": 1.935,
+        "std": 0.1435
+      }
+    },
+    "top_tail": {
+      "n_total": 269,
+      "n_word": 229,
+      "pct_word": 85.1,
+      "fineweb_signals": {
+        "SINGLE_CHAR_FRAGMENT": 40,
+        "WORD": 229
+      },
+      "fineweb_word_confidence": {
+        "high": 3,
+        "low": 4,
+        "medium": 1,
+        "very_high": 221
+      },
+      "capitalization_all": {
+        "capitalized": 16,
+        "lowercase": 231,
+        "uppercase": 22
+      },
+      "capitalization_word": {
+        "capitalized": 16,
+        "lowercase": 211,
+        "uppercase": 2
+      },
+      "length_distribution_all": {
+        "1": 43,
+        "2": 36,
+        "3": 51,
+        "4": 70,
+        "5": 41,
+        "6": 11,
+        "7": 10,
+        "8": 2,
+        "9": 4,
+        "11": 1
+      },
+      "length_stats_all": {
+        "min": 1,
+        "max": 11,
+        "mean": 3.54,
+        "median": 4.0,
+        "std": 1.81
+      },
+      "length_distribution_word": {
+        "1": 3,
+        "2": 36,
+        "3": 51,
+        "4": 70,
+        "5": 41,
+        "6": 11,
+        "7": 10,
+        "8": 2,
+        "9": 4,
+        "11": 1
+      },
+      "length_stats_word": {
+        "min": 1,
+        "max": 11,
+        "mean": 3.98,
+        "median": 4.0,
+        "std": 1.59
+      },
+      "n_word_lowercase": 211,
+      "n_word_capitalized": 16,
+      "n_word_uppercase": 2,
+      "token_id_stats_all": {
+        "mean": 851.6,
+        "std": 418.1,
+        "min": 246,
+        "max": 1705,
+        "corr_with_log_freq": -0.6267
+      },
+      "token_id_stats_word": {
+        "mean": 929.7,
+        "std": 397.7,
+        "min": 247,
+        "max": 1705,
+        "corr_with_log_freq": -0.8081
+      },
+      "pct_space_prefix_all": 100.0,
+      "pct_space_prefix_word": 100.0,
+      "pct_ascii_all": 100.0,
+      "pct_ascii_word": 100.0,
+      "log_freq_stats_all": {
+        "mean": 2.6706,
+        "std": 0.3935
+      },
+      "log_freq_stats_word": {
+        "mean": 2.6963,
+        "std": 0.4181
+      }
+    },
+    "control": {
+      "n_total": 26863,
+      "n_word": 26720,
+      "pct_word": 99.5,
+      "fineweb_signals": {
+        "ROMAN_NUMERAL": 94,
+        "SINGLE_CHAR_FRAGMENT": 49,
+        "WORD": 26720
+      },
+      "fineweb_word_confidence": {
+        "high": 582,
+        "low": 4770,
+        "medium": 644,
+        "very_high": 20724
+      },
+      "capitalization_all": {
+        "capitalized": 6652,
+        "lowercase": 18740,
+        "mixed_case": 123,
+        "uppercase": 1348
+      },
+      "capitalization_word": {
+        "capitalized": 6634,
+        "lowercase": 18687,
+        "mixed_case": 116,
+        "uppercase": 1283
+      },
+      "length_distribution_all": {
+        "1": 52,
+        "2": 1076,
+        "3": 2979,
+        "4": 3594,
+        "5": 3626,
+        "6": 3663,
+        "7": 3294,
+        "8": 2769,
+        "9": 2186,
+        "10": 1605,
+        "11": 974,
+        "12": 546,
+        "13": 299,
+        "14": 118,
+        "15": 56,
+        "16": 15,
+        "17": 7,
+        "18": 2,
+        "19": 1,
+        "20": 1
+      },
+      "length_stats_all": {
+        "min": 1,
+        "max": 20,
+        "mean": 6.35,
+        "median": 6.0,
+        "std": 2.68
+      },
+      "length_distribution_word": {
+        "1": 3,
+        "2": 1010,
+        "3": 2954,
+        "4": 3591,
+        "5": 3626,
+        "6": 3663,
+        "7": 3294,
+        "8": 2769,
+        "9": 2186,
+        "10": 1605,
+        "11": 974,
+        "12": 546,
+        "13": 299,
+        "14": 118,
+        "15": 56,
+        "16": 15,
+        "17": 7,
+        "18": 2,
+        "19": 1,
+        "20": 1
+      },
+      "length_stats_word": {
+        "min": 1,
+        "max": 20,
+        "mean": 6.38,
+        "median": 6.0,
+        "std": 2.67
+      },
+      "n_word_lowercase": 18687,
+      "n_word_capitalized": 6634,
+      "n_word_uppercase": 1283,
+      "token_id_stats_all": {
+        "mean": 25161.1,
+        "std": 14283.3,
+        "min": 246,
+        "max": 50253,
+        "corr_with_log_freq": -0.7599
+      },
+      "token_id_stats_word": {
+        "mean": 25211.3,
+        "std": 14254.9,
+        "min": 247,
+        "max": 50253,
+        "corr_with_log_freq": -0.7588
+      },
+      "pct_space_prefix_all": 100.0,
+      "pct_space_prefix_word": 100.0,
+      "pct_ascii_all": 100.0,
+      "pct_ascii_word": 100.0,
+      "log_freq_stats_all": {
+        "mean": 0.6501,
+        "std": 0.5332
+      },
+      "log_freq_stats_word": {
+        "mean": 0.6466,
+        "std": 0.5282
+      }
+    }
+  },
+  "confounds_profiled": [
+    "word_vs_subword (FineWeb)",
+    "capitalization",
+    "character_length",
+    "token_id (acknowledged limitation)"
+  ]
+}

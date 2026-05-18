@@ -1,0 +1,64 @@
+{
+  "timestamp": "2026-02-16",
+  "validations": {
+    "power_analysis": {
+      "effect_size_target": 0.5,
+      "alpha_bonferroni": 0.003125,
+      "power_target": 0.8,
+      "n_required_per_band": 116,
+      "n_available_HF": 10012,
+      "n_available_MF": 10013,
+      "n_available_LF": 10013,
+      "min_available": 10012,
+      "adequate_power": true,
+      "status": "PASS"
+    },
+    "inter_band_tests": {
+      "HF_vs_MF": {
+        "t_statistic": 218.97231572640044,
+        "p_value": 0.0,
+        "significant": true
+      },
+      "MF_vs_LF": {
+        "t_statistic": 138.56774658419795,
+        "p_value": 0.0,
+        "significant": true
+      },
+      "HF_vs_LF": {
+        "t_statistic": 261.5759125427244,
+        "p_value": 0.0,
+        "significant": true
+      },
+      "ANOVA": {
+        "f_statistic": 52515.86068117221,
+        "p_value": 0.0,
+        "significant": true
+      },
+      "status": "PASS"
+    },
+    "heteroscedasticity": {
+      "variance_HF": 0.1833442784634916,
+      "variance_MF": 0.004254622651755773,
+      "variance_LF": 0.1101504457774105,
+      "std_HF": 0.42818720025649015,
+      "std_MF": 0.06522746853708009,
+      "std_LF": 0.331889207081837,
+      "variance_ratio_LF_HF": 0.6007847460554608,
+      "levene_statistic": 2283.251967611333,
+      "levene_p_value": 0.0,
+      "heteroscedastic": true,
+      "recommendation": "Use robust standard errors or Welch t-test",
+      "status": "INFO"
+    }
+  },
+  "overall_assessment": {
+    "power_adequate": true,
+    "bands_statistically_distinct": true,
+    "variance_heterogeneity_detected": true,
+    "recommended_methods": [
+      "Mixed-effects models to account for variance differences",
+      "Bonferroni correction for multiple comparisons (\u03b1 = 0.003125)",
+      "Standard CI OK"
+    ]
+  }
+}

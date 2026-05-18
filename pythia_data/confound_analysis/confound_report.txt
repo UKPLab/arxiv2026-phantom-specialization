@@ -1,0 +1,127 @@
+==========================================================================================
+GENERIC CONFOUND PROFILE & VALIDATED POOL REPORT
+Generated: 2026-02-18
+Bands profiled: ['bottom_tail', 'very_low', 'low', 'medium', 'high', 'very_high', 'top_tail', 'control']
+Validation: FineWeb WORD filter (all capitalizations preserved)
+==========================================================================================
+
+1. WORD/SUBWORD COMPOSITION (FineWeb validation)
+------------------------------------------------------------------------------------------
+Band           Type       Total    WORD   %WORD  SUBTOKEN  AMBIGUOUS   UNKNOWN
+-------------- --------  ------  ------  ------  --------  --------  --------
+bottom_tail    exploratory     269     269  100.0%         0         0         0
+very_low       core         935     932   99.7%         0         0         0
+low            core       14765   14720   99.7%         0         0         0
+medium         core        6920    6893   99.6%         0         0         0
+high           core        2884    2869   99.5%         0         0         0
+very_high      core         821     808   98.4%         0         0         0
+top_tail       exploratory     269     229   85.1%         0         0         0
+control        baseline   26863   26720   99.5%         0         0         0
+
+2. CAPITALIZATION DISTRIBUTION (WORD-only)
+------------------------------------------------------------------------------------------
+Band            N_WORD   lowerca   capital   upperca   mixed_c
+--------------  ------  --------  --------  --------  --------
+bottom_tail        269       221        37        10         1
+very_low           932       603       271        53         5
+low              14720      9542      4223       869        86
+medium            6893      5027      1563       282        21
+high              2869      2354       449        63         3
+very_high          808       729        75         4         0
+top_tail           229       211        16         2         0
+control          26720     18687      6634      1283       116
+
+   Capitalization % within WORD pool:
+   Band             %lowerc   %capita   %upperc   %mixed_
+   --------------  --------  --------  --------  --------
+   bottom_tail        82.2%     13.8%      3.7%      0.4%
+   very_low           64.7%     29.1%      5.7%      0.5%
+   low                64.8%     28.7%      5.9%      0.6%
+   medium             72.9%     22.7%      4.1%      0.3%
+   high               82.0%     15.7%      2.2%      0.1%
+   very_high          90.2%      9.3%      0.5%      0.0%
+   top_tail           92.1%      7.0%      0.9%      0.0%
+   control            69.9%     24.8%      4.8%      0.4%
+
+3. CHARACTER LENGTH DISTRIBUTION (WORD-only)
+------------------------------------------------------------------------------------------
+  bottom_tail     mean=5.67  std=1.59  range=[3, 12]
+  very_low        mean=5.34  std=1.95  range=[2, 16]
+  low             mean=6.55  std=2.71  range=[2, 20]
+  medium          mean=6.40  std=2.74  range=[2, 16]
+  high            mean=6.24  std=2.56  range=[2, 15]
+  very_high       mean=5.67  std=2.10  range=[2, 13]
+  top_tail        mean=3.98  std=1.59  range=[1, 11]
+  control         mean=6.38  std=2.67  range=[1, 20]
+
+   Per-length counts (WORD-only):
+    Len   bottom_tail      very_low           low        medium          high     very_high      top_tail       control
+   ----  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------
+      1             0             0             0             0             0             0             3             3
+      2             0            28           387           340           181            38            36          1010
+      3            12           110          1613           819           272            77            51          2954
+      4            54           207          1921           851           343           145            70          3591
+      5            67           208          1957           809           393           151            41          3626
+      6            74           172          1960           920           392           134            11          3663
+      7            31            90          1796           837           424           106            10          3294
+      8            13            57          1576           720           320            81             2          2769
+      9            11            30          1273           597           235            36             4          2186
+     10             5            12           973           442           148            25             0          1605
+     11             1             8           591           282            82             9             1           974
+     12             1             4           347           151            39             4             0           546
+     13             0             4           184            84            25             2             0           299
+     14             0             1            76            28            13             0             0           118
+     15             0             0            44            10             2             0             0            56
+
+4. TOKEN ID CONFOUND (acknowledged limitation)
+------------------------------------------------------------------------------------------
+   Token IDs correlate with frequency (GPT-NeoX tokenizer artifact).
+   Cannot be controlled; reported for transparency.
+
+   Band             ID_mean    ID_std    ID_min    ID_max  r(ID,freq)
+   --------------  --------  --------  --------  --------  ----------
+   bottom_tail        21314     13299       927     48628     +0.1962
+   very_low           28788     14488       791     50253     +0.3144
+   low                34808      9918       488     50251     -0.7423
+   medium             15575      5013       694     26381     -0.7148
+   high                6595      2355       289     10902     -0.6959
+   very_high           2749       916       294      4323     -0.6735
+   top_tail             930       398       247      1705     -0.8081
+   control            25211     14255       247     50253     -0.7588
+
+5. VALIDATED POOL SUMMARY
+------------------------------------------------------------------------------------------
+Band           Type      Original      WORD   Kept%    LogF_u    LogF_s
+-------------- --------  --------  --------  ------  --------  --------
+bottom_tail    exploratory       269       269  100.0%   -0.9420    0.5536
+very_low       core           935       932   99.7%   -0.0492    0.1478
+low            core         14765     14720   99.7%    0.3575    0.1492
+medium         core          6920      6893   99.6%    0.8807    0.1526
+high           core          2884      2869   99.5%    1.4161    0.1531
+very_high      core           821       808   98.4%    1.9350    0.1435
+top_tail       exploratory       269       229   85.1%    2.6963    0.4181
+control        baseline     26863     26720   99.5%    0.6466    0.5282
+
+6. ASSESSMENT
+------------------------------------------------------------------------------------------
+Core bands (very_low, low, medium, high, very_high):
+  Smallest WORD pool: 808 tokens (band: very_high)
+  PASS: Sufficient for downstream task-specific matching.
+
+Exploratory bands (bottom_tail, top_tail):
+  Smallest WORD pool: 229 tokens (band: top_tail)
+
+Baseline bands (control):
+  Smallest WORD pool: 26720 tokens (band: control)
+
+Confounds to control in task generators:
+  1. Character length: match on exact length across bands
+  2. Capitalization:   filter by task requirements (e.g., lowercase for LSC)
+  3. Word/subword:     ALREADY CONTROLLED (WORD-only pools)
+
+Acknowledged limitation:
+  Token ID correlates with frequency (r ~ -0.8). Inherent to tokenizer.
+  Report in paper; cannot be experimentally controlled.
+
+==========================================================================================
+END OF REPORT

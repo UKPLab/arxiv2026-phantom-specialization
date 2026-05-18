@@ -1,0 +1,31 @@
+{
+  "embedding_norm_vs_convergence": {
+    "pooled_spearman": {
+      "rho": -0.26315789473684204,
+      "p": 0.26228712287542844
+    },
+    "within_model_mean_rho": -0.2
+  },
+  "convergence_gaps": [
+    {
+      "model": "pythia-70m",
+      "gap": 0.06395061728395046
+    },
+    {
+      "model": "pythia-160m",
+      "gap": 0.07320987654320987
+    },
+    {
+      "model": "pythia-410m",
+      "gap": 0.14376543209876536
+    },
+    {
+      "model": "pythia-1b",
+      "gap": 0.0931481481481482
+    },
+    {
+      "model": "pythia-1.4b",
+      "gap": 0.28969135802469126
+    }
+  ]
+}
