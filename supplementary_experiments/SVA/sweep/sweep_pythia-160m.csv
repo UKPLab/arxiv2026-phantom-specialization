@@ -1,0 +1,8 @@
+model,threshold,n_edges,edge_frac,base_2way,circuit_2way,kl,ablated_2way,acdc_seconds,retention,selected,note
+pythia-160m,0.01,43,0.004,0.973,0.396,0.25,0.004,272.0,0.406988694758479,False,"salvaged from logs/sweep.log; tail thresholds <1.58e-05 not run (monotonically larger circuits, cannot alter smallest-passing selection)"
+pythia-160m,0.00398,67,0.006,0.973,0.667,0.185,0.004,272.0,0.6855087358684482,False,"salvaged from logs/sweep.log; tail thresholds <1.58e-05 not run (monotonically larger circuits, cannot alter smallest-passing selection)"
+pythia-160m,0.00158,104,0.009000000000000001,0.973,0.853,0.141,0.004,271.0,0.8766700924974307,True,"salvaged from logs/sweep.log; tail thresholds <1.58e-05 not run (monotonically larger circuits, cannot alter smallest-passing selection)"
+pythia-160m,0.000631,253,0.022000000000000002,0.973,0.969,0.101,0.004,271.0,0.9958890030832477,False,"salvaged from logs/sweep.log; tail thresholds <1.58e-05 not run (monotonically larger circuits, cannot alter smallest-passing selection)"
+pythia-160m,0.000251,485,0.042,0.973,0.96,0.061,0.004,273.0,0.986639260020555,False,"salvaged from logs/sweep.log; tail thresholds <1.58e-05 not run (monotonically larger circuits, cannot alter smallest-passing selection)"
+pythia-160m,0.0001,865,0.075,0.973,0.969,0.041,0.004,273.0,0.9958890030832477,False,"salvaged from logs/sweep.log; tail thresholds <1.58e-05 not run (monotonically larger circuits, cannot alter smallest-passing selection)"
+pythia-160m,3.98e-05,1450,0.126,0.973,0.973,0.024,0.004,272.0,1.0,False,"salvaged from logs/sweep.log; tail thresholds <1.58e-05 not run (monotonically larger circuits, cannot alter smallest-passing selection)"

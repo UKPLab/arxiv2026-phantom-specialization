@@ -1,0 +1,21 @@
+{
+ "seed": 2,
+ "split": "val",
+ "base": {
+  "cue_A": 0.995555579662323,
+  "cue_B": 1.0
+ },
+ "ablate_attn_L1_3": {
+  "cue_A": 0.008888889104127884,
+  "cue_B": 0.9555555582046509
+ },
+ "ablate_mlp_L1_3": {
+  "cue_A": 0.9422222375869751,
+  "cue_B": 0.17777778208255768
+ },
+ "criteria": {
+  "dissoc_A": true,
+  "dissoc_B": true
+ },
+ "verdict": "PASS"
+}

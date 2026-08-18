@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-07-17T14:44:21.506837",
+  "n_completed": 5,
+  "n_failed": 0,
+  "results": {
+    "pythia-1.4b": {
+      "very_low": {
+        "n_draws": 1,
+        "threshold": 0.000631,
+        "circuit_accuracy": {
+          "mean": 0.8666666666666667,
+          "std": 0.0,
+          "n": 1
+        },
+        "circuit_kl": {
+          "mean": 0.6349342465400696,
+          "std": 0.0,
+          "n": 1
+        },
+        "circuit_top5": {
+          "mean": 0.9644444444444444,
+          "std": 0.0,
+          "n": 1
+        },
+        "base_accuracy": {
+          "mean": 0.9733333333333334,
+          "std": 0.0,
+          "n": 1
+        },
+        "ablation_accuracy": {
+          "mean": 0.0,
+          "std": 0.0,
+          "n": 1
+        },
+        "size_fraction": {
+          "mean": 0.02989538476812152,
+          "std": 0.0,
+          "n": 1
+        },
+        "n_edges": {
+          "mean": 2409.0,
+          "std": 0.0,
+          "n": 1
+        },
+        "training_time": {
+          "mean": 46314.90623497963,
+          "std": 0.0,
+          "n": 1
+        },
+        "necessity_pass_rate": 1.0,
+        "transfer": {
+          "very_low": {
+            "mean": 0.8666666666666667,
+            "std": 0.0,
+            "n": 1
+          }
+        }
+      }
+    }
+  }
+}

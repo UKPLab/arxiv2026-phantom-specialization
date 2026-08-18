@@ -1,0 +1,16 @@
+model,draw,test_band,circuit_type,ablation,n_edges,accuracy,top5_accuracy
+pythia-1b,draw_1,low,universal_edge,tokenwise_mean_corrupt,348,0.0,0.0044444444444444444
+pythia-1b,draw_1,medium,universal_edge,tokenwise_mean_corrupt,348,0.0,0.0044444444444444444
+pythia-1b,draw_1,high,universal_edge,tokenwise_mean_corrupt,348,0.013333333333333334,0.035555555555555556
+pythia-1b,draw_1,very_high,universal_edge,tokenwise_mean_corrupt,348,0.017777777777777778,0.07111111111111111
+pythia-1b,draw_1,control,universal_edge,tokenwise_mean_corrupt,348,0.0044444444444444444,0.03111111111111111
+pythia-1b,draw_2,low,universal_edge,tokenwise_mean_corrupt,356,0.0,0.0
+pythia-1b,draw_2,medium,universal_edge,tokenwise_mean_corrupt,356,0.0,0.0
+pythia-1b,draw_2,high,universal_edge,tokenwise_mean_corrupt,356,0.0,0.0044444444444444444
+pythia-1b,draw_2,very_high,universal_edge,tokenwise_mean_corrupt,356,0.0,0.0
+pythia-1b,draw_2,control,universal_edge,tokenwise_mean_corrupt,356,0.0,0.0
+pythia-1b,draw_3,low,universal_edge,tokenwise_mean_corrupt,364,0.0044444444444444444,0.022222222222222223
+pythia-1b,draw_3,medium,universal_edge,tokenwise_mean_corrupt,364,0.0,0.02666666666666667
+pythia-1b,draw_3,high,universal_edge,tokenwise_mean_corrupt,364,0.0044444444444444444,0.04888888888888889
+pythia-1b,draw_3,very_high,universal_edge,tokenwise_mean_corrupt,364,0.013333333333333334,0.06222222222222222
+pythia-1b,draw_3,control,universal_edge,tokenwise_mean_corrupt,364,0.013333333333333334,0.06222222222222222

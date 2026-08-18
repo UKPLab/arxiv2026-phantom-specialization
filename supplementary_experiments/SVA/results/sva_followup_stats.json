@@ -1,0 +1,853 @@
+{
+ "alt_ablation": {
+  "zero": [
+   {
+    "model": "pythia-70m",
+    "gap": -0.027654320987654323,
+    "p_exact_216": 0.9768518518518519,
+    "same_boost_mean": -0.09382717441629479,
+    "cross_boost_mean": -0.06617285342864047,
+    "te": null,
+    "q_bh": 0.9768518518518519
+   },
+   {
+    "model": "pythia-160m",
+    "gap": 0.016296296296296295,
+    "p_exact_216": 0.20833333333333334,
+    "same_boost_mean": 0.028148144851496207,
+    "cross_boost_mean": 0.011851848555199919,
+    "te": 0.4210525637738409,
+    "q_bh": 0.5671296296296297
+   },
+   {
+    "model": "pythia-410m",
+    "gap": 0.002222222222222221,
+    "p_exact_216": 0.41203703703703703,
+    "same_boost_mean": 0.016296291281411704,
+    "cross_boost_mean": 0.014074069059189478,
+    "te": 0.8636363216729567,
+    "q_bh": 0.6867283950617283
+   },
+   {
+    "model": "pythia-1b",
+    "gap": -0.005185185185185188,
+    "p_exact_216": 0.5648148148148148,
+    "same_boost_mean": 0.23111110499979542,
+    "cross_boost_mean": 0.23629629018498058,
+    "te": 1.0224358980291741,
+    "q_bh": 0.7060185185185185
+   },
+   {
+    "model": "pythia-1.4b",
+    "gap": 0.012345679012345685,
+    "p_exact_216": 0.22685185185185186,
+    "same_boost_mean": 0.0967901185964361,
+    "cross_boost_mean": 0.08444443958409042,
+    "te": 0.8724489731868119,
+    "q_bh": 0.5671296296296297
+   }
+  ],
+  "tokenwise_mean_corrupt": [
+   {
+    "model": "pythia-70m",
+    "gap": 0.0007407407407407407,
+    "p_exact_216": 0.2222222222222222,
+    "same_boost_mean": 0.001481470767362615,
+    "cross_boost_mean": 0.0007407300266218818,
+    "te": null,
+    "q_bh": 0.7947530864197532
+   },
+   {
+    "model": "pythia-160m",
+    "gap": -0.004444444444444444,
+    "p_exact_216": 0.8981481481481481,
+    "same_boost_mean": 0.000493803436373483,
+    "cross_boost_mean": 0.004938247880817931,
+    "te": null,
+    "q_bh": 1.0
+   },
+   {
+    "model": "pythia-410m",
+    "gap": 0.00024691358024691673,
+    "p_exact_216": 0.47685185185185186,
+    "same_boost_mean": -2.7756632116194957e-08,
+    "cross_boost_mean": -0.00024694133687905604,
+    "te": null,
+    "q_bh": 0.7947530864197532
+   },
+   {
+    "model": "pythia-1b",
+    "gap": 0.0,
+    "p_exact_216": 1.0,
+    "same_boost_mean": 0.0,
+    "cross_boost_mean": 0.0,
+    "te": null,
+    "q_bh": 1.0
+   },
+   {
+    "model": "pythia-1.4b",
+    "gap": 0.002222222222222222,
+    "p_exact_216": 0.4444444444444444,
+    "same_boost_mean": 0.0004938136206732816,
+    "cross_boost_mean": -0.001728408601548918,
+    "te": null,
+    "q_bh": 0.7947530864197532
+   }
+  ]
+ },
+ "majority_core": [
+  {
+   "model": "pythia-70m",
+   "core_edges": [
+    28,
+    31,
+    32
+   ],
+   "recovery_mean": 1.013045182024221,
+   "recovery_min": 0.8999999788246659,
+   "cells": [
+    {
+     "draw": "draw_1",
+     "band": "low",
+     "circuit": 0.8222222328186035,
+     "core": 0.8711111545562744,
+     "recovery": 1.059459498644397
+    },
+    {
+     "draw": "draw_1",
+     "band": "medium",
+     "circuit": 0.897777795791626,
+     "core": 0.897777795791626,
+     "recovery": 1.0
+    },
+    {
+     "draw": "draw_1",
+     "band": "high",
+     "circuit": 0.8755555748939514,
+     "core": 0.9422222375869752,
+     "recovery": 1.0761421257595196
+    },
+    {
+     "draw": "draw_1",
+     "band": "very_high",
+     "circuit": 0.9200000166893005,
+     "core": 0.9155555963516236,
+     "recovery": 0.9951691084162471
+    },
+    {
+     "draw": "draw_1",
+     "band": "control",
+     "circuit": 0.8844444751739502,
+     "core": 0.9422222375869752,
+     "recovery": 1.0653266135238861
+    },
+    {
+     "draw": "draw_2",
+     "band": "low",
+     "circuit": 0.8222222328186035,
+     "core": 0.9200000166893004,
+     "recovery": 1.1189189247966593
+    },
+    {
+     "draw": "draw_2",
+     "band": "medium",
+     "circuit": 0.7688888907432556,
+     "core": 0.8488889336585999,
+     "recovery": 1.104046298338387
+    },
+    {
+     "draw": "draw_2",
+     "band": "high",
+     "circuit": 0.9466667175292969,
+     "core": 0.937777817249298,
+     "recovery": 0.990610317110125
+    },
+    {
+     "draw": "draw_2",
+     "band": "very_high",
+     "circuit": 0.9200000166893005,
+     "core": 0.9200000166893004,
+     "recovery": 0.9999999999999999
+    },
+    {
+     "draw": "draw_2",
+     "band": "control",
+     "circuit": 0.9111111164093018,
+     "core": 0.9111111164093018,
+     "recovery": 1.0
+    },
+    {
+     "draw": "draw_3",
+     "band": "low",
+     "circuit": 0.800000011920929,
+     "core": 0.7777777910232544,
+     "recovery": 0.9722222242918279
+    },
+    {
+     "draw": "draw_3",
+     "band": "medium",
+     "circuit": 0.8444444537162781,
+     "core": 0.7599999904632568,
+     "recovery": 0.8999999788246659
+    },
+    {
+     "draw": "draw_3",
+     "band": "high",
+     "circuit": 0.893333375453949,
+     "core": 0.8577777743339539,
+     "recovery": 0.9601989558467717
+    },
+    {
+     "draw": "draw_3",
+     "band": "very_high",
+     "circuit": 0.8844444751739502,
+     "core": 0.8666666746139526,
+     "recovery": 0.979899472427027
+    },
+    {
+     "draw": "draw_3",
+     "band": "control",
+     "circuit": 0.8444444537162781,
+     "core": 0.8222222328186035,
+     "recovery": 0.9736842123838012
+    }
+   ]
+  },
+  {
+   "model": "pythia-160m",
+   "core_edges": [
+    96,
+    97,
+    99
+   ],
+   "recovery_mean": 1.036040191633751,
+   "recovery_min": 0.9850745750817324,
+   "cells": [
+    {
+     "draw": "draw_1",
+     "band": "low",
+     "circuit": 0.902222216129303,
+     "core": 0.951111137866974,
+     "recovery": 1.0541872288929144
+    },
+    {
+     "draw": "draw_1",
+     "band": "medium",
+     "circuit": 0.9155555963516235,
+     "core": 0.9422222375869752,
+     "recovery": 1.029126184517483
+    },
+    {
+     "draw": "draw_1",
+     "band": "high",
+     "circuit": 0.9066666960716248,
+     "core": 0.937777817249298,
+     "recovery": 1.034313735480161
+    },
+    {
+     "draw": "draw_1",
+     "band": "very_high",
+     "circuit": 0.8533333539962769,
+     "core": 0.9200000166893004,
+     "recovery": 1.0781249934516381
+    },
+    {
+     "draw": "draw_1",
+     "band": "control",
+     "circuit": 0.9066666960716248,
+     "core": 0.902222216129303,
+     "recovery": 0.9950980002225971
+    },
+    {
+     "draw": "draw_2",
+     "band": "low",
+     "circuit": 0.8666666746139526,
+     "core": 0.937777817249298,
+     "recovery": 1.0820513176729925
+    },
+    {
+     "draw": "draw_2",
+     "band": "medium",
+     "circuit": 0.893333375453949,
+     "core": 0.8799999952316284,
+     "recovery": 0.9850745750817324
+    },
+    {
+     "draw": "draw_2",
+     "band": "high",
+     "circuit": 0.8888888955116272,
+     "core": 0.9200000166893004,
+     "recovery": 1.035000011064112
+    },
+    {
+     "draw": "draw_2",
+     "band": "very_high",
+     "circuit": 0.897777795791626,
+     "core": 0.9200000166893004,
+     "recovery": 1.0247524732755056
+    },
+    {
+     "draw": "draw_2",
+     "band": "control",
+     "circuit": 0.8888888955116272,
+     "core": 0.9244444370269777,
+     "recovery": 1.0399999839067462
+    },
+    {
+     "draw": "draw_3",
+     "band": "low",
+     "circuit": 0.897777795791626,
+     "core": 0.9333333373069764,
+     "recovery": 1.0396039439625469
+    },
+    {
+     "draw": "draw_3",
+     "band": "medium",
+     "circuit": 0.9244444370269775,
+     "core": 0.9466667175292968,
+     "recovery": 1.0240385247747137
+    },
+    {
+     "draw": "draw_3",
+     "band": "high",
+     "circuit": 0.9066666960716248,
+     "core": 0.902222216129303,
+     "recovery": 0.9950980002225971
+    },
+    {
+     "draw": "draw_3",
+     "band": "very_high",
+     "circuit": 0.8133333325386047,
+     "core": 0.893333375453949,
+     "recovery": 1.0983607085985831
+    },
+    {
+     "draw": "draw_3",
+     "band": "control",
+     "circuit": 0.8622222542762756,
+     "core": 0.8844444751739502,
+     "recovery": 1.0257731933819398
+    }
+   ]
+  },
+  {
+   "model": "pythia-410m",
+   "core_edges": [
+    123,
+    132,
+    140
+   ],
+   "recovery_mean": 1.0127349898679179,
+   "recovery_min": 0.8899999939650297,
+   "cells": [
+    {
+     "draw": "draw_1",
+     "band": "low",
+     "circuit": 0.9155555963516235,
+     "core": 0.8844444751739502,
+     "recovery": 0.9660194079948314
+    },
+    {
+     "draw": "draw_1",
+     "band": "medium",
+     "circuit": 0.893333375453949,
+     "core": 0.902222216129303,
+     "recovery": 1.0099501943166929
+    },
+    {
+     "draw": "draw_1",
+     "band": "high",
+     "circuit": 0.8488889336585999,
+     "core": 0.893333375453949,
+     "recovery": 1.0523560150605327
+    },
+    {
+     "draw": "draw_1",
+     "band": "very_high",
+     "circuit": 0.9244444370269775,
+     "core": 0.9422222375869752,
+     "recovery": 1.0192307940292997
+    },
+    {
+     "draw": "draw_1",
+     "band": "control",
+     "circuit": 0.9244444370269775,
+     "core": 0.897777795791626,
+     "recovery": 0.9711538734322295
+    },
+    {
+     "draw": "draw_2",
+     "band": "low",
+     "circuit": 0.7733333706855774,
+     "core": 0.9422222375869752,
+     "recovery": 1.2183907656172577
+    },
+    {
+     "draw": "draw_2",
+     "band": "medium",
+     "circuit": 0.9111111164093018,
+     "core": 0.9111111164093018,
+     "recovery": 1.0
+    },
+    {
+     "draw": "draw_2",
+     "band": "high",
+     "circuit": 0.8311111330986023,
+     "core": 0.8488889336585999,
+     "recovery": 1.021390401177418
+    },
+    {
+     "draw": "draw_2",
+     "band": "very_high",
+     "circuit": 0.8577777743339539,
+     "core": 0.9244444370269777,
+     "recovery": 1.0777202029334334
+    },
+    {
+     "draw": "draw_2",
+     "band": "control",
+     "circuit": 0.8888888955116272,
+     "core": 0.9066666960716248,
+     "recovery": 1.0200000254809856
+    },
+    {
+     "draw": "draw_3",
+     "band": "low",
+     "circuit": 0.8533333539962769,
+     "core": 0.8488889336585999,
+     "recovery": 0.9947916950429007
+    },
+    {
+     "draw": "draw_3",
+     "band": "medium",
+     "circuit": 0.902222216129303,
+     "core": 0.893333375453949,
+     "recovery": 0.9901478366233446
+    },
+    {
+     "draw": "draw_3",
+     "band": "high",
+     "circuit": 0.8888888955116272,
+     "core": 0.7911111116409302,
+     "recovery": 0.8899999939650297
+    },
+    {
+     "draw": "draw_3",
+     "band": "very_high",
+     "circuit": 0.897777795791626,
+     "core": 0.893333375453949,
+     "recovery": 0.9950495319014232
+    },
+    {
+     "draw": "draw_3",
+     "band": "control",
+     "circuit": 0.8844444751739502,
+     "core": 0.8533333539962769,
+     "recovery": 0.9648241104433893
+    }
+   ]
+  },
+  {
+   "model": "pythia-1b",
+   "core_edges": [
+    147,
+    149,
+    154
+   ],
+   "recovery_mean": 0.9955061922797365,
+   "recovery_min": 0.9565217165955978,
+   "cells": [
+    {
+     "draw": "draw_1",
+     "band": "low",
+     "circuit": 0.9155555963516235,
+     "core": 0.8888888955116272,
+     "recovery": 0.9708737503803594
+    },
+    {
+     "draw": "draw_1",
+     "band": "medium",
+     "circuit": 0.8844444751739502,
+     "core": 0.9066666960716248,
+     "recovery": 1.0251256257701242
+    },
+    {
+     "draw": "draw_1",
+     "band": "high",
+     "circuit": 0.8488889336585999,
+     "core": 0.8888888955116272,
+     "recovery": 1.0471203714255441
+    },
+    {
+     "draw": "draw_1",
+     "band": "very_high",
+     "circuit": 0.9422222375869751,
+     "core": 0.9066666960716248,
+     "recovery": 0.9622641664599131
+    },
+    {
+     "draw": "draw_1",
+     "band": "control",
+     "circuit": 0.9200000166893005,
+     "core": 0.8799999952316284,
+     "recovery": 0.9565217165955978
+    },
+    {
+     "draw": "draw_2",
+     "band": "low",
+     "circuit": 0.902222216129303,
+     "core": 0.9244444370269777,
+     "recovery": 1.0246305405701623
+    },
+    {
+     "draw": "draw_2",
+     "band": "medium",
+     "circuit": 0.8799999952316284,
+     "core": 0.902222216129303,
+     "recovery": 1.025252523884191
+    },
+    {
+     "draw": "draw_2",
+     "band": "high",
+     "circuit": 0.9111111164093018,
+     "core": 0.897777795791626,
+     "recovery": 0.9853658676998448
+    },
+    {
+     "draw": "draw_2",
+     "band": "very_high",
+     "circuit": 0.902222216129303,
+     "core": 0.902222216129303,
+     "recovery": 1.0
+    },
+    {
+     "draw": "draw_2",
+     "band": "control",
+     "circuit": 0.893333375453949,
+     "core": 0.897777795791626,
+     "recovery": 1.0049750971583464
+    },
+    {
+     "draw": "draw_3",
+     "band": "low",
+     "circuit": 0.9111111164093018,
+     "core": 0.9111111164093018,
+     "recovery": 1.0
+    },
+    {
+     "draw": "draw_3",
+     "band": "medium",
+     "circuit": 0.8888888955116272,
+     "core": 0.897777795791626,
+     "recovery": 1.0100000127404927
+    },
+    {
+     "draw": "draw_3",
+     "band": "high",
+     "circuit": 0.9155555963516235,
+     "core": 0.893333375453949,
+     "recovery": 0.975728157868045
+    },
+    {
+     "draw": "draw_3",
+     "band": "very_high",
+     "circuit": 0.8622222542762756,
+     "core": 0.8488889336585999,
+     "recovery": 0.9845360977966553
+    },
+    {
+     "draw": "draw_3",
+     "band": "control",
+     "circuit": 0.893333375453949,
+     "core": 0.8577777743339539,
+     "recovery": 0.9601989558467717
+    }
+   ]
+  },
+  {
+   "model": "pythia-1.4b",
+   "core_edges": [
+    353,
+    360,
+    367
+   ],
+   "recovery_mean": 1.0379922846257037,
+   "recovery_min": 0.9806763040896754,
+   "cells": [
+    {
+     "draw": "draw_1",
+     "band": "low",
+     "circuit": 0.9333333373069763,
+     "core": 0.9733333587646484,
+     "recovery": 1.0428571656650425
+    },
+    {
+     "draw": "draw_1",
+     "band": "medium",
+     "circuit": 0.8755555748939514,
+     "core": 0.9688889384269714,
+     "recovery": 1.106599016909149
+    },
+    {
+     "draw": "draw_1",
+     "band": "high",
+     "circuit": 0.897777795791626,
+     "core": 0.9555555582046508,
+     "recovery": 1.0643564172380522
+    },
+    {
+     "draw": "draw_1",
+     "band": "very_high",
+     "circuit": 0.8400000333786011,
+     "core": 0.9644444584846495,
+     "recovery": 1.1481481192393708
+    },
+    {
+     "draw": "draw_1",
+     "band": "control",
+     "circuit": 0.9244444370269775,
+     "core": 0.9600000381469728,
+     "recovery": 1.0384615880585992
+    },
+    {
+     "draw": "draw_2",
+     "band": "low",
+     "circuit": 0.9200000166893005,
+     "core": 0.902222216129303,
+     "recovery": 0.9806763040896754
+    },
+    {
+     "draw": "draw_2",
+     "band": "medium",
+     "circuit": 0.8799999952316284,
+     "core": 0.8844444751739502,
+     "recovery": 1.005050545416369
+    },
+    {
+     "draw": "draw_2",
+     "band": "high",
+     "circuit": 0.9244444370269775,
+     "core": 0.9155555963516236,
+     "recovery": 0.9903846674615291
+    },
+    {
+     "draw": "draw_2",
+     "band": "very_high",
+     "circuit": 0.897777795791626,
+     "core": 0.893333375453949,
+     "recovery": 0.9950495319014232
+    },
+    {
+     "draw": "draw_2",
+     "band": "control",
+     "circuit": 0.9155555963516235,
+     "core": 0.9155555963516236,
+     "recovery": 1.0000000000000002
+    },
+    {
+     "draw": "draw_3",
+     "band": "low",
+     "circuit": 0.9422222375869751,
+     "core": 0.9644444584846495,
+     "recovery": 1.02358490387001
+    },
+    {
+     "draw": "draw_3",
+     "band": "medium",
+     "circuit": 0.9377778172492981,
+     "core": 0.9600000381469728,
+     "recovery": 1.0236966800546181
+    },
+    {
+     "draw": "draw_3",
+     "band": "high",
+     "circuit": 0.9377778172492981,
+     "core": 0.9422222375869752,
+     "recovery": 1.0047393105871427
+    },
+    {
+     "draw": "draw_3",
+     "band": "very_high",
+     "circuit": 0.8311111330986023,
+     "core": 0.9244444370269777,
+     "recovery": 1.112299426889403
+    },
+    {
+     "draw": "draw_3",
+     "band": "control",
+     "circuit": 0.9155555963516235,
+     "core": 0.9466667175292968,
+     "recovery": 1.0339805920051686
+    }
+   ]
+  }
+ ],
+ "asymmetry": [
+  {
+   "model": "pythia-70m",
+   "lsc_analog_raw": {
+    "up": 0.8629629810651143,
+    "down": 0.8259259462356567,
+    "up_minus_down": 0.03703703482945753
+   },
+   "core_adjusted_sensitivity": {
+    "pairs": {
+     "low->medium": 0.2948148349920909,
+     "low->high": 0.256296306848526,
+     "medium->low": 0.25037036339441937,
+     "medium->high": 0.2844444413979848,
+     "high->low": 0.23999998966852823,
+     "high->medium": 0.32592593630154926
+    },
+    "up_mean": 0.27851852774620056,
+    "down_mean": 0.272098763121499,
+    "up_minus_down": 0.006419764624701563,
+    "note": "subtracts test-band matched core; not LSC's statistic; kept as sensitivity"
+   }
+  },
+  {
+   "model": "pythia-160m",
+   "lsc_analog_raw": {
+    "up": 0.8777777949968973,
+    "down": 0.9148148397604625,
+    "up_minus_down": -0.037037044763565174
+   },
+   "core_adjusted_sensitivity": {
+    "pairs": {
+     "low->medium": 0.2118518352508545,
+     "low->high": 0.21333332856496176,
+     "medium->low": 0.24740741650263467,
+     "medium->high": 0.2444444497426351,
+     "high->low": 0.23555554946263632,
+     "high->medium": 0.24888890981674194
+    },
+    "up_mean": 0.22320987118615046,
+    "down_mean": 0.243950625260671,
+    "up_minus_down": -0.02074075407452053,
+    "note": "subtracts test-band matched core; not LSC's statistic; kept as sensitivity"
+   }
+  },
+  {
+   "model": "pythia-410m",
+   "lsc_analog_raw": {
+    "up": 0.7896296580632528,
+    "down": 0.8918518722057343,
+    "up_minus_down": -0.10222221414248145
+   },
+   "core_adjusted_sensitivity": {
+    "pairs": {
+     "low->medium": 0.2844444413979848,
+     "low->high": 0.27851853768030804,
+     "medium->low": 0.32148147622744244,
+     "medium->high": 0.32296297947565716,
+     "high->low": 0.31555556257565814,
+     "high->medium": 0.34074075023333233
+    },
+    "up_mean": 0.2953086528513167,
+    "down_mean": 0.325925929678811,
+    "up_minus_down": -0.030617276827494322,
+    "note": "subtracts test-band matched core; not LSC's statistic; kept as sensitivity"
+   }
+  },
+  {
+   "model": "pythia-1b",
+   "lsc_analog_raw": {
+    "up": 0.863703727722168,
+    "down": 0.9022222260634105,
+    "up_minus_down": -0.038518498341242546
+   },
+   "core_adjusted_sensitivity": {
+    "pairs": {
+     "low->medium": 0.18666666746139526,
+     "low->high": 0.16592593987782797,
+     "medium->low": 0.2444444497426351,
+     "medium->high": 0.17185187339782715,
+     "high->low": 0.24444442987442017,
+     "high->medium": 0.19999998807907104
+    },
+    "up_mean": 0.17481482691235015,
+    "down_mean": 0.22962962256537545,
+    "up_minus_down": -0.0548147956530253,
+    "note": "subtracts test-band matched core; not LSC's statistic; kept as sensitivity"
+   }
+  },
+  {
+   "model": "pythia-1.4b",
+   "lsc_analog_raw": {
+    "up": 0.8925926089286804,
+    "down": 0.9118518630663555,
+    "up_minus_down": -0.01925925413767504
+   },
+   "core_adjusted_sensitivity": {
+    "pairs": {
+     "low->medium": 0.6533333311478297,
+     "low->high": 0.5940740803877512,
+     "medium->low": 0.5614814758300781,
+     "medium->high": 0.6014815072218577,
+     "high->low": 0.5688888827959696,
+     "high->medium": 0.6474074174960455
+    },
+    "up_mean": 0.6162963062524796,
+    "down_mean": 0.5925925920406977,
+    "up_minus_down": 0.023703714211781857,
+    "note": "subtracts test-band matched core; not LSC's statistic; kept as sensitivity"
+   }
+  }
+ ],
+ "did_resample_vs_alt": {
+  "zero": [
+   {
+    "model": "pythia-70m",
+    "p_exact_216": 0.023148148148148147,
+    "q_bh": 0.11574074074074073
+   },
+   {
+    "model": "pythia-160m",
+    "p_exact_216": 0.7407407407407407,
+    "q_bh": 0.7407407407407407
+   },
+   {
+    "model": "pythia-410m",
+    "p_exact_216": 0.2222222222222222,
+    "q_bh": 0.5555555555555556
+   },
+   {
+    "model": "pythia-1b",
+    "p_exact_216": 0.35185185185185186,
+    "q_bh": 0.5864197530864198
+   },
+   {
+    "model": "pythia-1.4b",
+    "p_exact_216": 0.5555555555555556,
+    "q_bh": 0.6944444444444444
+   }
+  ],
+  "tokenwise_mean_corrupt": [
+   {
+    "model": "pythia-70m",
+    "p_exact_216": 0.027777777777777776,
+    "q_bh": 0.09259259259259259
+   },
+   {
+    "model": "pythia-160m",
+    "p_exact_216": 0.25,
+    "q_bh": 0.25
+   },
+   {
+    "model": "pythia-410m",
+    "p_exact_216": 0.037037037037037035,
+    "q_bh": 0.09259259259259259
+   },
+   {
+    "model": "pythia-1b",
+    "p_exact_216": 0.12962962962962962,
+    "q_bh": 0.1678240740740741
+   },
+   {
+    "model": "pythia-1.4b",
+    "p_exact_216": 0.13425925925925927,
+    "q_bh": 0.1678240740740741
+   }
+  ]
+ }
+}

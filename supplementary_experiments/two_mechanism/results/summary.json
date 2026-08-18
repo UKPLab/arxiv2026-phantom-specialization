@@ -1,0 +1,247 @@
+{
+ "seeds_attempted": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9
+ ],
+ "per_seed": [
+  {
+   "seed": 0,
+   "gate_pass": true,
+   "route_separation_pass": true,
+   "route_separation_pass_disjoint_draw2": true,
+   "route_qualified": true,
+   "detection": {
+    "te_AB_lt_0.5": true,
+    "te_ABmix_lt_0.5": true,
+    "within_cross_draw_ge_0.8": true,
+    "jaccard_gap_ge_0.15": true,
+    "detection_pass": true
+   }
+  },
+  {
+   "seed": 1,
+   "gate_pass": false,
+   "route_separation_pass": false,
+   "route_separation_pass_disjoint_draw2": null,
+   "route_qualified": false,
+   "detection": null
+  },
+  {
+   "seed": 2,
+   "gate_pass": true,
+   "route_separation_pass": true,
+   "route_separation_pass_disjoint_draw2": true,
+   "route_qualified": true,
+   "detection": {
+    "te_AB_lt_0.5": true,
+    "te_ABmix_lt_0.5": true,
+    "within_cross_draw_ge_0.8": true,
+    "jaccard_gap_ge_0.15": true,
+    "detection_pass": true
+   }
+  },
+  {
+   "seed": 3,
+   "gate_pass": false,
+   "route_separation_pass": false,
+   "route_separation_pass_disjoint_draw2": null,
+   "route_qualified": false,
+   "detection": null
+  },
+  {
+   "seed": 4,
+   "gate_pass": true,
+   "route_separation_pass": false,
+   "route_separation_pass_disjoint_draw2": false,
+   "route_qualified": false,
+   "detection": null
+  },
+  {
+   "seed": 5,
+   "gate_pass": true,
+   "route_separation_pass": true,
+   "route_separation_pass_disjoint_draw2": true,
+   "route_qualified": true,
+   "detection": {
+    "te_AB_lt_0.5": true,
+    "te_ABmix_lt_0.5": true,
+    "within_cross_draw_ge_0.8": true,
+    "jaccard_gap_ge_0.15": true,
+    "detection_pass": true
+   }
+  },
+  {
+   "seed": 6,
+   "gate_pass": true,
+   "route_separation_pass": true,
+   "route_separation_pass_disjoint_draw2": true,
+   "route_qualified": true,
+   "detection": {
+    "te_AB_lt_0.5": true,
+    "te_ABmix_lt_0.5": true,
+    "within_cross_draw_ge_0.8": true,
+    "jaccard_gap_ge_0.15": true,
+    "detection_pass": true
+   }
+  },
+  {
+   "seed": 7,
+   "gate_pass": true,
+   "route_separation_pass": true,
+   "route_separation_pass_disjoint_draw2": true,
+   "route_qualified": true,
+   "detection": {
+    "te_AB_lt_0.5": true,
+    "te_ABmix_lt_0.5": true,
+    "within_cross_draw_ge_0.8": true,
+    "jaccard_gap_ge_0.15": true,
+    "detection_pass": true
+   }
+  },
+  {
+   "seed": 8,
+   "gate_pass": true,
+   "route_separation_pass": true,
+   "route_separation_pass_disjoint_draw2": true,
+   "route_qualified": true,
+   "detection": {
+    "te_AB_lt_0.5": true,
+    "te_ABmix_lt_0.5": true,
+    "within_cross_draw_ge_0.8": true,
+    "jaccard_gap_ge_0.15": true,
+    "detection_pass": true
+   }
+  },
+  {
+   "seed": 9,
+   "gate_pass": false,
+   "route_separation_pass": false,
+   "route_separation_pass_disjoint_draw2": null,
+   "route_qualified": false,
+   "detection": null
+  }
+ ],
+ "decomposition": {
+  "accuracy_gate": "7/10",
+  "route_separation_among_task_solvers": "6/7",
+  "route_qualified_overall": "6/10",
+  "detection_among_route_qualified": "6/6"
+ },
+ "note": "Descriptive statistics over ROUTE-QUALIFIED models only; per-seed Wilcoxon values are within-model and not used inferentially. Certificate = pre-locked component groups (all attn L1-3 vs all MLP L1-3), held-out val; component-type evidence of learned route separation.",
+ "te_univ_AB": {
+  "mean": -0.05606514975554394,
+  "sample_sd": 0.04710165302936902,
+  "values": [
+   -0.07407409447018871,
+   0.019607812937173796,
+   -0.10624999024294077,
+   -0.09908258851585348,
+   -0.04285710225908097,
+   -0.03373493598237355
+  ]
+ },
+ "te_univ_ABmix": {
+  "mean": -0.05577751673400497,
+  "sample_sd": 0.0467377636724087,
+  "values": [
+   -0.07407409447018871,
+   0.019607812937173796,
+   -0.10452419211370692,
+   -0.09908258851585348,
+   -0.04285710225908097,
+   -0.03373493598237355
+  ]
+ },
+ "own_acc": {
+  "mean": 0.9991358071565628,
+  "sample_sd": 0.0005576063478912177,
+  "values": [
+   0.9985185265541077,
+   0.9992592632770538,
+   0.9985185265541077,
+   0.9992592632770538,
+   1.0,
+   0.9992592632770538
+  ]
+ },
+ "within_cond_cross_draw_acc": {
+  "mean": 0.9994444474577904,
+  "sample_sd": 0.0006521007911809305,
+  "values": [
+   0.9992592632770538,
+   1.0,
+   0.9985185265541077,
+   1.0,
+   0.9988888949155807,
+   1.0
+  ]
+ },
+ "cross_cond_acc": {
+  "mean": 0.5765843750150115,
+  "sample_sd": 0.10671163158899703,
+  "values": [
+   0.49629630976253086,
+   0.7353086570898691,
+   0.4772839562760459,
+   0.5548148254553477,
+   0.5140740904543135,
+   0.6817284110519621
+  ]
+ },
+ "jaccard_within": {
+  "mean": 0.7890917427828028,
+  "sample_sd": 0.02151775444130714,
+  "values": [
+   0.7931109948647004,
+   0.8100065565796294,
+   0.8008006728839709,
+   0.7975723049397486,
+   0.748719879078818,
+   0.7843400483499493
+  ]
+ },
+ "jaccard_cross": {
+  "mean": 0.21147804129294345,
+  "sample_sd": 0.039409674069767586,
+  "values": [
+   0.22128020912348742,
+   0.2855520802266933,
+   0.18508108262849646,
+   0.1845123180493865,
+   0.184115927632154,
+   0.20832663009744282
+  ]
+ },
+ "jaccard_size_only_baseline": {
+  "mean": 0.1408313780144181,
+  "sample_sd": 0.01502728836167066,
+  "values": [
+   0.14582386589033358,
+   0.1664087187149444,
+   0.13368226685284035,
+   0.12104559301793986,
+   0.13963770658376876,
+   0.13839011702668183
+  ]
+ },
+ "containment_smaller_in_larger": {
+  "mean": 0.5697992847557847,
+  "sample_sd": 0.06473922697670145,
+  "values": [
+   0.5907689065583803,
+   0.6561211264286555,
+   0.5290486564996368,
+   0.5749448508069197,
+   0.4675930991720465,
+   0.600319069069069
+  ]
+ }
+}

@@ -34,6 +34,9 @@ nohup.out
 *.pkl.gz
 *.npy
 
+# Trained two-route control models (small; needed to re-check the positive control)
+!supplementary_experiments/two_mechanism/models/*.pt
+
 # Outputs / scratch
 tmp/
 .cache/

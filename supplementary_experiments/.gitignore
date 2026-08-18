@@ -1,0 +1,7 @@
+# run logs contain absolute paths and timestamps
+*.log
+**/logs/
+
+# python build artifacts
+__pycache__/
+*.pyc

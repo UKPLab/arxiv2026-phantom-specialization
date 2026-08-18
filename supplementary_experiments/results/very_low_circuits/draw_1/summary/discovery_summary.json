@@ -1,0 +1,277 @@
+{
+  "created_at": "2026-07-17T00:57:23.103911",
+  "n_completed": 5,
+  "n_failed": 0,
+  "results": {
+    "pythia-70m": {
+      "very_low": {
+        "n_draws": 1,
+        "threshold": 0.00158,
+        "circuit_accuracy": {
+          "mean": 0.22666666666666666,
+          "std": 0.0,
+          "n": 1
+        },
+        "circuit_kl": {
+          "mean": 0.21541230380535126,
+          "std": 0.0,
+          "n": 1
+        },
+        "circuit_top5": {
+          "mean": 0.3688888888888889,
+          "std": 0.0,
+          "n": 1
+        },
+        "base_accuracy": {
+          "mean": 0.28,
+          "std": 0.0,
+          "n": 1
+        },
+        "ablation_accuracy": {
+          "mean": 0.0,
+          "std": 0.0,
+          "n": 1
+        },
+        "size_fraction": {
+          "mean": 0.290785498489426,
+          "std": 0.0,
+          "n": 1
+        },
+        "n_edges": {
+          "mean": 385.0,
+          "std": 0.0,
+          "n": 1
+        },
+        "training_time": {
+          "mean": 50.641971588134766,
+          "std": 0.0,
+          "n": 1
+        },
+        "necessity_pass_rate": 1.0,
+        "transfer": {
+          "very_low": {
+            "mean": 0.22666666666666666,
+            "std": 0.0,
+            "n": 1
+          }
+        }
+      }
+    },
+    "pythia-160m": {
+      "very_low": {
+        "n_draws": 1,
+        "threshold": 0.000631,
+        "circuit_accuracy": {
+          "mean": 0.8622222222222222,
+          "std": 0.0,
+          "n": 1
+        },
+        "circuit_kl": {
+          "mean": 0.30208858847618103,
+          "std": 0.0,
+          "n": 1
+        },
+        "circuit_top5": {
+          "mean": 0.9688888888888889,
+          "std": 0.0,
+          "n": 1
+        },
+        "base_accuracy": {
+          "mean": 0.9111111111111111,
+          "std": 0.0,
+          "n": 1
+        },
+        "ablation_accuracy": {
+          "mean": 0.0,
+          "std": 0.0,
+          "n": 1
+        },
+        "size_fraction": {
+          "mean": 0.11145024853928664,
+          "std": 0.0,
+          "n": 1
+        },
+        "n_edges": {
+          "mean": 1278.0,
+          "std": 0.0,
+          "n": 1
+        },
+        "training_time": {
+          "mean": 1967.8114626407623,
+          "std": 0.0,
+          "n": 1
+        },
+        "necessity_pass_rate": 1.0,
+        "transfer": {
+          "very_low": {
+            "mean": 0.8622222222222222,
+            "std": 0.0,
+            "n": 1
+          }
+        }
+      }
+    },
+    "pythia-410m": {
+      "very_low": {
+        "n_draws": 1,
+        "threshold": 0.000251,
+        "circuit_accuracy": {
+          "mean": 0.9466666666666667,
+          "std": 0.0,
+          "n": 1
+        },
+        "circuit_kl": {
+          "mean": 0.2934657633304596,
+          "std": 0.0,
+          "n": 1
+        },
+        "circuit_top5": {
+          "mean": 0.9955555555555555,
+          "std": 0.0,
+          "n": 1
+        },
+        "base_accuracy": {
+          "mean": 0.9822222222222222,
+          "std": 0.0,
+          "n": 1
+        },
+        "ablation_accuracy": {
+          "mean": 0.0,
+          "std": 0.0,
+          "n": 1
+        },
+        "size_fraction": {
+          "mean": 0.04643774587061466,
+          "std": 0.0,
+          "n": 1
+        },
+        "n_edges": {
+          "mean": 3742.0,
+          "std": 0.0,
+          "n": 1
+        },
+        "training_time": {
+          "mean": 33295.856241464615,
+          "std": 0.0,
+          "n": 1
+        },
+        "necessity_pass_rate": 1.0,
+        "transfer": {
+          "very_low": {
+            "mean": 0.9466666666666667,
+            "std": 0.0,
+            "n": 1
+          }
+        }
+      }
+    },
+    "pythia-1b": {
+      "very_low": {
+        "n_draws": 1,
+        "threshold": 0.00158,
+        "circuit_accuracy": {
+          "mean": 0.9333333333333333,
+          "std": 0.0,
+          "n": 1
+        },
+        "circuit_kl": {
+          "mean": 0.38621318340301514,
+          "std": 0.0,
+          "n": 1
+        },
+        "circuit_top5": {
+          "mean": 0.9911111111111112,
+          "std": 0.0,
+          "n": 1
+        },
+        "base_accuracy": {
+          "mean": 0.9466666666666667,
+          "std": 0.0,
+          "n": 1
+        },
+        "ablation_accuracy": {
+          "mean": 0.0,
+          "std": 0.0,
+          "n": 1
+        },
+        "size_fraction": {
+          "mean": 0.09391547607153562,
+          "std": 0.0,
+          "n": 1
+        },
+        "n_edges": {
+          "mean": 940.0,
+          "std": 0.0,
+          "n": 1
+        },
+        "training_time": {
+          "mean": 4056.8480985164642,
+          "std": 0.0,
+          "n": 1
+        },
+        "necessity_pass_rate": 1.0,
+        "transfer": {
+          "very_low": {
+            "mean": 0.9333333333333333,
+            "std": 0.0,
+            "n": 1
+          }
+        }
+      }
+    },
+    "pythia-1.4b": {
+      "very_low": {
+        "n_draws": 1,
+        "threshold": 0.000631,
+        "circuit_accuracy": {
+          "mean": 0.8755555555555555,
+          "std": 0.0,
+          "n": 1
+        },
+        "circuit_kl": {
+          "mean": 0.6015481948852539,
+          "std": 0.0,
+          "n": 1
+        },
+        "circuit_top5": {
+          "mean": 0.9777777777777777,
+          "std": 0.0,
+          "n": 1
+        },
+        "base_accuracy": {
+          "mean": 0.9733333333333334,
+          "std": 0.0,
+          "n": 1
+        },
+        "ablation_accuracy": {
+          "mean": 0.0,
+          "std": 0.0,
+          "n": 1
+        },
+        "size_fraction": {
+          "mean": 0.028108363013613632,
+          "std": 0.0,
+          "n": 1
+        },
+        "n_edges": {
+          "mean": 2265.0,
+          "std": 0.0,
+          "n": 1
+        },
+        "training_time": {
+          "mean": 46290.14322257042,
+          "std": 0.0,
+          "n": 1
+        },
+        "necessity_pass_rate": 1.0,
+        "transfer": {
+          "very_low": {
+            "mean": 0.8755555555555555,
+            "std": 0.0,
+            "n": 1
+          }
+        }
+      }
+    }
+  }
+}

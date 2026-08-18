@@ -1,0 +1,35 @@
+{
+ "seed": 0,
+ "own_acc": 0.9985185265541077,
+ "within_cond_cross_draw_acc": 0.9992592632770538,
+ "within_cond_cross_draw_min": 0.995555579662323,
+ "cross_cond_acc": 0.49629630976253086,
+ "universal_te": {
+  "univ_AB": {
+   "te": -0.07407409447018871,
+   "same_boost": 0.4599999934434891,
+   "cross_boost": -0.0340740829706192
+  },
+  "univ_ABmix": {
+   "te": -0.07407409447018871,
+   "same_boost": 0.4599999934434891,
+   "cross_boost": -0.0340740829706192
+  }
+ },
+ "jaccard_within": 0.7931109948647004,
+ "jaccard_cross": 0.22128020912348742,
+ "jaccard_size_matched_null": 0.14582386589033358,
+ "containment_smaller_in_larger": 0.5907689065583803,
+ "wilcoxon_own_gt_cross_p": 0.015625,
+ "n_edges": {
+  "cue_A/draw_1": 89,
+  "cue_A/draw_2": 81,
+  "cue_A/draw_3": 88,
+  "cue_B/draw_1": 39,
+  "cue_B/draw_2": 37,
+  "cue_B/draw_3": 38,
+  "mixed/draw_1": 87,
+  "mixed/draw_2": 90,
+  "mixed/draw_3": 86
+ }
+}

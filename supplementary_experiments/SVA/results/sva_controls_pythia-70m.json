@@ -1,0 +1,67 @@
+{
+ "filtered_phantom": {
+  "same_boost": 0.4065600613753001,
+  "cross_boost": 0.39471361140410105,
+  "te": 0.9708617468938655,
+  "d": 0.11738097463887417,
+  "p": 0.16864013671875
+ },
+ "random_circuit_2way": [
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0
+ ],
+ "lsc_circuits_on_sva_control": {
+  "low": {
+   "n_edges": 380,
+   "acc_2way": 0.0
+  },
+  "medium": {
+   "n_edges": 395,
+   "acc_2way": 0.0
+  },
+  "high": {
+   "n_edges": 414,
+   "acc_2way": 0.004444444552063942
+  },
+  "very_high": {
+   "n_edges": 424,
+   "acc_2way": 0.1066666692495346
+  },
+  "control": {
+   "n_edges": 435,
+   "acc_2way": 0.1733333319425583
+  }
+ },
+ "sva_circuit_on_lsc_control": {
+  "accuracy": 0.0,
+  "top5_accuracy": 0.0,
+  "top10_accuracy": 0.0,
+  "mean_correct_prob": 0.00023044580674944686,
+  "n_samples": 225
+ },
+ "lsc_circuit_on_lsc_control_ref": {
+  "accuracy": 0.5111111111111111,
+  "top5_accuracy": 0.7022222222222222,
+  "top10_accuracy": 0.7688888888888888,
+  "mean_correct_prob": 0.18771024447243792,
+  "n_samples": 225
+ },
+ "acdc_determinism": {
+  "mask_identical": false,
+  "bit_exact": false
+ },
+ "bad_ids": [
+  1262,
+  6479,
+  22931,
+  28217
+ ]
+}

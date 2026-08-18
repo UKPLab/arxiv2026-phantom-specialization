@@ -1,0 +1,82 @@
+{
+ "bad_token_ids": [
+  1262,
+  6479,
+  22931,
+  28217
+ ],
+ "all_examples": {
+  "total": 22500,
+  "contaminated": 195
+ },
+ "test_examples": {
+  "total": 3375,
+  "contaminated": 34
+ },
+ "acdc_first_batches": {
+  "total": 1920,
+  "contaminated": 21
+ },
+ "per_cell_first_batch": {
+  "low/draw_1": {
+   "first_batch_size": 128,
+   "first_batch_bad": 3
+  },
+  "low/draw_2": {
+   "first_batch_size": 128,
+   "first_batch_bad": 0
+  },
+  "low/draw_3": {
+   "first_batch_size": 128,
+   "first_batch_bad": 2
+  },
+  "medium/draw_1": {
+   "first_batch_size": 128,
+   "first_batch_bad": 0
+  },
+  "medium/draw_2": {
+   "first_batch_size": 128,
+   "first_batch_bad": 0
+  },
+  "medium/draw_3": {
+   "first_batch_size": 128,
+   "first_batch_bad": 0
+  },
+  "high/draw_1": {
+   "first_batch_size": 128,
+   "first_batch_bad": 4
+  },
+  "high/draw_2": {
+   "first_batch_size": 128,
+   "first_batch_bad": 4
+  },
+  "high/draw_3": {
+   "first_batch_size": 128,
+   "first_batch_bad": 3
+  },
+  "very_high/draw_1": {
+   "first_batch_size": 128,
+   "first_batch_bad": 0
+  },
+  "very_high/draw_2": {
+   "first_batch_size": 128,
+   "first_batch_bad": 0
+  },
+  "very_high/draw_3": {
+   "first_batch_size": 128,
+   "first_batch_bad": 0
+  },
+  "control/draw_1": {
+   "first_batch_size": 128,
+   "first_batch_bad": 3
+  },
+  "control/draw_2": {
+   "first_batch_size": 128,
+   "first_batch_bad": 0
+  },
+  "control/draw_3": {
+   "first_batch_size": 128,
+   "first_batch_bad": 2
+  }
+ }
+}

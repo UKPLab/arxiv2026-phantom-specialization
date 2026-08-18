@@ -1,0 +1,54 @@
+{
+  "created_at": "2026-07-16T20:17:46.145575",
+  "n_completed": 1,
+  "n_failed": 0,
+  "results": {
+    "pythia-70m": {
+      "low": {
+        "n_draws": 1,
+        "threshold": 0.00158,
+        "circuit_accuracy": {
+          "mean": 0.2222222222222222,
+          "std": 0.0,
+          "n": 1
+        },
+        "circuit_kl": {
+          "mean": 0.23454241454601288,
+          "std": 0.0,
+          "n": 1
+        },
+        "circuit_top5": {
+          "mean": 0.37333333333333335,
+          "std": 0.0,
+          "n": 1
+        },
+        "base_accuracy": {
+          "mean": 0.28444444444444444,
+          "std": 0.0,
+          "n": 1
+        },
+        "ablation_accuracy": {
+          "mean": 0.0,
+          "std": 0.0,
+          "n": 1
+        },
+        "size_fraction": {
+          "mean": 0.29154078549848944,
+          "std": 0.0,
+          "n": 1
+        },
+        "n_edges": {
+          "mean": 386.0,
+          "std": 0.0,
+          "n": 1
+        },
+        "training_time": {
+          "mean": 50.724040508270264,
+          "std": 0.0,
+          "n": 1
+        },
+        "necessity_pass_rate": 1.0
+      }
+    }
+  }
+}

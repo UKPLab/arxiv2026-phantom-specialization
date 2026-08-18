@@ -1,0 +1,16 @@
+model,draw,test_band,circuit_type,ablation,n_edges,accuracy,top5_accuracy
+pythia-70m,draw_1,low,universal_edge,resample,297,0.17333333333333334,0.3422222222222222
+pythia-70m,draw_1,medium,universal_edge,resample,297,0.28888888888888886,0.41333333333333333
+pythia-70m,draw_1,high,universal_edge,resample,297,0.3288888888888889,0.44
+pythia-70m,draw_1,very_high,universal_edge,resample,297,0.3466666666666667,0.5555555555555556
+pythia-70m,draw_1,control,universal_edge,resample,297,0.3511111111111111,0.5377777777777778
+pythia-70m,draw_2,low,universal_edge,resample,297,0.21333333333333335,0.38666666666666666
+pythia-70m,draw_2,medium,universal_edge,resample,297,0.28444444444444444,0.40444444444444444
+pythia-70m,draw_2,high,universal_edge,resample,297,0.26666666666666666,0.4711111111111111
+pythia-70m,draw_2,very_high,universal_edge,resample,297,0.36,0.5511111111111111
+pythia-70m,draw_2,control,universal_edge,resample,297,0.3422222222222222,0.5288888888888889
+pythia-70m,draw_3,low,universal_edge,resample,311,0.16,0.27555555555555555
+pythia-70m,draw_3,medium,universal_edge,resample,311,0.2088888888888889,0.36444444444444446
+pythia-70m,draw_3,high,universal_edge,resample,311,0.27555555555555555,0.5022222222222222
+pythia-70m,draw_3,very_high,universal_edge,resample,311,0.4488888888888889,0.6311111111111111
+pythia-70m,draw_3,control,universal_edge,resample,311,0.3688888888888889,0.5911111111111111

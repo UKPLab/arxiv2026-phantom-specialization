@@ -1,0 +1,279 @@
+{
+  "created_at": "2026-07-16T01:09:03.227231",
+  "n_completed": 5,
+  "n_failed": 0,
+  "config": {
+    "models": [
+      "pythia-70m",
+      "pythia-160m",
+      "pythia-410m",
+      "pythia-1b",
+      "pythia-1.4b"
+    ],
+    "bands": [
+      "very_low"
+    ],
+    "draws": [
+      "draw_1"
+    ],
+    "splits": [
+      "val",
+      "test"
+    ],
+    "variant": "unmatched",
+    "eval_seed": 123,
+    "full_split_evaluation": true
+  },
+  "results": {
+    "pythia-70m": {
+      "very_low": {
+        "per_draw": {
+          "draw_1": {
+            "val": {
+              "accuracy": 0.22666666666666666,
+              "top5_accuracy": 0.37333333333333335,
+              "top10_accuracy": 0.4311111111111111,
+              "mean_correct_prob": 0.07812967115194412,
+              "n_samples": 225
+            },
+            "test": {
+              "accuracy": 0.28,
+              "top5_accuracy": 0.4222222222222222,
+              "top10_accuracy": 0.4666666666666667,
+              "mean_correct_prob": 0.1016199959998231,
+              "n_samples": 225
+            }
+          }
+        },
+        "aggregated": {
+          "val": {
+            "accuracy_mean": 0.22666666666666666,
+            "accuracy_std": 0.0,
+            "top5_accuracy_mean": 0.37333333333333335,
+            "top5_accuracy_std": 0.0,
+            "top10_accuracy_mean": 0.4311111111111111,
+            "top10_accuracy_std": 0.0,
+            "mean_correct_prob_mean": 0.07812967115194412,
+            "mean_correct_prob_std": 0.0,
+            "n_samples_mean": 225.0,
+            "n_samples_std": 0.0,
+            "n_draws": 1
+          },
+          "test": {
+            "accuracy_mean": 0.28,
+            "accuracy_std": 0.0,
+            "top5_accuracy_mean": 0.4222222222222222,
+            "top5_accuracy_std": 0.0,
+            "top10_accuracy_mean": 0.4666666666666667,
+            "top10_accuracy_std": 0.0,
+            "mean_correct_prob_mean": 0.1016199959998231,
+            "mean_correct_prob_std": 0.0,
+            "n_samples_mean": 225.0,
+            "n_samples_std": 0.0,
+            "n_draws": 1
+          }
+        }
+      }
+    },
+    "pythia-160m": {
+      "very_low": {
+        "per_draw": {
+          "draw_1": {
+            "val": {
+              "accuracy": 0.92,
+              "top5_accuracy": 0.9822222222222222,
+              "top10_accuracy": 1.0,
+              "mean_correct_prob": 0.3212758846850031,
+              "n_samples": 225
+            },
+            "test": {
+              "accuracy": 0.9111111111111111,
+              "top5_accuracy": 0.9866666666666667,
+              "top10_accuracy": 0.9866666666666667,
+              "mean_correct_prob": 0.31411967699467724,
+              "n_samples": 225
+            }
+          }
+        },
+        "aggregated": {
+          "val": {
+            "accuracy_mean": 0.92,
+            "accuracy_std": 0.0,
+            "top5_accuracy_mean": 0.9822222222222222,
+            "top5_accuracy_std": 0.0,
+            "top10_accuracy_mean": 1.0,
+            "top10_accuracy_std": 0.0,
+            "mean_correct_prob_mean": 0.3212758846850031,
+            "mean_correct_prob_std": 0.0,
+            "n_samples_mean": 225.0,
+            "n_samples_std": 0.0,
+            "n_draws": 1
+          },
+          "test": {
+            "accuracy_mean": 0.9111111111111111,
+            "accuracy_std": 0.0,
+            "top5_accuracy_mean": 0.9866666666666667,
+            "top5_accuracy_std": 0.0,
+            "top10_accuracy_mean": 0.9866666666666667,
+            "top10_accuracy_std": 0.0,
+            "mean_correct_prob_mean": 0.31411967699467724,
+            "mean_correct_prob_std": 0.0,
+            "n_samples_mean": 225.0,
+            "n_samples_std": 0.0,
+            "n_draws": 1
+          }
+        }
+      }
+    },
+    "pythia-410m": {
+      "very_low": {
+        "per_draw": {
+          "draw_1": {
+            "val": {
+              "accuracy": 0.96,
+              "top5_accuracy": 0.9955555555555555,
+              "top10_accuracy": 1.0,
+              "mean_correct_prob": 0.5923986882054143,
+              "n_samples": 225
+            },
+            "test": {
+              "accuracy": 0.9822222222222222,
+              "top5_accuracy": 1.0,
+              "top10_accuracy": 1.0,
+              "mean_correct_prob": 0.606354409377608,
+              "n_samples": 225
+            }
+          }
+        },
+        "aggregated": {
+          "val": {
+            "accuracy_mean": 0.96,
+            "accuracy_std": 0.0,
+            "top5_accuracy_mean": 0.9955555555555555,
+            "top5_accuracy_std": 0.0,
+            "top10_accuracy_mean": 1.0,
+            "top10_accuracy_std": 0.0,
+            "mean_correct_prob_mean": 0.5923986882054143,
+            "mean_correct_prob_std": 0.0,
+            "n_samples_mean": 225.0,
+            "n_samples_std": 0.0,
+            "n_draws": 1
+          },
+          "test": {
+            "accuracy_mean": 0.9822222222222222,
+            "accuracy_std": 0.0,
+            "top5_accuracy_mean": 1.0,
+            "top5_accuracy_std": 0.0,
+            "top10_accuracy_mean": 1.0,
+            "top10_accuracy_std": 0.0,
+            "mean_correct_prob_mean": 0.606354409377608,
+            "mean_correct_prob_std": 0.0,
+            "n_samples_mean": 225.0,
+            "n_samples_std": 0.0,
+            "n_draws": 1
+          }
+        }
+      }
+    },
+    "pythia-1b": {
+      "very_low": {
+        "per_draw": {
+          "draw_1": {
+            "val": {
+              "accuracy": 0.96,
+              "top5_accuracy": 0.9911111111111112,
+              "top10_accuracy": 0.9911111111111112,
+              "mean_correct_prob": 0.613675861303798,
+              "n_samples": 225
+            },
+            "test": {
+              "accuracy": 0.9466666666666667,
+              "top5_accuracy": 0.9911111111111112,
+              "top10_accuracy": 1.0,
+              "mean_correct_prob": 0.6196859378450447,
+              "n_samples": 225
+            }
+          }
+        },
+        "aggregated": {
+          "val": {
+            "accuracy_mean": 0.96,
+            "accuracy_std": 0.0,
+            "top5_accuracy_mean": 0.9911111111111112,
+            "top5_accuracy_std": 0.0,
+            "top10_accuracy_mean": 0.9911111111111112,
+            "top10_accuracy_std": 0.0,
+            "mean_correct_prob_mean": 0.613675861303798,
+            "mean_correct_prob_std": 0.0,
+            "n_samples_mean": 225.0,
+            "n_samples_std": 0.0,
+            "n_draws": 1
+          },
+          "test": {
+            "accuracy_mean": 0.9466666666666667,
+            "accuracy_std": 0.0,
+            "top5_accuracy_mean": 0.9911111111111112,
+            "top5_accuracy_std": 0.0,
+            "top10_accuracy_mean": 1.0,
+            "top10_accuracy_std": 0.0,
+            "mean_correct_prob_mean": 0.6196859378450447,
+            "mean_correct_prob_std": 0.0,
+            "n_samples_mean": 225.0,
+            "n_samples_std": 0.0,
+            "n_draws": 1
+          }
+        }
+      }
+    },
+    "pythia-1.4b": {
+      "very_low": {
+        "per_draw": {
+          "draw_1": {
+            "val": {
+              "accuracy": 0.9688888888888889,
+              "top5_accuracy": 0.9955555555555555,
+              "top10_accuracy": 1.0,
+              "mean_correct_prob": 0.6371783117618826,
+              "n_samples": 225
+            },
+            "test": {
+              "accuracy": 0.9733333333333334,
+              "top5_accuracy": 0.9955555555555555,
+              "top10_accuracy": 0.9955555555555555,
+              "mean_correct_prob": 0.6586360744718048,
+              "n_samples": 225
+            }
+          }
+        },
+        "aggregated": {
+          "val": {
+            "accuracy_mean": 0.9688888888888889,
+            "accuracy_std": 0.0,
+            "top5_accuracy_mean": 0.9955555555555555,
+            "top5_accuracy_std": 0.0,
+            "top10_accuracy_mean": 1.0,
+            "top10_accuracy_std": 0.0,
+            "mean_correct_prob_mean": 0.6371783117618826,
+            "mean_correct_prob_std": 0.0,
+            "n_samples_mean": 225.0,
+            "n_samples_std": 0.0,
+            "n_draws": 1
+          },
+          "test": {
+            "accuracy_mean": 0.9733333333333334,
+            "accuracy_std": 0.0,
+            "top5_accuracy_mean": 0.9955555555555555,
+            "top5_accuracy_std": 0.0,
+            "top10_accuracy_mean": 0.9955555555555555,
+            "top10_accuracy_std": 0.0,
+            "mean_correct_prob_mean": 0.6586360744718048,
+            "mean_correct_prob_std": 0.0,
+            "n_samples_mean": 225.0,
+            "n_samples_std": 0.0,
+            "n_draws": 1
+          }
+        }
+      }
+    }
+  }
+}

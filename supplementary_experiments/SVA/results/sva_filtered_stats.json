@@ -1,0 +1,45 @@
+{
+ "n_cell_filtered": {
+  "low/draw_1": 222,
+  "low/draw_2": 219,
+  "low/draw_3": 221,
+  "medium/draw_1": 225,
+  "medium/draw_2": 225,
+  "medium/draw_3": 225,
+  "high/draw_1": 222,
+  "high/draw_2": 221,
+  "high/draw_3": 220
+ },
+ "matched_blocked_permutation_filtered": [
+  {
+   "model": "pythia-70m",
+   "gap_filtered": 0.016678336597756423,
+   "p_exact_216": 0.032407407407407406,
+   "q_bh": 0.08101851851851852
+  },
+  {
+   "model": "pythia-160m",
+   "gap_filtered": 0.0016424501208277733,
+   "p_exact_216": 0.4305555555555556,
+   "q_bh": 0.4305555555555555
+  },
+  {
+   "model": "pythia-410m",
+   "gap_filtered": 0.019819802437315195,
+   "p_exact_216": 0.004629629629629629,
+   "q_bh": 0.023148148148148147
+  },
+  {
+   "model": "pythia-1b",
+   "gap_filtered": 0.007323135520825556,
+   "p_exact_216": 0.14351851851851852,
+   "q_bh": 0.17939814814814814
+  },
+  {
+   "model": "pythia-1.4b",
+   "gap_filtered": 0.011613087244298633,
+   "p_exact_216": 0.07407407407407407,
+   "q_bh": 0.12345679012345678
+  }
+ ]
+}
